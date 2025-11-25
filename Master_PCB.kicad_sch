@@ -2520,6 +2520,10 @@
 		(uuid "42018489-6bfa-4c30-ae10-a4995addb44b")
 	)
 	(no_connect
+		(at 176.53 43.18)
+		(uuid "4ce26376-e403-49f1-bd15-82f27853b03f")
+	)
+	(no_connect
 		(at 151.13 67.31)
 		(uuid "64d6f21a-95cc-42c0-8857-61142b806661")
 	)
@@ -3115,6 +3119,16 @@
 		)
 		(uuid "1e6ecb0c-55b3-44d2-ad2e-62947b979cbf")
 	)
+	(label "GPIO_35_EXP"
+		(at 199.39 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24405d97-3286-4c96-8f30-e3c8c059147b")
+	)
 	(label "3V3_EXP"
 		(at 101.6 146.05 0)
 		(effects
@@ -3275,16 +3289,6 @@
 		)
 		(uuid "873ec039-f7ee-49a9-9e18-a65b5b93ff0c")
 	)
-	(label "SPI_UART_GPIO_0"
-		(at 199.39 214.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e252a2b-c225-4090-a0f2-839dae126dd1")
-	)
 	(label "MBUS_RX_SPI"
 		(at 215.9 59.69 180)
 		(effects
@@ -3415,16 +3419,6 @@
 		)
 		(uuid "bfead95f-6415-4807-b9f3-f945771f5199")
 	)
-	(label "SPI_UART_GPIO_0"
-		(at 176.53 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2a15c0a-90ae-4cf5-bfd2-e72348b38a2a")
-	)
 	(label "3V3_EXP"
 		(at 199.39 148.59 180)
 		(effects
@@ -3436,7 +3430,7 @@
 		(uuid "c52351cd-6596-4626-be93-50e12a0da039")
 	)
 	(label "MP_Dig4_EXP"
-		(at 199.39 195.58 180)
+		(at 199.39 214.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3526,7 +3520,7 @@
 		(uuid "d82130a4-c397-459b-ab0f-d612d1e19887")
 	)
 	(label "MP_Dig2_EXP"
-		(at 199.39 171.45 180)
+		(at 199.39 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3556,7 +3550,7 @@
 		(uuid "f0f3497c-ae91-47ad-a63e-e657bb8dce51")
 	)
 	(label "MP_Dig1_EXP"
-		(at 199.39 151.13 180)
+		(at 199.39 171.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
