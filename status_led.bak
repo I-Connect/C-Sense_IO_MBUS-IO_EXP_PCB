@@ -1,0 +1,78 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 31
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dk_LED-Indication-Discrete:LG_R971-KN-1 D?
+U 1 1 5F556B08
+P 5250 3150
+AR Path="/5F078D61/5F511C13/5F14E81E/5F556B08" Ref="D?"  Part="1" 
+AR Path="/5F078D61/5F512514/5F556B08" Ref="D1401"  Part="1" 
+F 0 "D1401" H 5200 3487 60  0000 C CNN
+F 1 "LG_R971-KN-1" H 5200 3381 60  0000 C CNN
+F 2 "digikey-footprints:0805" H 5450 3350 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 5450 3450 60  0001 L CNN
+F 4 "475-1410-1-ND" H 5450 3550 60  0001 L CNN "Digi-Key_PN"
+F 5 "LG R971-KN-1" H 5450 3650 60  0001 L CNN "MPN"
+F 6 "Optoelectronics" H 5450 3750 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 5450 3850 60  0001 L CNN "Family"
+F 8 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493936/LG%20R971.pdf" H 5450 3950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/osram-opto-semiconductors-inc/LG-R971-KN-1/475-1410-1-ND/1802598" H 5450 4050 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED GREEN DIFFUSED 0805 SMD" H 5450 4150 60  0001 L CNN "Description"
+F 11 "OSRAM Opto Semiconductors Inc." H 5450 4250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5450 4350 60  0001 L CNN "Status"
+	1    5250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F14EEB7
+P 4650 3150
+AR Path="/5F14EEB7" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/5F14EEB7" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/5F14EEB7" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/5F14EEB7" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/5F14EEB7" Ref="R?"  Part="1" 
+AR Path="/5F14E81E/5F14EEB7" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F14E81E/5F14EEB7" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F512514/5F14EEB7" Ref="R1401"  Part="1" 
+F 0 "R1401" V 4550 3100 50  0000 L CNN
+F 1 "200" V 4750 3100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4580 3150 50  0001 C CNN
+F 3 "" H 4650 3150 50  0001 C CNN
+F 4 "P200HCT-ND" H -3800 1050 50  0001 C CNN "Digi-Key_PN"
+	1    4650 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 3150 5050 3150
+Wire Wire Line
+	5350 3150 5500 3150
+Text HLabel 4500 3150 0    50   Input ~ 0
+led_enable
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 5F14EFE8
+P 5500 3150
+AR Path="/5F078D61/5F511C13/5F14E81E/5F14EFE8" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F512514/5F14EFE8" Ref="#PWR01401"  Part="1" 
+F 0 "#PWR01401" H 5500 2900 50  0001 C CNN
+F 1 "GND" H 5505 2977 50  0000 C CNN
+F 2 "" H 5500 3150 50  0001 C CNN
+F 3 "" H 5500 3150 50  0001 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

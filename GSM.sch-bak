@@ -1,0 +1,1139 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 19 27
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 6250FBA5
+P 4650 3550
+AR Path="/6250FBA5" Ref="C?"  Part="1" 
+AR Path="/61FEE2D8/6250FBA5" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FBA5" Ref="C807"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FBA5" Ref="C1323"  Part="1" 
+F 0 "C1323" H 4500 3650 50  0000 L CNN
+F 1 "1uF" H 4500 3450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 3400 50  0001 C CNN
+F 3 "" H 4650 3550 50  0001 C CNN
+F 4 "311-1446-1-ND" H -2800 -150 50  0001 C CNN "Digi-Key_PN"
+F 5 "C1323" H 4650 3550 50  0001 C CNN "Reference"
+F 6 "1uF" H 4650 3550 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 4650 3550 50  0001 C CNN "Component comment"
+F 8 "YAGEO" H 4650 3550 50  0001 C CNN "MF"
+F 9 "CC0603KRX7R7BB105" H 4650 3550 50  0001 C CNN "MP"
+	1    4650 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6250FBAC
+P 4650 3800
+AR Path="/6250FBAC" Ref="#PWR?"  Part="1" 
+AR Path="/61FEE2D8/6250FBAC" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FBAC" Ref="#PWR0809"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FBAC" Ref="#PWR0809"  Part="1" 
+F 0 "#PWR0809" H 4650 3550 50  0001 C CNN
+F 1 "GND" H 4655 3627 50  0000 C CNN
+F 2 "" H 4650 3800 50  0001 C CNN
+F 3 "" H 4650 3800 50  0001 C CNN
+	1    4650 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3800 4650 3700
+$Comp
+L Device:CP1 C?
+U 1 1 6250FBB8
+P 4250 3550
+AR Path="/6250FBB8" Ref="C?"  Part="1" 
+AR Path="/61FEE2D8/6250FBB8" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FBB8" Ref="C808"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FBB8" Ref="C1322"  Part="1" 
+F 0 "C1322" H 4300 3450 50  0000 L CNN
+F 1 "100uF 6.3V" H 4000 3800 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 4250 3550 50  0001 C CNN
+F 3 "~" H 4250 3550 50  0001 C CNN
+F 4 "" H 4250 3550 50  0001 C CNN "Part nr"
+F 5 "PCE4156CT-ND" H -3600 -150 50  0001 C CNN "Digi-Key_PN"
+F 6 "~" H 4250 3550 50  0001 C CNN "Datasheet"
+F 7 "C1322" H 4250 3550 50  0001 C CNN "Reference"
+F 8 "100uF 6.3V" H 4250 3550 50  0001 C CNN "Value"
+F 9 "Can be replaced with other manufacturer component with same specs" H 4250 3550 50  0001 C CNN "Component comment"
+F 10 "Panasonic Electronic Components" H 4250 3550 50  0001 C CNN "MF"
+F 11 "EEE-HA0J101WR" H 4250 3550 50  0001 C CNN "MP"
+	1    4250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 6250FBC0
+P 3800 3550
+AR Path="/6250FBC0" Ref="C?"  Part="1" 
+AR Path="/61FEE2D8/6250FBC0" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FBC0" Ref="C809"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FBC0" Ref="C1321"  Part="1" 
+F 0 "C1321" H 3900 3450 50  0000 L CNN
+F 1 "100uF 6.3V" H 3350 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 3800 3550 50  0001 C CNN
+F 3 "~" H 3800 3550 50  0001 C CNN
+F 4 "" H 3800 3550 50  0001 C CNN "Part nr"
+F 5 "PCE4156CT-ND" H -4500 -150 50  0001 C CNN "Digi-Key_PN"
+F 6 "~" H 3800 3550 50  0001 C CNN "Datasheet"
+F 7 "C1321" H 3800 3550 50  0001 C CNN "Reference"
+F 8 "100uF 6.3V" H 3800 3550 50  0001 C CNN "Value"
+F 9 "Can be replaced with other manufacturer component with same specs" H 3800 3550 50  0001 C CNN "Component comment"
+F 10 "Panasonic Electronic Components" H 3800 3550 50  0001 C CNN "MF"
+F 11 "EEE-HA0J101WR" H 3800 3550 50  0001 C CNN "MP"
+	1    3800 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3800 4250 3800
+Wire Wire Line
+	4250 3800 4250 3700
+Wire Wire Line
+	4250 3800 3800 3800
+Wire Wire Line
+	3800 3800 3800 3700
+Connection ~ 4250 3800
+Wire Wire Line
+	3800 3400 4250 3400
+Wire Wire Line
+	4250 3400 4650 3400
+Connection ~ 4250 3400
+$Comp
+L I-Connect_diverse:BSN20 Q?
+U 1 1 6250FC5A
+P 14200 1400
+AR Path="/6250FC5A" Ref="Q?"  Part="1" 
+AR Path="/61FEE2D8/6250FC5A" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FC5A" Ref="Q807"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FC5A" Ref="Q1301"  Part="1" 
+F 0 "Q1301" V 14400 1450 50  0000 L CNN
+F 1 "30V N-FET" V 14450 1350 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14400 1325 50  0001 L CIN
+F 3 "" H 14200 1400 50  0001 L CNN
+F 4 "DMN63D8L-7DICT-ND" H 3550 -750 50  0001 C CNN "Digi-Key_PN"
+F 5 "" H 14200 1400 50  0001 C CNN "Datasheet"
+F 6 "Q1301" H 14200 1400 50  0001 C CNN "Reference"
+F 7 "30V N-FET" H 14200 1400 50  0001 C CNN "Value"
+F 8 "Diodes Incorporated" H 14200 1400 50  0001 C CNN "MF"
+F 9 "DMN63D8L-7" H 14200 1400 50  0001 C CNN "MP"
+	1    14200 1400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6250FC6D
+P 14850 1250
+AR Path="/6250FC6D" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/6250FC6D" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FC6D" Ref="R819"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FC6D" Ref="R1329"  Part="1" 
+F 0 "R1329" V 14950 1200 50  0000 L CNN
+F 1 "10K" V 14750 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14780 1250 50  0001 C CNN
+F 3 "" H 14850 1250 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H 3600 -750 50  0001 C CNN "Digi-Key_PN"
+F 5 "R1329" H 14850 1250 50  0001 C CNN "Reference"
+F 6 "10K" H 14850 1250 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 14850 1250 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 14850 1250 50  0001 C CNN "MF"
+F 9 "RMCF0603FT10K0" H 14850 1250 50  0001 C CNN "MP"
+	1    14850 1250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6250FC74
+P 14650 1850
+AR Path="/6250FC74" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/6250FC74" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FC74" Ref="R818"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FC74" Ref="R1328"  Part="1" 
+F 0 "R1328" V 14750 1800 50  0000 L CNN
+F 1 "10K" V 14550 1800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14580 1850 50  0001 C CNN
+F 3 "" H 14650 1850 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H 3600 -750 50  0001 C CNN "Digi-Key_PN"
+F 5 "R1328" H 14650 1850 50  0001 C CNN "Reference"
+F 6 "10K" H 14650 1850 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 14650 1850 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 14650 1850 50  0001 C CNN "MF"
+F 9 "RMCF0603FT10K0" H 14650 1850 50  0001 C CNN "MP"
+	1    14650 1850
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6250FC7B
+P 13850 1250
+AR Path="/6250FC7B" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/6250FC7B" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FC7B" Ref="R816"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FC7B" Ref="R1326"  Part="1" 
+F 0 "R1326" V 13950 1200 50  0000 L CNN
+F 1 "10K" V 13750 1200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13780 1250 50  0001 C CNN
+F 3 "" H 13850 1250 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H 3600 -750 50  0001 C CNN "Digi-Key_PN"
+F 5 "R1326" H 13850 1250 50  0001 C CNN "Reference"
+F 6 "10K" H 13850 1250 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 13850 1250 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 13850 1250 50  0001 C CNN "MF"
+F 9 "RMCF0603FT10K0" H 13850 1250 50  0001 C CNN "MP"
+	1    13850 1250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6250FC82
+P 13650 1850
+AR Path="/6250FC82" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/6250FC82" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FC82" Ref="R815"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FC82" Ref="R1325"  Part="1" 
+F 0 "R1325" V 13750 1800 50  0000 L CNN
+F 1 "10K" V 13550 1800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13580 1850 50  0001 C CNN
+F 3 "" H 13650 1850 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H 3600 -750 50  0001 C CNN "Digi-Key_PN"
+F 5 "R1325" H 13650 1850 50  0001 C CNN "Reference"
+F 6 "10K" H 13650 1850 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 13650 1850 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 13650 1850 50  0001 C CNN "MF"
+F 9 "RMCF0603FT10K0" H 13650 1850 50  0001 C CNN "MP"
+	1    13650 1850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	13500 1500 13850 1500
+Wire Wire Line
+	14400 1500 14850 1500
+Wire Wire Line
+	15000 2100 14650 2100
+Wire Wire Line
+	14000 2100 13650 2100
+Wire Wire Line
+	14900 950  14850 950 
+Wire Wire Line
+	14850 950  14850 1100
+Wire Wire Line
+	14850 950  14650 950 
+Wire Wire Line
+	14650 950  14650 1600
+Connection ~ 14850 950 
+Wire Wire Line
+	14850 1400 14850 1500
+Connection ~ 14850 1500
+Wire Wire Line
+	14850 1500 15000 1500
+Wire Wire Line
+	14650 2000 14650 2100
+Connection ~ 14650 2100
+Wire Wire Line
+	14650 2100 14400 2100
+Wire Wire Line
+	13450 950  13650 950 
+Wire Wire Line
+	13850 950  13850 1100
+Wire Wire Line
+	13650 1700 13650 950 
+Connection ~ 13650 950 
+Wire Wire Line
+	13650 950  13850 950 
+Wire Wire Line
+	13850 1400 13850 1500
+Connection ~ 13850 1500
+Wire Wire Line
+	13850 1500 14000 1500
+Wire Wire Line
+	13650 2000 13650 2100
+Connection ~ 13650 2100
+Wire Wire Line
+	13650 2100 13500 2100
+Wire Wire Line
+	14650 950  14250 950 
+Wire Wire Line
+	14250 950  14250 1200
+Connection ~ 14650 950 
+Wire Wire Line
+	14250 1800 14250 1600
+Wire Wire Line
+	14250 1600 14650 1600
+Connection ~ 14650 1600
+Wire Wire Line
+	14650 1600 14650 1700
+$Comp
+L power:GND #PWR?
+U 1 1 6250FCF0
+P 12450 5900
+AR Path="/6250FCF0" Ref="#PWR?"  Part="1" 
+AR Path="/61FEE2D8/6250FCF0" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FCF0" Ref="#PWR0814"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FCF0" Ref="#PWR0814"  Part="1" 
+F 0 "#PWR0814" H 12450 5650 50  0001 C CNN
+F 1 "GND" H 12455 5727 50  0000 C CNN
+F 2 "" H 12450 5900 50  0001 C CNN
+F 3 "" H 12450 5900 50  0001 C CNN
+	1    12450 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6250FCF6
+P 12600 4050
+AR Path="/6250FCF6" Ref="C?"  Part="1" 
+AR Path="/61FEE2D8/6250FCF6" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FCF6" Ref="C815"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FCF6" Ref="C1327"  Part="1" 
+F 0 "C1327" H 12715 4096 50  0000 L CNN
+F 1 "0.1uF" H 12600 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12638 3900 50  0001 C CNN
+F 3 "" H 12600 4050 50  0001 C CNN
+F 4 "311-1088-1-ND" H 0   -1900 50  0001 C CNN "Digi-Key_PN"
+F 5 "C1327" H 12600 4050 50  0001 C CNN "Reference"
+F 6 "0.1uF" H 12600 4050 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 12600 4050 50  0001 C CNN "Component comment"
+F 8 "YAGEO" H 12600 4050 50  0001 C CNN "MF"
+F 9 "CC0603KRX7R7BB104" H 12600 4050 50  0001 C CNN "MP"
+	1    12600 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6250FCFD
+P 12600 3900
+AR Path="/6250FCFD" Ref="#PWR?"  Part="1" 
+AR Path="/61FEE2D8/6250FCFD" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FCFD" Ref="#PWR0815"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FCFD" Ref="#PWR0815"  Part="1" 
+F 0 "#PWR0815" H 12600 3650 50  0001 C CNN
+F 1 "GND" H 12605 3727 50  0000 C CNN
+F 2 "" H 12600 3900 50  0001 C CNN
+F 3 "" H 12600 3900 50  0001 C CNN
+	1    12600 3900
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 6250FD11
+P 12550 7700
+AR Path="/6250FD11" Ref="J?"  Part="1" 
+AR Path="/61FEE2D8/6250FD11" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FD11" Ref="J801"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FD11" Ref="J1304"  Part="1" 
+F 0 "J1304" H 12656 8078 50  0000 C CNN
+F 1 "NP" V 12450 7650 50  0000 C CNN
+F 2 "Pin_Headers:PinHeader_1x03_P2.54mm_Vertical" H 12550 7700 50  0001 C CNN
+F 3 "~" H 12550 7700 50  0001 C CNN
+F 4 "not placed" H 8250 50  50  0001 C CNN "Digi-Key_PN"
+F 5 "~" H 12550 7700 50  0001 C CNN "Datasheet"
+F 6 "J1304" H 12550 7700 50  0001 C CNN "Reference"
+F 7 "NP" H 12550 7700 50  0001 C CNN "Value"
+F 8 "Not placed" H 12550 7700 50  0001 C CNN "Component comment"
+F 9 "not placed" H 12550 7700 50  0001 C CNN "MF"
+F 10 "not placed" H 12550 7700 50  0001 C CNN "MP"
+F 11 "Not placed" H 12550 7700 50  0001 C CNN "Mount type"
+	1    12550 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6250FD49
+P 11800 4300
+AR Path="/6250FD49" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/6250FD49" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FD49" Ref="R820"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FD49" Ref="R1322"  Part="1" 
+F 0 "R1322" V 11850 4000 50  0000 L CNN
+F 1 "22" V 11800 4250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11730 4300 50  0001 C CNN
+F 3 "" H 11800 4300 50  0001 C CNN
+F 4 "RMCF0603JT22R0CT-ND" H 0   -1950 50  0001 C CNN "Digi-Key_PN"
+F 5 "R1322" H 11800 4300 50  0001 C CNN "Reference"
+F 6 "22" H 11800 4300 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 11800 4300 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 11800 4300 50  0001 C CNN "MF"
+F 9 "RMCF0603JT22R0" H 11800 4300 50  0001 C CNN "MP"
+	1    11800 4300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6250FD57
+P 11800 4700
+AR Path="/6250FD57" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/6250FD57" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FD57" Ref="R822"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FD57" Ref="R1324"  Part="1" 
+F 0 "R1324" V 11850 4400 50  0000 L CNN
+F 1 "22" V 11800 4650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11730 4700 50  0001 C CNN
+F 3 "" H 11800 4700 50  0001 C CNN
+F 4 "RMCF0603JT22R0CT-ND" H 0   -1950 50  0001 C CNN "Digi-Key_PN"
+F 5 "R1324" H 11800 4700 50  0001 C CNN "Reference"
+F 6 "22" H 11800 4700 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 11800 4700 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 11800 4700 50  0001 C CNN "MF"
+F 9 "RMCF0603JT22R0" H 11800 4700 50  0001 C CNN "MP"
+	1    11800 4700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	12400 4400 12400 4500
+$Comp
+L power:GND #PWR?
+U 1 1 6250FD70
+P 14150 5000
+AR Path="/6250FD70" Ref="#PWR?"  Part="1" 
+AR Path="/61FEE2D8/6250FD70" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FD70" Ref="#PWR0816"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FD70" Ref="#PWR0816"  Part="1" 
+F 0 "#PWR0816" H 14150 4750 50  0001 C CNN
+F 1 "GND" H 14155 4827 50  0000 C CNN
+F 2 "" H 14150 5000 50  0001 C CNN
+F 3 "" H 14150 5000 50  0001 C CNN
+	1    14150 5000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11650 4300 11550 4300
+$Comp
+L Device:C C?
+U 1 1 6250FD7D
+P 10800 5050
+AR Path="/6250FD7D" Ref="C?"  Part="1" 
+AR Path="/61FEE2D8/6250FD7D" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FD7D" Ref="C812"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FD7D" Ref="C1324"  Part="1" 
+F 0 "C1324" H 10950 5100 50  0000 L CNN
+F 1 "NP" H 10950 4950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10838 4900 50  0001 C CNN
+F 3 "" H 10800 5050 50  0001 C CNN
+F 4 "not placed" H 0   -1950 50  0001 C CNN "Digi-Key_PN"
+F 5 "C1324" H 10800 5050 50  0001 C CNN "Reference"
+F 6 "NP" H 10800 5050 50  0001 C CNN "Value"
+F 7 "Not placed" H 10800 5050 50  0001 C CNN "Component comment"
+F 8 "not placed" H 10800 5050 50  0001 C CNN "MF"
+F 9 "not placed" H 10800 5050 50  0001 C CNN "MP"
+F 10 "Not placed" H 10800 5050 50  0001 C CNN "Mount type"
+	1    10800 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6250FD84
+P 11200 5050
+AR Path="/6250FD84" Ref="C?"  Part="1" 
+AR Path="/61FEE2D8/6250FD84" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FD84" Ref="C813"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FD84" Ref="C1325"  Part="1" 
+F 0 "C1325" H 11315 5096 50  0000 L CNN
+F 1 "NP" H 11300 4950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11238 4900 50  0001 C CNN
+F 3 "" H 11200 5050 50  0001 C CNN
+F 4 "not placed" H 0   -1950 50  0001 C CNN "Digi-Key_PN"
+F 5 "C1325" H 11200 5050 50  0001 C CNN "Reference"
+F 6 "NP" H 11200 5050 50  0001 C CNN "Value"
+F 7 "Not placed" H 11200 5050 50  0001 C CNN "Component comment"
+F 8 "not placed" H 11200 5050 50  0001 C CNN "MF"
+F 9 "not placed" H 11200 5050 50  0001 C CNN "MP"
+F 10 "Not placed" H 11200 5050 50  0001 C CNN "Mount type"
+	1    11200 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6250FD8B
+P 11550 5050
+AR Path="/6250FD8B" Ref="C?"  Part="1" 
+AR Path="/61FEE2D8/6250FD8B" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FD8B" Ref="C814"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FD8B" Ref="C1326"  Part="1" 
+F 0 "C1326" H 11300 5100 50  0000 L CNN
+F 1 "NP" H 11350 4950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11588 4900 50  0001 C CNN
+F 3 "" H 11550 5050 50  0001 C CNN
+F 4 "not placed" H 0   -1950 50  0001 C CNN "Digi-Key_PN"
+F 5 "C1326" H 11550 5050 50  0001 C CNN "Reference"
+F 6 "NP" H 11550 5050 50  0001 C CNN "Value"
+F 7 "Not placed" H 11550 5050 50  0001 C CNN "Component comment"
+F 8 "not placed" H 11550 5050 50  0001 C CNN "MF"
+F 9 "not placed" H 11550 5050 50  0001 C CNN "MP"
+F 10 "Not placed" H 11550 5050 50  0001 C CNN "Mount type"
+	1    11550 5050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 4900 11200 4500
+Connection ~ 11200 4500
+Wire Wire Line
+	11200 4500 11650 4500
+$Comp
+L power:GND #PWR?
+U 1 1 6250FD97
+P 11200 5300
+AR Path="/6250FD97" Ref="#PWR?"  Part="1" 
+AR Path="/61FEE2D8/6250FD97" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FD97" Ref="#PWR0813"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FD97" Ref="#PWR0813"  Part="1" 
+F 0 "#PWR0813" H 11200 5050 50  0001 C CNN
+F 1 "GND" H 11205 5127 50  0000 C CNN
+F 2 "" H 11200 5300 50  0001 C CNN
+F 3 "" H 11200 5300 50  0001 C CNN
+	1    11200 5300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 5200 11200 5200
+Connection ~ 11200 5200
+Wire Wire Line
+	11200 5200 10800 5200
+Wire Wire Line
+	11200 5300 11200 5200
+$Comp
+L power:GND #PWR?
+U 1 1 6250FED4
+P 12750 7600
+AR Path="/6250FED4" Ref="#PWR?"  Part="1" 
+AR Path="/61FEE2D8/6250FED4" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/6250FED4" Ref="#PWR0805"  Part="1" 
+AR Path="/5F078D61/659AA85E/6250FED4" Ref="#PWR0805"  Part="1" 
+F 0 "#PWR0805" H 12750 7350 50  0001 C CNN
+F 1 "GND" H 12755 7427 50  0000 C CNN
+F 2 "" H 12750 7600 50  0001 C CNN
+F 3 "" H 12750 7600 50  0001 C CNN
+	1    12750 7600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	10800 4900 10800 4700
+Connection ~ 10800 4700
+Text HLabel 2400 3400 0    50   Input ~ 0
+3V8_IN
+Text HLabel 13450 950  0    50   Input ~ 0
+3V3_IN
+Text Label 4900 5950 2    50   ~ 0
+TX_1V8
+Text Label 15000 1500 0    50   ~ 0
+TX_1V8
+Text Label 15000 2100 0    50   ~ 0
+RX_1V8
+Text HLabel 13500 2100 0    50   Input ~ 0
+RX_IN
+Text HLabel 13500 1500 0    50   Output ~ 0
+TX_OUT
+Text Label 5700 5400 2    50   ~ 0
+GSM-GPS-USB-DP_5V
+Text Label 5700 5500 2    50   ~ 0
+GSM-GPS-USB-DN_5V
+Text Label 13700 7800 0    50   ~ 0
+GSM-GPS-USB-DP_5V
+Text Label 13700 7700 0    50   ~ 0
+GSM-GPS-USB-DN_5V
+Wire Wire Line
+	11950 4500 12400 4500
+$Comp
+L ESDA6V1W5:ESDA6V1W5 D1306
+U 1 1 6041E592
+P 12450 5600
+F 0 "D1306" V 12496 5270 50  0000 R CNN
+F 1 "TVS 3V" V 12405 5270 50  0000 R CNN
+F 2 "I_Connect:SOT65P210X110-5N" H 12450 5600 50  0001 L BNN
+F 3 "" H 12450 5600 50  0001 L BNN
+F 4 "497-7228-1-ND" H 12450 5600 50  0001 C CNN "Digi-Key_PN"
+F 5 "1.10mm" H 12450 5600 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "" H 12450 5600 50  0001 L BNN "MANUFACTURER"
+F 7 "2" H 12450 5600 50  0001 L BNN "PARTREV"
+F 8 "IPC-7351B" H 12450 5600 50  0001 L BNN "STANDARD"
+F 9 "STMicroelectronics" H 12450 5600 50  0001 C CNN "MF"
+F 10 "D1306" H 12450 5600 50  0001 C CNN "Reference"
+F 11 "TVS 3V" H 12450 5600 50  0001 C CNN "Value"
+F 12 "ESDA6V1W5" H 12450 5600 50  0001 C CNN "MP"
+F 13 "Can be replaced with other manufacturer component with same specs" H 12450 5600 50  0001 C CNN "Component comment"
+	1    12450 5600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12500 5150 12650 5150
+Wire Wire Line
+	12650 5150 12650 5300
+Wire Wire Line
+	12400 5150 12250 5150
+Wire Wire Line
+	12250 5150 12250 5300
+Wire Wire Line
+	12100 5900 12250 5900
+Wire Wire Line
+	12600 5100 12800 5100
+Wire Wire Line
+	12800 5100 12800 5900
+Wire Wire Line
+	12800 5900 12650 5900
+Wire Wire Line
+	12100 5100 12100 5900
+Wire Wire Line
+	12100 5100 12300 5100
+Text Label 10550 4200 2    50   ~ 0
+SIM_VDD
+Text Label 10550 4300 2    50   ~ 0
+SIM_RESET
+Wire Wire Line
+	11550 4300 10550 4300
+Connection ~ 11550 4300
+Text Label 10550 4500 2    50   ~ 0
+SIM_CLK
+Text Label 10550 4700 2    50   ~ 0
+SIM_DATA
+Wire Wire Line
+	10550 4700 10800 4700
+Wire Wire Line
+	10550 4500 11200 4500
+Text Label 7200 3400 0    50   ~ 0
+SIM_VDD
+Text Label 7200 3600 0    50   ~ 0
+SIM_CLK
+Text Label 7200 3500 0    50   ~ 0
+SIM_DATA
+$Comp
+L Device:Ferrite_Bead FB2901
+U 1 1 6274C937
+P 2900 3400
+F 0 "FB2901" V 2626 3400 50  0000 C CNN
+F 1 "Ferrite_Bead" V 2717 3400 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 2830 3400 50  0001 C CNN
+F 3 "~" H 2900 3400 50  0001 C CNN
+F 4 "490-1052-1-ND" H 2900 3400 50  0001 C CNN "Digi-Key_PN"
+F 5 "" V 2900 3400 50  0001 C CNN "Manufacturer"
+F 6 "" V 2900 3400 50  0001 C CNN "Manufacturer part nr"
+F 7 "~" H 2900 3400 50  0001 C CNN "Datasheet"
+F 8 "Murata Electronics" H 2900 3400 50  0001 C CNN "MF"
+F 9 "BLM21PG300SN1D" H 2900 3400 50  0001 C CNN "MP"
+F 10 "FB2901" H 2900 3400 50  0001 C CNN "Reference"
+F 11 "Ferrite_Bead" H 2900 3400 50  0001 C CNN "Value"
+	1    2900 3400
+	0    -1   1    0   
+$EndComp
+Connection ~ 4650 3800
+Connection ~ 3800 3400
+Wire Wire Line
+	11550 4300 11550 4900
+Wire Wire Line
+	10800 4700 11650 4700
+Connection ~ 12600 4200
+$Comp
+L SF56K006VBAR2000:SF56K006VBAR2000 J1303
+U 1 1 640E6B30
+P 14900 4500
+F 0 "J1303" H 14900 5067 50  0000 C CNN
+F 1 "SF56K006VBAR2000" H 14900 4976 50  0000 C CNN
+F 2 "JAE_SF56K006VBAR2000" H 14900 4500 50  0001 L BNN
+F 3 "" H 14900 4500 50  0001 L BNN
+F 4 "1.37mm" H 14900 4500 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 5 "2" H 14900 4500 50  0001 L BNN "PARTREV"
+F 6 "Manufacturer Recommendations" H 14900 4500 50  0001 L BNN "STANDARD"
+F 7 "JAE Electronics" H 14900 4500 50  0001 L BNN "MF"
+F 8 "J1303" H 14900 4500 50  0001 C CNN "Reference"
+F 9 "SF56K006VBAR2000" H 14900 4500 50  0001 C CNN "Value"
+F 10 "670-2981-1-ND" H 14900 4500 50  0001 C CNN "Digi-Key_PN"
+F 11 "SF56K006VBAR2000" H 14900 4500 50  0001 C CNN "MP"
+	1    14900 4500
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 14300 4300
+Wire Wire Line
+	12600 4200 12850 4200
+Text Label 12850 4200 0    50   ~ 0
+TO_SIM_VCC
+Text Label 12850 4300 0    50   ~ 0
+TO_SIM_RST
+Text Label 12850 4400 0    50   ~ 0
+TO_SIM_CLK
+Text Label 12850 4700 0    50   ~ 0
+TO_SIM_IO
+Wire Wire Line
+	14300 4800 14150 4800
+Wire Wire Line
+	14150 4800 14150 5000
+Text Label 14300 4200 2    50   ~ 0
+TO_SIM_VCC
+Text Label 15500 4400 0    50   ~ 0
+TO_SIM_RST
+Text Label 15500 4500 0    50   ~ 0
+TO_SIM_CLK
+Text Label 15500 4700 0    50   ~ 0
+TO_SIM_IO
+Text HLabel 14000 4500 0    50   Output ~ 0
+SIM_PRESENT
+$Comp
+L Device:R R?
+U 1 1 64310EF4
+P 11800 4500
+AR Path="/64310EF4" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/64310EF4" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/64310EF4" Ref="R821"  Part="1" 
+AR Path="/5F078D61/659AA85E/64310EF4" Ref="R1323"  Part="1" 
+F 0 "R1323" V 11850 4200 50  0000 L CNN
+F 1 "22" V 11800 4450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11730 4500 50  0001 C CNN
+F 3 "" H 11800 4500 50  0001 C CNN
+F 4 "RMCF0603JT22R0CT-ND" H 0   -1750 50  0001 C CNN "Digi-Key_PN"
+F 5 "R1323" H 11800 4500 50  0001 C CNN "Reference"
+F 6 "22" H 11800 4500 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 11800 4500 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 11800 4500 50  0001 C CNN "MF"
+F 9 "RMCF0603JT22R0" H 11800 4500 50  0001 C CNN "MP"
+	1    11800 4500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 64247E43
+P 14150 4500
+AR Path="/64247E43" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/64247E43" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/64247E43" Ref="R1601"  Part="1" 
+AR Path="/5F078D61/659AA85E/64247E43" Ref="R1327"  Part="1" 
+F 0 "R1327" V 14050 4400 50  0000 L CNN
+F 1 "100K" V 14250 4400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14080 4500 50  0001 C CNN
+F 3 "" H 14150 4500 50  0001 C CNN
+F 4 "RMCF0603FT100KCT-ND" H 4350 350 50  0001 C CNN "Digi-Key_PN"
+F 5 "R1327" H 14150 4500 50  0001 C CNN "Reference"
+F 6 "100K" H 14150 4500 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 14150 4500 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 14150 4500 50  0001 C CNN "MF"
+F 9 "RMCF0603FT100K" H 14150 4500 50  0001 C CNN "MP"
+	1    14150 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L I-Connect_diverse:BSN20 Q?
+U 1 1 64195D39
+P 14200 2000
+AR Path="/64195D39" Ref="Q?"  Part="1" 
+AR Path="/61FEE2D8/64195D39" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/64195D39" Ref="Q808"  Part="1" 
+AR Path="/5F078D61/659AA85E/64195D39" Ref="Q1302"  Part="1" 
+F 0 "Q1302" V 14400 2050 50  0000 L CNN
+F 1 "30V N-FET" V 14450 1950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14400 1925 50  0001 L CIN
+F 3 "" H 14200 2000 50  0001 L CNN
+F 4 "DMN63D8L-7DICT-ND" H 3550 -150 50  0001 C CNN "Digi-Key_PN"
+F 5 "" H 14200 2000 50  0001 C CNN "Datasheet"
+F 6 "Q1302" H 14200 2000 50  0001 C CNN "Reference"
+F 7 "30V N-FET" H 14200 2000 50  0001 C CNN "Value"
+F 8 "Diodes Incorporated" H 14200 2000 50  0001 C CNN "MF"
+F 9 "DMN63D8L-7" H 14200 2000 50  0001 C CNN "MP"
+	1    14200 2000
+	0    -1   1    0   
+$EndComp
+Text Label 4900 5850 2    50   ~ 0
+RX_1V8
+$Comp
+L C-Sense_diverse:SimCom_mini_pci_module U1305
+U 1 1 65A4AABD
+P 6450 3300
+F 0 "U1305" H 6450 3465 50  0000 C CNN
+F 1 "SimCom_mini_pci_module" H 6450 3374 50  0000 C CNN
+F 2 "I_Connect:TE_1775862-2" H 6450 3300 50  0001 C CNN
+F 3 "" H 6450 3300 50  0001 C CNN
+F 4 "A142273CT-ND" H 6450 3300 50  0001 C CNN "Digi-Key_PN"
+F 5 "U1305" H 6450 3300 50  0001 C CNN "Reference"
+F 6 "SimCom_mini_pci_module" H 6450 3300 50  0001 C CNN "Value"
+F 7 "TE Connectivity AMP Connectors" H 6450 3300 50  0001 C CNN "MF"
+F 8 "1775862-2" H 6450 3300 50  0001 C CNN "MP"
+	1    6450 3300
+	1    0    0    -1  
+$EndComp
+Text Label 7200 3700 0    50   ~ 0
+SIM_RESET
+$Comp
+L Device:D_TVS D?
+U 1 1 65AC92B0
+P 5150 3600
+AR Path="/65AC92B0" Ref="D?"  Part="1" 
+AR Path="/61FEE2D8/65AC92B0" Ref="D?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/65AC92B0" Ref="D?"  Part="1" 
+AR Path="/5F078D61/659AA85E/65AC92B0" Ref="D1303"  Part="1" 
+F 0 "D1303" V 5250 3650 50  0000 L CNN
+F 1 "TVS 4.5V" H 5000 3450 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 5150 3600 50  0001 C CNN
+F 3 "~" H 5150 3600 50  0001 C CNN
+F 4 "283-STS321045B502DKR-ND" H -1650 1900 50  0001 C CNN "Digi-Key_PN"
+F 5 "~" H 5150 3600 50  0001 C CNN "Datasheet"
+F 6 "D1303" H 5150 3600 50  0001 C CNN "Reference"
+F 7 "TVS 4.5V" H 5150 3600 50  0001 C CNN "Value"
+F 8 "Can be replaced with other manufacturer component with same specs" H 5150 3600 50  0001 C CNN "Component comment"
+F 9 "Eaton - Electronics Division" H 5150 3600 50  0001 C CNN "MF"
+F 10 "STS321045B502" H 5150 3600 50  0001 C CNN "MP"
+	1    5150 3600
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65ACC254
+P 5350 4550
+AR Path="/65ACC254" Ref="#PWR?"  Part="1" 
+AR Path="/61FEE2D8/65ACC254" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/65ACC254" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/659AA85E/65ACC254" Ref="#PWR01319"  Part="1" 
+F 0 "#PWR01319" H 5350 4300 50  0001 C CNN
+F 1 "GND" H 5355 4377 50  0000 C CNN
+F 2 "" H 5350 4550 50  0001 C CNN
+F 3 "" H 5350 4550 50  0001 C CNN
+	1    5350 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3950 5550 3950
+Wire Wire Line
+	5550 3950 5550 4050
+Wire Wire Line
+	5550 5250 5700 5250
+Wire Wire Line
+	5700 4050 5550 4050
+Connection ~ 5550 4050
+Wire Wire Line
+	5550 4050 5550 4150
+Wire Wire Line
+	5700 4150 5550 4150
+Connection ~ 5550 4150
+Wire Wire Line
+	5550 4150 5550 4250
+Wire Wire Line
+	5700 4250 5550 4250
+Connection ~ 5550 4250
+Wire Wire Line
+	5550 4250 5550 4350
+Wire Wire Line
+	5700 4350 5550 4350
+Connection ~ 5550 4350
+Wire Wire Line
+	5550 4350 5550 4450
+Wire Wire Line
+	5700 4450 5550 4450
+Connection ~ 5550 4450
+Wire Wire Line
+	5550 4450 5550 4550
+Wire Wire Line
+	5700 4550 5550 4550
+Connection ~ 5550 4550
+Wire Wire Line
+	5550 4550 5550 4650
+Wire Wire Line
+	5700 4650 5550 4650
+Connection ~ 5550 4650
+Wire Wire Line
+	5550 4650 5550 4750
+Wire Wire Line
+	5700 4750 5550 4750
+Connection ~ 5550 4750
+Wire Wire Line
+	5550 4750 5550 4850
+Wire Wire Line
+	5700 4850 5550 4850
+Connection ~ 5550 4850
+Wire Wire Line
+	5550 4850 5550 4950
+Wire Wire Line
+	5700 4950 5550 4950
+Connection ~ 5550 4950
+Wire Wire Line
+	5550 4950 5550 5050
+Wire Wire Line
+	5700 5050 5550 5050
+Connection ~ 5550 5050
+Wire Wire Line
+	5550 5050 5550 5150
+Wire Wire Line
+	5700 5150 5550 5150
+Connection ~ 5550 5150
+Wire Wire Line
+	5550 5150 5550 5250
+$Comp
+L Device:R R?
+U 1 1 65B7D4AC
+P 7800 4200
+AR Path="/65B7D4AC" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/65B7D4AC" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/65B7D4AC" Ref="R?"  Part="1" 
+AR Path="/5F078D61/659AA85E/65B7D4AC" Ref="R1321"  Part="1" 
+F 0 "R1321" H 7870 4246 50  0000 L CNN
+F 1 "330" V 7700 4150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7730 4200 50  0001 C CNN
+F 3 "" H 7800 4200 50  0001 C CNN
+F 4 "RMCF0603FT330RCT-ND" H 4750 -1750 50  0001 C CNN "Digi-Key_PN"
+F 5 "R1321" H 7800 4200 50  0001 C CNN "Reference"
+F 6 "330" H 7800 4200 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 7800 4200 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 7800 4200 50  0001 C CNN "MF"
+F 9 "RMCF0603FT330R" H 7800 4200 50  0001 C CNN "MP"
+	1    7800 4200
+	1    0    0    1   
+$EndComp
+Text HLabel 7800 4050 1    50   Input ~ 0
+3V3_IN
+Wire Wire Line
+	7200 4750 7800 4750
+Wire Wire Line
+	7800 4750 7800 4650
+Wire Wire Line
+	5350 4550 5550 4550
+Wire Wire Line
+	5700 3500 5650 3500
+Wire Wire Line
+	5650 3500 5650 3400
+Connection ~ 5650 3400
+Wire Wire Line
+	5650 3400 5700 3400
+Wire Wire Line
+	5700 3600 5650 3600
+Wire Wire Line
+	5650 3600 5650 3500
+Connection ~ 5650 3500
+Wire Wire Line
+	5700 3700 5650 3700
+Wire Wire Line
+	5650 3700 5650 3600
+Connection ~ 5650 3600
+Wire Wire Line
+	5700 3800 5650 3800
+Wire Wire Line
+	5650 3800 5650 3700
+Connection ~ 5650 3700
+Wire Wire Line
+	2400 3400 2750 3400
+Wire Wire Line
+	3050 3400 3800 3400
+Connection ~ 4650 3400
+Wire Wire Line
+	4650 3400 5150 3400
+Wire Wire Line
+	5150 3450 5150 3400
+Connection ~ 5150 3400
+Wire Wire Line
+	5150 3400 5650 3400
+Wire Wire Line
+	5150 3750 5150 3800
+Wire Wire Line
+	5150 3800 4650 3800
+Text HLabel 14900 950  2    50   Input ~ 0
+1V8_IN
+Wire Wire Line
+	4900 5850 5100 5850
+Wire Wire Line
+	4900 5950 5450 5950
+NoConn ~ 7200 3950
+NoConn ~ 7200 4050
+NoConn ~ 7200 4150
+NoConn ~ 7200 4250
+NoConn ~ 7200 5050
+NoConn ~ 7200 5150
+NoConn ~ 7200 5250
+NoConn ~ 7200 4850
+NoConn ~ 7200 4550
+NoConn ~ 5700 6250
+NoConn ~ 5700 6150
+NoConn ~ 5700 6050
+NoConn ~ 5700 5750
+NoConn ~ 5700 5650
+NoConn ~ 5700 6400
+NoConn ~ 5700 6500
+$Comp
+L Device:D_TVS D?
+U 1 1 65BF2C26
+P 5100 6200
+AR Path="/65BF2C26" Ref="D?"  Part="1" 
+AR Path="/61FEE2D8/65BF2C26" Ref="D?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/65BF2C26" Ref="D?"  Part="1" 
+AR Path="/5F078D61/659AA85E/65BF2C26" Ref="D1302"  Part="1" 
+F 0 "D1302" H 5000 6300 50  0000 L CNN
+F 1 "TVS 2V" H 4950 6100 50  0000 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric" H 5100 6200 50  0001 C CNN
+F 3 "~" H 5100 6200 50  0001 C CNN
+F 4 "~" H 5100 6200 50  0001 C CNN "Datasheet"
+F 5 "D1302" H 5100 6200 50  0001 C CNN "Reference"
+F 6 "TVS 2V" H 5100 6200 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 5100 6200 50  0001 C CNN "Component comment"
+F 8 "Nexperia USA Inc." H 5100 6200 50  0001 C CNN "MF"
+F 9 "PESD2V0Y1BSFYL" H 5100 6200 50  0001 C CNN "MP"
+F 10 "1727-PESD2V0Y1BSFYLCT-ND" H 5100 6200 50  0001 C CNN "Digi-Key_PN"
+	1    5100 6200
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65C07E55
+P 5250 6450
+AR Path="/65C07E55" Ref="#PWR?"  Part="1" 
+AR Path="/61FEE2D8/65C07E55" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/65C07E55" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/659AA85E/65C07E55" Ref="#PWR01318"  Part="1" 
+F 0 "#PWR01318" H 5250 6200 50  0001 C CNN
+F 1 "GND" H 5255 6277 50  0000 C CNN
+F 2 "" H 5250 6450 50  0001 C CNN
+F 3 "" H 5250 6450 50  0001 C CNN
+	1    5250 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 6350 5100 6450
+Wire Wire Line
+	5100 6450 5250 6450
+Wire Wire Line
+	5250 6450 5450 6450
+Wire Wire Line
+	5450 6450 5450 6350
+Connection ~ 5250 6450
+Wire Wire Line
+	5450 6050 5450 5950
+Connection ~ 5450 5950
+Wire Wire Line
+	5450 5950 5700 5950
+Wire Wire Line
+	5100 6050 5100 5850
+Connection ~ 5100 5850
+Wire Wire Line
+	5100 5850 5700 5850
+$Comp
+L Device:D_TVS D?
+U 1 1 65EC9C38
+P 5450 6200
+AR Path="/65EC9C38" Ref="D?"  Part="1" 
+AR Path="/61FEE2D8/65EC9C38" Ref="D?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/65EC9C38" Ref="D?"  Part="1" 
+AR Path="/5F078D61/659AA85E/65EC9C38" Ref="D1304"  Part="1" 
+F 0 "D1304" H 5350 6300 50  0000 L CNN
+F 1 "TVS 2V" H 5300 6100 50  0000 L CNN
+F 2 "Diode_SMD:D_0201_0603Metric" H 5450 6200 50  0001 C CNN
+F 3 "~" H 5450 6200 50  0001 C CNN
+F 4 "~" H 5450 6200 50  0001 C CNN "Datasheet"
+F 5 "D1304" H 5450 6200 50  0001 C CNN "Reference"
+F 6 "TVS 2V" H 5450 6200 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 5450 6200 50  0001 C CNN "Component comment"
+F 8 "Nexperia USA Inc." H 5450 6200 50  0001 C CNN "MF"
+F 9 "PESD2V0Y1BSFYL" H 5450 6200 50  0001 C CNN "MP"
+F 10 "1727-PESD2V0Y1BSFYLCT-ND" H 5450 6200 50  0001 C CNN "Digi-Key_PN"
+	1    5450 6200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	12750 7800 12950 7800
+Connection ~ 12950 7800
+Wire Wire Line
+	12950 7800 13700 7800
+$Comp
+L Power_Protection:SZNUP2105L D?
+U 1 1 65917EE8
+P 13050 8350
+AR Path="/5F078D61/65917EE8" Ref="D?"  Part="1" 
+AR Path="/5F078D61/659AA85E/65917EE8" Ref="D1201"  Part="1" 
+F 0 "D1201" V 13150 8100 50  0000 C CNN
+F 1 "TVS 5V (2ch)" V 12800 8300 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 13275 8300 50  0001 L CNN
+F 3 "" H 13175 8475 50  0001 C CNN
+F 4 "D5V0L2B3SO-7DICT-ND" H 13050 8350 50  0001 C CNN "Digi-Key_PN"
+F 5 "D1201" H 13050 8350 50  0001 C CNN "Reference"
+F 6 "TVS 5V (2ch)" H 13050 8350 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 13050 8350 50  0001 C CNN "Component comment"
+F 8 "Diodes Incorporated" H 13050 8350 50  0001 C CNN "MF"
+F 9 "D5V0L2B3SO-7" H 13050 8350 50  0001 C CNN "MP"
+	1    13050 8350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 7700 13150 7700
+Wire Wire Line
+	12950 7800 12950 8150
+Wire Wire Line
+	13150 8150 13150 7700
+Connection ~ 13150 7700
+Wire Wire Line
+	13150 7700 13700 7700
+$Comp
+L power:GND #PWR?
+U 1 1 659306C7
+P 13050 8550
+AR Path="/659306C7" Ref="#PWR?"  Part="1" 
+AR Path="/61FEE2D8/659306C7" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/659306C7" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/659AA85E/659306C7" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 13050 8300 50  0001 C CNN
+F 1 "GND" H 13055 8377 50  0000 C CNN
+F 2 "" H 13050 8550 50  0001 C CNN
+F 3 "" H 13050 8550 50  0001 C CNN
+	1    13050 8550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 4200 12600 4200
+Wire Wire Line
+	12400 4400 12850 4400
+Wire Wire Line
+	11950 4300 12300 4300
+Wire Wire Line
+	12400 5150 12400 4500
+Connection ~ 12400 4500
+Wire Wire Line
+	11950 4700 12500 4700
+Wire Wire Line
+	12300 5100 12300 4300
+Connection ~ 12300 4300
+Wire Wire Line
+	12300 4300 12850 4300
+Wire Wire Line
+	12600 5100 12600 4200
+Wire Wire Line
+	12500 5150 12500 4700
+Connection ~ 12500 4700
+Wire Wire Line
+	12500 4700 12850 4700
+$Comp
+L Device:LED D?
+U 1 1 66559BD1
+P 7800 4500
+AR Path="/5F078D61/5F511C13/5F14E81E/66559BD1" Ref="D?"  Part="1" 
+AR Path="/5F078D61/5F512514/66559BD1" Ref="D?"  Part="1" 
+AR Path="/5F078D61/6587AFEC/66559BD1" Ref="D?"  Part="1" 
+AR Path="/5F078D61/659AA85E/66559BD1" Ref="D1305"  Part="1" 
+F 0 "D1305" H 7800 4600 60  0000 C CNN
+F 1 "LED Green angled" H 7550 4350 60  0000 C CNN
+F 2 "I_Connect:D_angled_0603_1608Metric" H 8000 4700 60  0001 L CNN
+F 3 "" H 8000 4800 60  0001 L CNN
+F 4 "160-1475-1-ND" H 8000 4900 60  0001 L CNN "Digi-Key_PN"
+F 5 "" H 8000 5000 60  0001 L CNN "MPN"
+F 6 "" H 8000 5100 60  0001 L CNN "Category"
+F 7 "" H 8000 5200 60  0001 L CNN "Family"
+F 8 "" H 8000 5300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "" H 8000 5400 60  0001 L CNN "DK_Detail_Page"
+F 10 "" H 8000 5500 60  0001 L CNN "Description"
+F 11 "" H 8000 5600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8000 5700 60  0001 L CNN "Status"
+F 13 "" H 7800 4500 50  0001 C CNN "Datasheet"
+F 14 "Lite-On Inc." H 7800 4500 50  0001 C CNN "MF"
+F 15 "D1305" H 7800 4500 50  0001 C CNN "Reference"
+F 16 "LED Green angled" H 7800 4500 50  0001 C CNN "Value"
+F 17 "LTST-S270GKT" H 7800 4500 50  0001 C CNN "MP"
+F 18 "" H 7800 4500 50  0001 C CNN "Component comment"
+	1    7800 4500
+	0    -1   -1   0   
+$EndComp
+Text HLabel 7200 4650 2    50   Input ~ 0
+W_DISABLE
+Text HLabel 7200 5850 2    50   Input ~ 0
+PWR_KEY
+Text HLabel 7200 6050 2    50   Input ~ 0
+nRESET
+$EndSCHEMATC

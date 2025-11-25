@@ -1,0 +1,425 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 22 31
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 5F5A5A4A
+P 4250 3350
+AR Path="/5FAD9848/5F5A5A4A" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F5A5A4A" Ref="#PWR02401"  Part="1" 
+F 0 "#PWR02401" H 4250 3100 50  0001 C CNN
+F 1 "GND" V 4255 3222 50  0000 R CNN
+F 2 "" H 4250 3350 50  0001 C CNN
+F 3 "" H 4250 3350 50  0001 C CNN
+	1    4250 3350
+	0    1    1    0   
+$EndComp
+Text Notes 4750 4300 0    50   ~ 0
+0x70 (1110000)
+Wire Wire Line
+	4250 3350 4500 3350
+Wire Wire Line
+	4100 3450 4500 3450
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F62745E
+P 6400 2900
+AR Path="/5FAD9848/5F62745E" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F62745E" Ref="JP2402"  Part="1" 
+F 0 "JP2402" H 7050 2900 50  0000 C CNN
+F 1 "M1" H 6800 2900 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 2900 50  0001 C CNN
+F 3 "~" H 6400 2900 50  0001 C CNN
+F 4 "NP" H 6400 2900 50  0001 C CNN "Digi-Key_PN"
+	1    6400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F627492
+P 6400 3100
+AR Path="/5FAD9848/5F627492" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F627492" Ref="JP2403"  Part="1" 
+F 0 "JP2403" H 7050 3100 50  0000 C CNN
+F 1 "M3" H 6800 3100 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3100 50  0001 C CNN
+F 3 "~" H 6400 3100 50  0001 C CNN
+F 4 "NP" H 6400 3100 50  0001 C CNN "Digi-Key_PN"
+	1    6400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F6274C8
+P 6400 3200
+AR Path="/5FAD9848/5F6274C8" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F6274C8" Ref="JP2404"  Part="1" 
+F 0 "JP2404" H 7050 3200 50  0000 C CNN
+F 1 "M4" H 6800 3200 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3200 50  0001 C CNN
+F 3 "~" H 6400 3200 50  0001 C CNN
+F 4 "NP" H 6400 3200 50  0001 C CNN "Digi-Key_PN"
+	1    6400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F6275DF
+P 6400 3300
+AR Path="/5FAD9848/5F6275DF" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F6275DF" Ref="JP2405"  Part="1" 
+F 0 "JP2405" H 7050 3300 50  0000 C CNN
+F 1 "M5" H 6800 3300 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3300 50  0001 C CNN
+F 3 "~" H 6400 3300 50  0001 C CNN
+F 4 "NP" H 6400 3300 50  0001 C CNN "Digi-Key_PN"
+	1    6400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F6275E6
+P 6400 3400
+AR Path="/5FAD9848/5F6275E6" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F6275E6" Ref="JP2406"  Part="1" 
+F 0 "JP2406" H 7050 3400 50  0000 C CNN
+F 1 "M6" H 6800 3400 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3400 50  0001 C CNN
+F 3 "~" H 6400 3400 50  0001 C CNN
+F 4 "NP" H 6400 3400 50  0001 C CNN "Digi-Key_PN"
+	1    6400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F6275ED
+P 6400 3500
+AR Path="/5FAD9848/5F6275ED" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F6275ED" Ref="JP2407"  Part="1" 
+F 0 "JP2407" H 7050 3500 50  0000 C CNN
+F 1 "M7" H 6800 3500 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3500 50  0001 C CNN
+F 3 "~" H 6400 3500 50  0001 C CNN
+F 4 "NP" H 6400 3500 50  0001 C CNN "Digi-Key_PN"
+	1    6400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F6275F4
+P 6400 3600
+AR Path="/5FAD9848/5F6275F4" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F6275F4" Ref="JP2408"  Part="1" 
+F 0 "JP2408" H 7050 3600 50  0000 C CNN
+F 1 "M8" H 6800 3600 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3600 50  0001 C CNN
+F 3 "~" H 6400 3600 50  0001 C CNN
+F 4 "NP" H 6400 3600 50  0001 C CNN "Digi-Key_PN"
+	1    6400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F6479D8
+P 6400 3900
+AR Path="/5FAD9848/5F6479D8" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F6479D8" Ref="JP2410"  Part="1" 
+F 0 "JP2410" H 7050 3900 50  0000 C CNN
+F 1 "V2" H 6800 3900 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3900 50  0001 C CNN
+F 3 "~" H 6400 3900 50  0001 C CNN
+F 4 "NP" H 6400 3900 50  0001 C CNN "Digi-Key_PN"
+	1    6400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F6479DF
+P 6400 4000
+AR Path="/5FAD9848/5F6479DF" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F6479DF" Ref="JP2411"  Part="1" 
+F 0 "JP2411" H 7050 4000 50  0000 C CNN
+F 1 "V3" H 6800 4000 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 4000 50  0001 C CNN
+F 3 "~" H 6400 4000 50  0001 C CNN
+F 4 "NP" H 6400 4000 50  0001 C CNN "Digi-Key_PN"
+	1    6400 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F6479E6
+P 6400 4100
+AR Path="/5FAD9848/5F6479E6" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F6479E6" Ref="JP2412"  Part="1" 
+F 0 "JP2412" H 7050 4100 50  0000 C CNN
+F 1 "V4" H 6800 4100 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 4100 50  0001 C CNN
+F 3 "~" H 6400 4100 50  0001 C CNN
+F 4 "NP" H 6400 4100 50  0001 C CNN "Digi-Key_PN"
+	1    6400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP?
+U 1 1 5F6479ED
+P 6400 4200
+AR Path="/5FAD9848/5F6479ED" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F6479ED" Ref="JP2413"  Part="1" 
+F 0 "JP2413" H 7050 4200 50  0000 C CNN
+F 1 "V5" H 6800 4200 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 6400 4200 50  0001 C CNN
+F 3 "~" H 6400 4200 50  0001 C CNN
+F 4 "NP" H 6400 4200 50  0001 C CNN "Digi-Key_PN"
+	1    6400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F6479F4
+P 6400 4300
+AR Path="/5FAD9848/5F6479F4" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F6479F4" Ref="JP2414"  Part="1" 
+F 0 "JP2414" H 7050 4300 50  0000 C CNN
+F 1 "V6" H 6800 4300 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 4300 50  0001 C CNN
+F 3 "~" H 6400 4300 50  0001 C CNN
+F 4 "NP" H 6400 4300 50  0001 C CNN "Digi-Key_PN"
+	1    6400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F6479FB
+P 6400 4400
+AR Path="/5FAD9848/5F6479FB" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F6479FB" Ref="JP2415"  Part="1" 
+F 0 "JP2415" H 7050 4400 50  0000 C CNN
+F 1 "V7" H 6800 4400 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 4400 50  0001 C CNN
+F 3 "~" H 6400 4400 50  0001 C CNN
+F 4 "NP" H 6400 4400 50  0001 C CNN "Digi-Key_PN"
+	1    6400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F647A02
+P 6400 4500
+AR Path="/5FAD9848/5F647A02" Ref="JP?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F647A02" Ref="JP2416"  Part="1" 
+F 0 "JP2416" H 7050 4500 50  0000 C CNN
+F 1 "V8" H 6800 4500 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 4500 50  0001 C CNN
+F 3 "~" H 6400 4500 50  0001 C CNN
+F 4 "NP" H 6400 4500 50  0001 C CNN "Digi-Key_PN"
+	1    6400 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2900 6250 2900
+Wire Wire Line
+	6050 3100 6250 3100
+Wire Wire Line
+	6250 3200 6050 3200
+Wire Wire Line
+	6050 3300 6250 3300
+Wire Wire Line
+	6250 3400 6050 3400
+Wire Wire Line
+	6050 3500 6250 3500
+Wire Wire Line
+	6250 3600 6050 3600
+Wire Wire Line
+	6050 3800 6250 3800
+Wire Wire Line
+	6250 3900 6050 3900
+Wire Wire Line
+	6050 4000 6250 4000
+Wire Wire Line
+	6250 4100 6050 4100
+Wire Wire Line
+	6050 4200 6250 4200
+Wire Wire Line
+	6250 4300 6050 4300
+Wire Wire Line
+	6050 4400 6250 4400
+Wire Wire Line
+	6250 4500 6050 4500
+NoConn ~ 4500 3700
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 5F814ED6
+P 6700 4600
+AR Path="/5FAD9848/5F814ED6" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5FE533FD/5F814ED6" Ref="#PWR02402"  Part="1" 
+F 0 "#PWR02402" H 6700 4350 50  0001 C CNN
+F 1 "GND" H 6705 4427 50  0000 C CNN
+F 2 "" H 6700 4600 50  0001 C CNN
+F 3 "" H 6700 4600 50  0001 C CNN
+	1    6700 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2900 6700 2900
+Wire Wire Line
+	6550 4500 6700 4500
+Connection ~ 6700 4500
+Wire Wire Line
+	6700 4500 6700 4600
+Wire Wire Line
+	6550 4400 6700 4400
+Wire Wire Line
+	6700 4400 6700 4500
+Connection ~ 6700 4400
+Wire Wire Line
+	6550 4300 6700 4300
+Wire Wire Line
+	6700 4300 6700 4400
+Connection ~ 6700 4300
+Wire Wire Line
+	6550 4200 6700 4200
+Wire Wire Line
+	6700 4200 6700 4300
+Connection ~ 6700 4200
+Wire Wire Line
+	6550 4100 6700 4100
+Wire Wire Line
+	6700 4100 6700 4200
+Connection ~ 6700 4100
+Wire Wire Line
+	6550 4000 6700 4000
+Wire Wire Line
+	6700 4000 6700 4100
+Connection ~ 6700 4000
+Wire Wire Line
+	6550 3900 6700 3900
+Wire Wire Line
+	6700 3900 6700 4000
+Connection ~ 6700 3900
+Wire Wire Line
+	6550 3800 6700 3800
+Wire Wire Line
+	6700 3800 6700 3900
+Connection ~ 6700 3800
+Wire Wire Line
+	6550 3600 6700 3600
+Wire Wire Line
+	6700 3600 6700 3800
+Connection ~ 6700 3600
+Wire Wire Line
+	6550 3500 6700 3500
+Wire Wire Line
+	6700 3500 6700 3600
+Connection ~ 6700 3500
+Wire Wire Line
+	6550 3400 6700 3400
+Wire Wire Line
+	6700 3400 6700 3500
+Connection ~ 6700 3400
+Wire Wire Line
+	6550 3300 6700 3300
+Wire Wire Line
+	6700 3300 6700 3400
+Connection ~ 6700 3300
+Wire Wire Line
+	6550 3200 6700 3200
+Wire Wire Line
+	6700 3200 6700 3300
+Connection ~ 6700 3200
+Wire Wire Line
+	6550 3100 6700 3100
+Wire Wire Line
+	6700 3100 6700 3200
+Connection ~ 6700 3100
+NoConn ~ 4500 3600
+$Sheet
+S 4500 2700 1550 1900
+U 5F5A5A3F
+F0 "16Ch_DigitalMultiplexer" 50
+F1 "16Ch_DigitalMultiplexer_SX1509.sch" 50
+F2 "3V3_IN" I L 4500 2800 50 
+F3 "!RESET" I L 4500 3600 50 
+F4 "SDA" B L 4500 3150 50 
+F5 "SCL" I L 4500 3250 50 
+F6 "!INT" O L 4500 3700 50 
+F7 "IO0" B R 6050 2900 50 
+F8 "IO1" B R 6050 3000 50 
+F9 "IO2" B R 6050 3100 50 
+F10 "IO3" B R 6050 3200 50 
+F11 "IO4" B R 6050 3300 50 
+F12 "IO5" B R 6050 3400 50 
+F13 "IO6" B R 6050 3500 50 
+F14 "IO7" B R 6050 3600 50 
+F15 "IO8" B R 6050 3800 50 
+F16 "IO9" B R 6050 3900 50 
+F17 "IO10" B R 6050 4000 50 
+F18 "IO11" B R 6050 4100 50 
+F19 "IO12" B R 6050 4200 50 
+F20 "IO13" B R 6050 4300 50 
+F21 "IO14" B R 6050 4400 50 
+F22 "IO15" B R 6050 4500 50 
+F23 "PWR_IO8-15_IN" I R 6050 3700 50 
+F24 "PWR_IO0-7_IN" I R 6050 2800 50 
+F25 "ADDR0" B L 4500 3350 50 
+F26 "ADDR1" B L 4500 3450 50 
+$EndSheet
+Text HLabel 4500 2800 0    50   Input ~ 0
+3V3_IN
+Text HLabel 4500 3150 0    50   BiDi ~ 0
+SDA
+Text HLabel 4500 3250 0    50   Input ~ 0
+SCL
+Text HLabel 4100 3450 0    50   Input ~ 0
+3V3_IN
+Text HLabel 6050 2800 2    50   Input ~ 0
+3V3_IN
+Text HLabel 6050 3700 2    50   Input ~ 0
+3V3_IN
+$Comp
+L Jumper:SolderJumper_2_Open JP2409
+U 1 1 6038BF66
+P 6400 3800
+F 0 "JP2409" H 7050 3800 50  0000 C CNN
+F 1 "V1" H 6800 3800 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3800 50  0001 C CNN
+F 3 "~" H 6400 3800 50  0001 C CNN
+F 4 "NP" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    6400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP2401
+U 1 1 6038BB5B
+P 6400 3000
+F 0 "JP2401" H 7050 3000 50  0000 C CNN
+F 1 "M2" H 6800 3000 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" H 6400 3000 50  0001 C CNN
+F 3 "~" H 6400 3000 50  0001 C CNN
+F 4 "NP" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    6400 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2900 6700 3000
+Wire Wire Line
+	6050 3000 6250 3000
+Wire Wire Line
+	6550 3000 6700 3000
+Connection ~ 6700 3000
+Wire Wire Line
+	6700 3000 6700 3100
+$EndSCHEMATC

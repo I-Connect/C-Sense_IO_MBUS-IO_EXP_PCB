@@ -1,0 +1,251 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 25 27
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 61EC129B
+P 4850 3700
+AR Path="/5F52A0A7/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F52A21A/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F52A35C/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F3A7F9C/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F9FDF84/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F9FE0D3/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F9FE1F1/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F9FE30F/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F9FE42D/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53D974/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53D979/61EC129B" Ref="R?"  Part="1" 
+AR Path="/5F078D61/61EBF891/61EC129B" Ref="R2602"  Part="1" 
+AR Path="/5F078D61/61ED389A/61EC129B" Ref="R2704"  Part="1" 
+AR Path="/5F078D61/64B39CA0/61EC129B" Ref="R2704"  Part="1" 
+AR Path="/5F078D61/65E7FB8B/61EC129B" Ref="R1615"  Part="1" 
+F 0 "R1615" V 4930 3700 50  0000 C CNN
+F 1 "1K" V 4850 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4780 3700 50  0001 C CNN
+F 3 "" H 4850 3700 50  0000 C CNN
+F 4 "RMCF0603FT1K00CT-ND" H 300 0   50  0001 C CNN "Digi-Key_PN"
+F 5 "R1615" H 4850 3700 50  0001 C CNN "Reference"
+F 6 "1K" H 4850 3700 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 4850 3700 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 4850 3700 50  0001 C CNN "MF"
+F 9 "RMCF0603FT1K00" H 4850 3700 50  0001 C CNN "MP"
+F 10 "exp_v1" V 4850 3700 50  0001 C CNN "pcb"
+	1    4850 3700
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61EC12A2
+P 5600 3850
+AR Path="/5F52A0A7/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F52A21A/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F52A35C/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F3A7F9C/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F9FDF84/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F9FE0D3/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F9FE1F1/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F9FE30F/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F9FE42D/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53D974/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53D979/61EC12A2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/61EBF891/61EC12A2" Ref="R2603"  Part="1" 
+AR Path="/5F078D61/61ED389A/61EC12A2" Ref="R2705"  Part="1" 
+AR Path="/5F078D61/64B39CA0/61EC12A2" Ref="R2705"  Part="1" 
+AR Path="/5F078D61/65E7FB8B/61EC12A2" Ref="R1616"  Part="1" 
+F 0 "R1616" V 5680 3850 50  0000 C CNN
+F 1 "10K" V 5600 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 3850 50  0001 C CNN
+F 3 "" H 5600 3850 50  0000 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H 850 0   50  0001 C CNN "Digi-Key_PN"
+F 5 "R1616" H 5600 3850 50  0001 C CNN "Reference"
+F 6 "10K" H 5600 3850 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 5600 3850 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 5600 3850 50  0001 C CNN "MF"
+F 9 "RMCF0603FT10K0" H 5600 3850 50  0001 C CNN "MP"
+F 10 "exp_v1" V 5600 3850 50  0001 C CNN "pcb"
+	1    5600 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L I-Connect_diverse:BSN20 Q?
+U 1 1 61EC12A9
+P 5950 3650
+AR Path="/5F52A0A7/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F52A21A/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F52A35C/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F3A7F9C/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F9FDF84/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F9FE0D3/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F9FE1F1/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F9FE30F/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F9FE42D/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F53D974/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F53D979/61EC12A9" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/61EBF891/61EC12A9" Ref="Q2601"  Part="1" 
+AR Path="/5F078D61/61ED389A/61EC12A9" Ref="Q2704"  Part="1" 
+AR Path="/5F078D61/64B39CA0/61EC12A9" Ref="Q2704"  Part="1" 
+AR Path="/5F078D61/65E7FB8B/61EC12A9" Ref="Q1601"  Part="1" 
+F 0 "Q1601" V 5900 3750 50  0000 L CNN
+F 1 "BSN20" V 6150 3650 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6150 3575 50  0001 L CIN
+F 3 "" H 5950 3650 50  0001 L CNN
+F 4 "BSN20-7DICT-ND" H 850 0   50  0001 C CNN "Digi-Key_PN"
+F 5 "Q1601" H 5950 3650 50  0001 C CNN "Reference"
+F 6 "BSN20" H 5950 3650 50  0001 C CNN "Value"
+F 7 "Diodes Incorporated" H 5950 3650 50  0001 C CNN "MF"
+F 8 "BSN20-7" H 5950 3650 50  0001 C CNN "MP"
+F 9 "exp_v1" V 5950 3650 50  0001 C CNN "pcb"
+	1    5950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61EC12AF
+P 6050 4050
+AR Path="/5F52A0A7/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F52A21A/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F52A35C/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A7F9C/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FDF84/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE0D3/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE1F1/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE30F/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE42D/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F53D974/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F53D979/61EC12AF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/61EBF891/61EC12AF" Ref="#PWR02607"  Part="1" 
+AR Path="/5F078D61/61ED389A/61EC12AF" Ref="#PWR02707"  Part="1" 
+AR Path="/5F078D61/64B39CA0/61EC12AF" Ref="#PWR02707"  Part="1" 
+AR Path="/5F078D61/65E7FB8B/61EC12AF" Ref="#PWR01608"  Part="1" 
+F 0 "#PWR01608" H 6050 3800 50  0001 C CNN
+F 1 "GND" H 6050 3900 50  0000 C CNN
+F 2 "" H 6050 4050 50  0001 C CNN
+F 3 "" H 6050 4050 50  0001 C CNN
+	1    6050 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 3700
+Wire Wire Line
+	6050 3850 6050 3950
+$Comp
+L power:GND #PWR?
+U 1 1 61EC12B8
+P 5600 4000
+AR Path="/5F52A0A7/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F52A21A/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F52A35C/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A7F9C/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FDF84/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE0D3/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE1F1/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE30F/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE42D/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F53D974/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F53D979/61EC12B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/61EBF891/61EC12B8" Ref="#PWR02606"  Part="1" 
+AR Path="/5F078D61/61ED389A/61EC12B8" Ref="#PWR02706"  Part="1" 
+AR Path="/5F078D61/64B39CA0/61EC12B8" Ref="#PWR02706"  Part="1" 
+AR Path="/5F078D61/65E7FB8B/61EC12B8" Ref="#PWR01607"  Part="1" 
+F 0 "#PWR01607" H 5600 3750 50  0001 C CNN
+F 1 "GND" H 5600 3850 50  0000 C CNN
+F 2 "" H 5600 4000 50  0001 C CNN
+F 3 "" H 5600 4000 50  0001 C CNN
+	1    5600 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3700 5750 3700
+Text HLabel 4700 3700 0    50   Input ~ 0
+ENABLE
+Text HLabel 6250 3200 2    50   Output ~ 0
+Output
+Wire Wire Line
+	6050 3450 6050 3350
+Wire Wire Line
+	5000 3700 5600 3700
+$Comp
+L Device:D D2602
+U 1 1 61CD3FA2
+P 6550 3650
+AR Path="/5F078D61/61EBF891/61CD3FA2" Ref="D2602"  Part="1" 
+AR Path="/5F078D61/61ED389A/61CD3FA2" Ref="D2703"  Part="1" 
+AR Path="/5F078D61/64B39CA0/61CD3FA2" Ref="D2703"  Part="1" 
+AR Path="/5F078D61/65E7FB8B/61CD3FA2" Ref="D1608"  Part="1" 
+F 0 "D1608" V 6504 3729 50  0000 L CNN
+F 1 "NP" V 6595 3729 50  0000 L CNN
+F 2 "Diode_SMD:D_1210_3225Metric" H 6550 3650 50  0001 C CNN
+F 3 "~" H 6550 3650 50  0001 C CNN
+F 4 "~" H 6550 3650 50  0001 C CNN "Datasheet"
+F 5 "D1608" H 6550 3650 50  0001 C CNN "Reference"
+F 6 "NP" H 6550 3650 50  0001 C CNN "Value"
+F 7 "Not placed" H 6550 3650 50  0001 C CNN "Digi-Key_PN"
+F 8 "Not placed" H 6550 3650 50  0001 C CNN "Component comment"
+F 9 "Not placed" H 6550 3650 50  0001 C CNN "MF"
+F 10 "Not placed" H 6550 3650 50  0001 C CNN "MP"
+F 11 "exp_v1" V 6550 3650 50  0001 C CNN "pcb"
+F 12 "Not placed" H 6550 3650 50  0001 C CNN "Mount type"
+	1    6550 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 3500 6550 3350
+Wire Wire Line
+	6550 3350 6050 3350
+Connection ~ 6050 3350
+Wire Wire Line
+	6050 3350 6050 3200
+Wire Wire Line
+	6550 3800 6550 3950
+Wire Wire Line
+	6550 3950 6050 3950
+Connection ~ 6050 3950
+Wire Wire Line
+	6050 3950 6050 4050
+Text Notes 6850 3700 0    50   ~ 0
+Optional flyback diode
+Wire Wire Line
+	6050 3200 6250 3200
+$EndSCHEMATC

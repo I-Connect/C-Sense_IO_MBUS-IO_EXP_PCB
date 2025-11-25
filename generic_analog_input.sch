@@ -1,0 +1,166 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 13 27
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 4750 2550 0    50   ~ 0
+Generic analog sensor\n0-15V\nat 3V3 at input 0.726 remains as 100%\nat 5V at input 1.1 remains as 100%\nESP32 resolution = 4095\n
+$Comp
+L Device:R R?
+U 1 1 5F556B0F
+P 5300 4300
+AR Path="/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F42925A/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F5DF2AE/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5FA72486/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5FA9171D/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5FAB0A4A/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F5DF2AE/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA72486/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA9171D/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FAB0A4A/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53FBE2/5F556B0F" Ref="R1902"  Part="1" 
+AR Path="/5F078D61/5F53FBE6/5F556B0F" Ref="R2002"  Part="1" 
+AR Path="/5F078D61/5F53FBEA/5F556B0F" Ref="R?"  Part="1" 
+F 0 "R2002" V 5200 4300 50  0000 C CNN
+F 1 "10K 1%" V 5400 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5230 4300 50  0001 C CNN
+F 3 "" H 5300 4300 50  0000 C CNN
+F 4 "311-10.0KFRCT-ND" H -16000 -3300 50  0001 C CNN "Digi-Key_PN"
+F 5 "R2002" H 5300 4300 50  0001 C CNN "Reference"
+F 6 "10K 1%" H 5300 4300 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 5300 4300 50  0001 C CNN "Component comment"
+F 8 "YAGEO" H 5300 4300 50  0001 C CNN "MF"
+F 9 "RC1206FR-0710KL" H 5300 4300 50  0001 C CNN "MP"
+	1    5300 4300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F556B10
+P 5300 3650
+AR Path="/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F42925A/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F5DF2AE/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5FA72486/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5FA9171D/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5FAB0A4A/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F5DF2AE/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA72486/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA9171D/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FAB0A4A/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53FBE2/5F556B10" Ref="R1901"  Part="1" 
+AR Path="/5F078D61/5F53FBE6/5F556B10" Ref="R2001"  Part="1" 
+AR Path="/5F078D61/5F53FBEA/5F556B10" Ref="R?"  Part="1" 
+F 0 "R2001" V 5380 3650 50  0000 C CNN
+F 1 "36K 1%" V 5200 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5230 3650 50  0001 C CNN
+F 3 "" H 5300 3650 50  0000 C CNN
+F 4 "311-36.0KFRCT-ND" H -16000 -3950 50  0001 C CNN "Digi-Key_PN"
+F 5 "R2001" H 5300 3650 50  0001 C CNN "Reference"
+F 6 "36K 1%" H 5300 3650 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 5300 3650 50  0001 C CNN "Component comment"
+F 8 "YAGEO" H 5300 3650 50  0001 C CNN "MF"
+F 9 "RC1206FR-0736KL" H 5300 3650 50  0001 C CNN "MP"
+	1    5300 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 5F556B11
+P 5300 4600
+AR Path="/5F5DF2AE/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5FA72486/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5FA9171D/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB0A4A/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F5DF2AE/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA72486/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA9171D/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FAB0A4A/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F53FBE2/5F556B11" Ref="#PWR01901"  Part="1" 
+AR Path="/5F078D61/5F53FBE6/5F556B11" Ref="#PWR02001"  Part="1" 
+AR Path="/5F078D61/5F53FBEA/5F556B11" Ref="#PWR?"  Part="1" 
+F 0 "#PWR02001" H 5300 4350 50  0001 C CNN
+F 1 "GND" H 5305 4427 50  0000 C CNN
+F 2 "" H 5300 4600 50  0001 C CNN
+F 3 "" H 5300 4600 50  0001 C CNN
+	1    5300 4600
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5300 4000
+Wire Wire Line
+	5300 4150 5300 4000
+Wire Wire Line
+	5300 4000 5300 3800
+Text HLabel 5300 3100 1    50   Input ~ 0
+Analog_in
+Text HLabel 6100 4000 2    50   Output ~ 0
+Analog_out
+Wire Wire Line
+	5300 4600 5300 4450
+Wire Wire Line
+	5300 3100 5300 3500
+Wire Wire Line
+	6100 4000 5800 4000
+$Comp
+L Device:C C?
+U 1 1 629D2F43
+P 5800 4150
+AR Path="/629D2F43" Ref="C?"  Part="1" 
+AR Path="/5EF0C7C8/629D2F43" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/629D2F43" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/629D2F43" Ref="C?"  Part="1" 
+AR Path="/5EFDA025/629D2F43" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F53FBE2/629D2F43" Ref="C1201"  Part="1" 
+AR Path="/5F078D61/5F53FBE6/629D2F43" Ref="C1304"  Part="1" 
+F 0 "C1304" H 5915 4196 50  0000 L CNN
+F 1 "0.1uF" H 5800 4050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5838 4000 50  0001 C CNN
+F 3 "" H 5800 4150 50  0001 C CNN
+F 4 "490-4779-1-ND" H 2700 1450 50  0001 C CNN "Digi-Key_PN"
+F 5 "C1304" H 5800 4150 50  0001 C CNN "Reference"
+F 6 "0.1uF" H 5800 4150 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 5800 4150 50  0001 C CNN "Component comment"
+F 8 "Murata Electronics" H 5800 4150 50  0001 C CNN "MF"
+F 9 "GCM188R71H104KA57D" H 5800 4150 50  0001 C CNN "MP"
+	1    5800 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5800 4000
+Wire Wire Line
+	5800 4000 5300 4000
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 629D4215
+P 5800 4300
+AR Path="/5F5DF2AE/629D4215" Ref="#PWR?"  Part="1" 
+AR Path="/5FA72486/629D4215" Ref="#PWR?"  Part="1" 
+AR Path="/5FA9171D/629D4215" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB0A4A/629D4215" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F5DF2AE/629D4215" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA72486/629D4215" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA9171D/629D4215" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FAB0A4A/629D4215" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F53FBE2/629D4215" Ref="#PWR01201"  Part="1" 
+AR Path="/5F078D61/5F53FBE6/629D4215" Ref="#PWR01307"  Part="1" 
+AR Path="/5F078D61/5F53FBEA/629D4215" Ref="#PWR?"  Part="1" 
+F 0 "#PWR01307" H 5800 4050 50  0001 C CNN
+F 1 "GND" H 5805 4127 50  0000 C CNN
+F 2 "" H 5800 4300 50  0001 C CNN
+F 3 "" H 5800 4300 50  0001 C CNN
+	1    5800 4300
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

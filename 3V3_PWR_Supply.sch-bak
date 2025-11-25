@@ -1,0 +1,229 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 27
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7200 6850 0    60   ~ 0
+3.3V 2A pwr supply\n
+Text Notes 7200 6850 0    60   ~ 0
+3.3V 2A pwr supply\n
+Text HLabel 2650 2650 0    50   Input ~ 0
+3.8-32V_IN
+$Comp
+L AP63205:AP63205 IC?
+U 1 1 63EE9617
+P 4050 2550
+AR Path="/5F078D61/5F2AC584/63EE9617" Ref="IC?"  Part="1" 
+AR Path="/5F078D61/5F2AC58D/63EE9617" Ref="IC1101"  Part="1" 
+F 0 "IC1101" H 4050 2917 50  0000 C CNN
+F 1 "AP63203" H 4050 2826 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4050 2550 50  0001 L BNN
+F 3 "" H 4050 2550 50  0001 L BNN
+F 4 "AP63203WU-7DICT-ND" H 4050 2550 50  0001 C CNN "Digi-Key_PN"
+F 5 "Diodes Incorporated" H 4050 2550 50  0001 C CNN "MF"
+F 6 "AP63203WU-7" H 4050 2550 50  0001 C CNN "MP"
+F 7 "IC1101" H 4050 2550 50  0001 C CNN "Reference"
+F 8 "AP63203" H 4050 2550 50  0001 C CNN "Value"
+	1    4050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 63EE962F
+P 5450 2550
+AR Path="/5F078D61/5F2AC584/63EE962F" Ref="L?"  Part="1" 
+AR Path="/5F078D61/5F2AC58D/63EE962F" Ref="L1101"  Part="1" 
+F 0 "L1101" V 5400 2550 50  0000 C CNN
+F 1 "3.9uH 2A" V 5525 2550 50  0000 C CNN
+F 2 "Inductors_SMD:L_Bourns-SRU8043" H 5450 2550 50  0001 C CNN
+F 3 "" H 5450 2550 50  0001 C CNN
+F 4 "L1101" H 5450 2550 50  0001 C CNN "Reference"
+F 5 "3.9uH 2A" H 5450 2550 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 5450 2550 50  0001 C CNN "Component comment"
+F 7 "Bourns Inc." H 5450 2550 50  0001 C CNN "MF"
+F 8 "SRU8043-3R9Y" H 5450 2550 50  0001 C CNN "MP"
+F 9 "SRU8043-3R9YCT-ND" H 5450 2550 50  0001 C CNN "Digi-Key_PN"
+	1    5450 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 63EE963B
+P 4850 2450
+AR Path="/63EE963B" Ref="C?"  Part="1" 
+AR Path="/5EF0C7C8/63EE963B" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/63EE963B" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/63EE963B" Ref="C?"  Part="1" 
+AR Path="/5EFDA025/63EE963B" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F53FBE2/63EE963B" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F53FBE6/63EE963B" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC58D/63EE963B" Ref="C1102"  Part="1" 
+AR Path="/5F078D61/5F2AC584/63EE963B" Ref="C?"  Part="1" 
+F 0 "C1102" H 4650 2550 50  0000 L CNN
+F 1 "0.1uF" H 4600 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4888 2300 50  0001 C CNN
+F 3 "" H 4850 2450 50  0001 C CNN
+F 4 "C1102" H 4850 2450 50  0001 C CNN "Reference"
+F 5 "0.1uF" H 4850 2450 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 4850 2450 50  0001 C CNN "Component comment"
+F 7 "YAGEO" H 4850 2450 50  0001 C CNN "MF"
+F 8 "CC0603KRX7R7BB104" H 4850 2450 50  0001 C CNN "MP"
+F 9 "311-1088-1-ND" H 4850 2450 50  0001 C CNN "Digi-Key_PN"
+	1    4850 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 2550 3400 2550
+Wire Wire Line
+	3400 2550 3400 2650
+Connection ~ 3400 2650
+Wire Wire Line
+	3400 2650 3600 2650
+Wire Wire Line
+	4500 2550 5150 2550
+Wire Wire Line
+	5600 2550 5800 2550
+Text HLabel 6550 2550 2    50   Output ~ 0
+3V3_OUT
+$Comp
+L power:GND #PWR?
+U 1 1 63EE9650
+P 4500 2950
+AR Path="/5F078D61/5F2AC584/63EE9650" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC58D/63EE9650" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 4500 2700 50  0001 C CNN
+F 1 "GND" H 4500 2800 50  0000 C CNN
+F 2 "" H 4500 2950 50  0001 C CNN
+F 3 "" H 4500 2950 50  0001 C CNN
+	1    4500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2650 4500 2950
+$Comp
+L power:GND #PWR?
+U 1 1 63EE9657
+P 6000 2950
+AR Path="/5F078D61/5F2AC584/63EE9657" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC58D/63EE9657" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 6000 2700 50  0001 C CNN
+F 1 "GND" H 6000 2800 50  0000 C CNN
+F 2 "" H 6000 2950 50  0001 C CNN
+F 3 "" H 6000 2950 50  0001 C CNN
+	1    6000 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2850 6000 2950
+Wire Wire Line
+	5000 2450 5150 2450
+Wire Wire Line
+	5150 2450 5150 2550
+Connection ~ 5150 2550
+Wire Wire Line
+	5150 2550 5300 2550
+Wire Wire Line
+	5800 2550 5800 2050
+Wire Wire Line
+	5800 2050 3400 2050
+Wire Wire Line
+	3400 2050 3400 2450
+Wire Wire Line
+	3400 2450 3600 2450
+Connection ~ 5800 2550
+Wire Wire Line
+	4500 2450 4700 2450
+Wire Wire Line
+	2650 2650 3000 2650
+$Comp
+L power:GND #PWR?
+U 1 1 65AA6D16
+P 3000 2950
+AR Path="/5F078D61/5F2AC584/65AA6D16" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC592/65AA6D16" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65AC4B7B/65AA6D16" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC58D/65AA6D16" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 3000 2700 50  0001 C CNN
+F 1 "GND" H 3000 2800 50  0000 C CNN
+F 2 "" H 3000 2950 50  0001 C CNN
+F 3 "" H 3000 2950 50  0001 C CNN
+	1    3000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 65AA6D22
+P 3000 2800
+AR Path="/65AA6D22" Ref="C?"  Part="1" 
+AR Path="/5EF0C7C8/65AA6D22" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65AA6D22" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65AA6D22" Ref="C?"  Part="1" 
+AR Path="/5EFDA025/65AA6D22" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F53FBE2/65AA6D22" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F53FBE6/65AA6D22" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC58D/65AA6D22" Ref="C801"  Part="1" 
+AR Path="/5F078D61/5F2AC584/65AA6D22" Ref="C?"  Part="1" 
+AR Path="/640194D9/65AA6D22" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC592/65AA6D22" Ref="C?"  Part="1" 
+AR Path="/5F078D61/65AC4B7B/65AA6D22" Ref="C?"  Part="1" 
+F 0 "C801" H 3115 2846 50  0000 L CNN
+F 1 "10uF" H 3000 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 3038 2650 50  0001 C CNN
+F 3 "" H 3000 2800 50  0001 C CNN
+F 4 "C801" H 3000 2800 50  0001 C CNN "Reference"
+F 5 "10uF" H 3000 2800 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 3000 2800 50  0001 C CNN "Component comment"
+F 7 "Murata Electronics" H 3000 2800 50  0001 C CNN "MF"
+F 8 "GRM319R6YA106KA12D" H 3000 2800 50  0001 C CNN "MP"
+F 9 "490-9964-1-ND" H 3000 2800 50  0001 C CNN "Digi-Key_PN"
+	1    3000 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 2650
+Wire Wire Line
+	3000 2650 3400 2650
+Wire Wire Line
+	5800 2550 6000 2550
+$Comp
+L Device:C C?
+U 1 1 65AE1BD3
+P 6000 2700
+AR Path="/65AE1BD3" Ref="C?"  Part="1" 
+AR Path="/5EF0C7C8/65AE1BD3" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65AE1BD3" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65AE1BD3" Ref="C?"  Part="1" 
+AR Path="/5EFDA025/65AE1BD3" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F53FBE2/65AE1BD3" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F53FBE6/65AE1BD3" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC58D/65AE1BD3" Ref="C802"  Part="1" 
+AR Path="/5F078D61/5F2AC584/65AE1BD3" Ref="C?"  Part="1" 
+AR Path="/640194D9/65AE1BD3" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC592/65AE1BD3" Ref="C?"  Part="1" 
+AR Path="/5F078D61/65AC4B7B/65AE1BD3" Ref="C?"  Part="1" 
+F 0 "C802" H 6115 2746 50  0000 L CNN
+F 1 "22uF" H 6000 2600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6038 2550 50  0001 C CNN
+F 3 "" H 6000 2700 50  0001 C CNN
+F 4 "1276-2728-1-ND" H 2900 0   50  0001 C CNN "Digi-Key_PN"
+F 5 "C802" H 6000 2700 50  0001 C CNN "Reference"
+F 6 "22uF" H 6000 2700 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 6000 2700 50  0001 C CNN "Component comment"
+F 8 "Samsung Electro-Mechanics" H 6000 2700 50  0001 C CNN "MF"
+F 9 "CL31A226MOCLNNC" H 6000 2700 50  0001 C CNN "MP"
+	1    6000 2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 2550
+Wire Wire Line
+	6000 2550 6550 2550
+$EndSCHEMATC

@@ -1,0 +1,433 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 19 27
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 2250 2250 1300 550 
+U 65D7272B
+F0 "36V_PWR_Supply" 50
+F1 "36V_PWR_Supply.sch" 50
+F2 "3-36V_IN" I L 2250 2500 50 
+F3 "36V_OUT" O R 3550 2500 50 
+$EndSheet
+Text HLabel 2250 2500 0    50   Input ~ 0
+3-36V_IN
+$Comp
+L Device:R R?
+U 1 1 65DC0953
+P 4400 3300
+AR Path="/65DC0953" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/65DC0953" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65DC0953" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65DC0953" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/65DC0953" Ref="R?"  Part="1" 
+AR Path="/5F14E81E/65DC0953" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F14E81E/65DC0953" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F512514/65DC0953" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63DE8BAC/65DC0953" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65D7272B/65DC0953" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65DC0953" Ref="R2406"  Part="1" 
+F 0 "R2406" V 4300 3250 50  0000 L CNN
+F 1 "1K" V 4500 3250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 3300 50  0001 C CNN
+F 3 "" H 4400 3300 50  0001 C CNN
+F 4 "R2406" H 4400 3300 50  0001 C CNN "Reference"
+F 5 "1K" H 4400 3300 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 4400 3300 50  0001 C CNN "Component comment"
+F 7 "Stackpole Electronics Inc" H 4400 3300 50  0001 C CNN "MF"
+F 8 "RMCF0603FT1K00" H 4400 3300 50  0001 C CNN "MP"
+F 9 "RMCF0603FT1K00CT-ND" H 4400 3300 50  0001 C CNN "Digi-Key_PN"
+F 10 "exp_v1" V 4400 3300 50  0001 C CNN "pcb"
+	1    4400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65DC09FA
+P 4400 4100
+AR Path="/65DC09FA" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/65DC09FA" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65DC09FA" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65DC09FA" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/65DC09FA" Ref="R?"  Part="1" 
+AR Path="/5F14E81E/65DC09FA" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F14E81E/65DC09FA" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F512514/65DC09FA" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63DE8BAC/65DC09FA" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65D7272B/65DC09FA" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65DC09FA" Ref="R2407"  Part="1" 
+F 0 "R2407" V 4300 4050 50  0000 L CNN
+F 1 "1K" V 4500 4050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 4100 50  0001 C CNN
+F 3 "" H 4400 4100 50  0001 C CNN
+F 4 "R2407" H 4400 4100 50  0001 C CNN "Reference"
+F 5 "1K" H 4400 4100 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 4400 4100 50  0001 C CNN "Component comment"
+F 7 "Stackpole Electronics Inc" H 4400 4100 50  0001 C CNN "MF"
+F 8 "RMCF0603FT1K00" H 4400 4100 50  0001 C CNN "MP"
+F 9 "RMCF0603FT1K00CT-ND" H 4400 4100 50  0001 C CNN "Digi-Key_PN"
+F 10 "exp_v1" V 4400 4100 50  0001 C CNN "pcb"
+	1    4400 4100
+	0    1    1    0   
+$EndComp
+Text HLabel 4250 3300 0    50   Input ~ 0
+Tx
+Text HLabel 4250 4100 0    50   Input ~ 0
+Rx
+$Comp
+L Transistor_BJT:BC337 Q2402
+U 1 1 65DC1172
+P 4950 3300
+F 0 "Q2402" H 5141 3346 50  0000 L CNN
+F 1 "BC337" H 5141 3255 50  0000 L CNN
+F 2 "TO_SOT_THT:TO-92L_Inline" H 5150 3225 50  0001 L CIN
+F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 4950 3300 50  0001 L CNN
+F 4 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 4950 3300 50  0001 C CNN "Datasheet"
+F 5 "Q2402" H 4950 3300 50  0001 C CNN "Reference"
+F 6 "BC337" H 4950 3300 50  0001 C CNN "Value"
+F 7 "BC33716BU-ND" H 4950 3300 50  0001 C CNN "Digi-Key_PN"
+F 8 "onsemi" H 4950 3300 50  0001 C CNN "MF"
+F 9 "BC33716BU" H 4950 3300 50  0001 C CNN "MP"
+F 10 "Through-hole" H 4950 3300 50  0001 C CNN "Mount type"
+F 11 "exp_v1" H 4950 3300 50  0001 C CNN "pcb"
+	1    4950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC337 Q2403
+U 1 1 65DC190E
+P 7250 3550
+F 0 "Q2403" H 7441 3596 50  0000 L CNN
+F 1 "BC337" H 7441 3505 50  0000 L CNN
+F 2 "TO_SOT_THT:TO-92L_Inline" H 7450 3475 50  0001 L CIN
+F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 7250 3550 50  0001 L CNN
+F 4 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 7250 3550 50  0001 C CNN "Datasheet"
+F 5 "Q2403" H 7250 3550 50  0001 C CNN "Reference"
+F 6 "BC337" H 7250 3550 50  0001 C CNN "Value"
+F 7 "BC33716BU-ND" H 7250 3550 50  0001 C CNN "Digi-Key_PN"
+F 8 "onsemi" H 7250 3550 50  0001 C CNN "MF"
+F 9 "BC33716BU" H 7250 3550 50  0001 C CNN "MP"
+F 10 "Through-hole" H 7250 3550 50  0001 C CNN "Mount type"
+F 11 "exp_v1" H 7250 3550 50  0001 C CNN "pcb"
+	1    7250 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65DC1F1E
+P 5700 2650
+AR Path="/65DC1F1E" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/65DC1F1E" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65DC1F1E" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65DC1F1E" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/65DC1F1E" Ref="R?"  Part="1" 
+AR Path="/5F14E81E/65DC1F1E" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F14E81E/65DC1F1E" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F512514/65DC1F1E" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63DE8BAC/65DC1F1E" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65D7272B/65DC1F1E" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65DC1F1E" Ref="R2408"  Part="1" 
+F 0 "R2408" V 5600 2600 50  0000 L CNN
+F 1 "39K" V 5800 2600 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5630 2650 50  0001 C CNN
+F 3 "" H 5700 2650 50  0001 C CNN
+F 4 "R2408" H 5700 2650 50  0001 C CNN "Reference"
+F 5 "39K" H 5700 2650 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 5700 2650 50  0001 C CNN "Component comment"
+F 7 "Stackpole Electronics Inc" H 5700 2650 50  0001 C CNN "MF"
+F 8 "RMCF1206FT39K0" H 5700 2650 50  0001 C CNN "MP"
+F 9 "738-RMCF1206FT39K0CT-ND" H 5700 2650 50  0001 C CNN "Digi-Key_PN"
+F 10 "exp_v1" V 5700 2650 50  0001 C CNN "pcb"
+	1    5700 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65DC26B0
+P 5700 3600
+AR Path="/65DC26B0" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/65DC26B0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65DC26B0" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65DC26B0" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/65DC26B0" Ref="R?"  Part="1" 
+AR Path="/5F14E81E/65DC26B0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F14E81E/65DC26B0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F512514/65DC26B0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63DE8BAC/65DC26B0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65D7272B/65DC26B0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65DC26B0" Ref="R2409"  Part="1" 
+F 0 "R2409" V 5600 3550 50  0000 L CNN
+F 1 "22K" V 5800 3550 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5630 3600 50  0001 C CNN
+F 3 "" H 5700 3600 50  0001 C CNN
+F 4 "R2409" H 5700 3600 50  0001 C CNN "Reference"
+F 5 "22K" H 5700 3600 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 5700 3600 50  0001 C CNN "Component comment"
+F 7 "Stackpole Electronics Inc" H 5700 3600 50  0001 C CNN "MF"
+F 8 "RMCF1206JT22K0" H 5700 3600 50  0001 C CNN "MP"
+F 9 "RMCF1206JT22K0CT-ND" H 5700 3600 50  0001 C CNN "Digi-Key_PN"
+F 10 "exp_v1" V 5700 3600 50  0001 C CNN "pcb"
+	1    5700 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65DC35F6
+P 6400 2650
+AR Path="/65DC35F6" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/65DC35F6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65DC35F6" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65DC35F6" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/65DC35F6" Ref="R?"  Part="1" 
+AR Path="/5F14E81E/65DC35F6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F14E81E/65DC35F6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F512514/65DC35F6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63DE8BAC/65DC35F6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65D7272B/65DC35F6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65DC35F6" Ref="R2410"  Part="1" 
+F 0 "R2410" V 6300 2600 50  0000 L CNN
+F 1 "33K" V 6500 2600 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6330 2650 50  0001 C CNN
+F 3 "" H 6400 2650 50  0001 C CNN
+F 4 "R2410" H 6400 2650 50  0001 C CNN "Reference"
+F 5 "33K" H 6400 2650 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 6400 2650 50  0001 C CNN "Component comment"
+F 7 "Stackpole Electronics Inc" H 6400 2650 50  0001 C CNN "MF"
+F 8 "RMCF1206JT33K0" H 6400 2650 50  0001 C CNN "MP"
+F 9 "RMCF1206JT33K0CT-ND" H 6400 2650 50  0001 C CNN "Digi-Key_PN"
+F 10 "exp_v1" V 6400 2650 50  0001 C CNN "pcb"
+	1    6400 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65DC39E0
+P 6400 3600
+AR Path="/65DC39E0" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/65DC39E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65DC39E0" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65DC39E0" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/65DC39E0" Ref="R?"  Part="1" 
+AR Path="/5F14E81E/65DC39E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F14E81E/65DC39E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F512514/65DC39E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63DE8BAC/65DC39E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65D7272B/65DC39E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65DC39E0" Ref="R2411"  Part="1" 
+F 0 "R2411" V 6300 3550 50  0000 L CNN
+F 1 "3K3" V 6500 3550 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6330 3600 50  0001 C CNN
+F 3 "" H 6400 3600 50  0001 C CNN
+F 4 "R2411" H 6400 3600 50  0001 C CNN "Reference"
+F 5 "3K3" H 6400 3600 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 6400 3600 50  0001 C CNN "Component comment"
+F 7 "Stackpole Electronics Inc" H 6400 3600 50  0001 C CNN "MF"
+F 8 "RMCF1206JT3K30" H 6400 3600 50  0001 C CNN "MP"
+F 9 "RMCF1206JT3K30CT-ND" H 6400 3600 50  0001 C CNN "Digi-Key_PN"
+F 10 "exp_v1" V 6400 3600 50  0001 C CNN "pcb"
+	1    6400 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65DC49B5
+P 8050 2650
+AR Path="/65DC49B5" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/65DC49B5" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65DC49B5" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65DC49B5" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/65DC49B5" Ref="R?"  Part="1" 
+AR Path="/5F14E81E/65DC49B5" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F14E81E/65DC49B5" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F512514/65DC49B5" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63DE8BAC/65DC49B5" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65D7272B/65DC49B5" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65DC49B5" Ref="R2412"  Part="1" 
+F 0 "R2412" V 7950 2600 50  0000 L CNN
+F 1 "220K" V 8150 2600 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7980 2650 50  0001 C CNN
+F 3 "" H 8050 2650 50  0001 C CNN
+F 4 "R2412" H 8050 2650 50  0001 C CNN "Reference"
+F 5 "220K" H 8050 2650 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 8050 2650 50  0001 C CNN "Component comment"
+F 7 "Stackpole Electronics Inc" H 8050 2650 50  0001 C CNN "MF"
+F 8 "RMCF1206JT220K" H 8050 2650 50  0001 C CNN "MP"
+F 9 "RMCF1206JT220KCT-ND" H 8050 2650 50  0001 C CNN "Digi-Key_PN"
+F 10 "exp_v1" V 8050 2650 50  0001 C CNN "pcb"
+	1    8050 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65DC4F67
+P 8050 3750
+AR Path="/65DC4F67" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/65DC4F67" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65DC4F67" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65DC4F67" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/65DC4F67" Ref="R?"  Part="1" 
+AR Path="/5F14E81E/65DC4F67" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F14E81E/65DC4F67" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F512514/65DC4F67" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63DE8BAC/65DC4F67" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65D7272B/65DC4F67" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65DA0C7E/65DC4F67" Ref="R2413"  Part="1" 
+F 0 "R2413" V 7950 3700 50  0000 L CNN
+F 1 "82" V 8150 3700 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 7980 3750 50  0001 C CNN
+F 3 "" H 8050 3750 50  0001 C CNN
+F 4 "R2413" H 8050 3750 50  0001 C CNN "Reference"
+F 5 "82" H 8050 3750 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 8050 3750 50  0001 C CNN "Component comment"
+F 7 "Stackpole Electronics Inc" H 8050 3750 50  0001 C CNN "MF"
+F 8 "RMCF1206FT82R0" H 8050 3750 50  0001 C CNN "MP"
+F 9 "738-RMCF1206FT82R0CT-ND" H 8050 3750 50  0001 C CNN "Digi-Key_PN"
+F 10 "exp_v1" V 8050 3750 50  0001 C CNN "pcb"
+	1    8050 3750
+	-1   0    0    1   
+$EndComp
+Text HLabel 8850 2600 2    50   Input ~ 0
+MBus+
+Text HLabel 8900 2800 2    50   Input ~ 0
+MBus-
+$Comp
+L Device:Q_PNP_BCE Q2404
+U 1 1 65DC5B4B
+P 7950 3100
+F 0 "Q2404" H 8142 3054 50  0000 L CNN
+F 1 "BD136" H 8142 3145 50  0000 L CNN
+F 2 "I_Connect:TO126" H 8150 3025 50  0001 L CIN
+F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 7950 3100 50  0001 L CNN
+F 4 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 7950 3100 50  0001 C CNN "Datasheet"
+F 5 "Q2404" H 7950 3100 50  0001 C CNN "Reference"
+F 6 "BD136" H 7950 3100 50  0001 C CNN "Value"
+F 7 "497-14759-5-ND" H 7950 3100 50  0001 C CNN "Digi-Key_PN"
+F 8 "STMicroelectronics" H 7950 3100 50  0001 C CNN "MF"
+F 9 "BD136" H 7950 3100 50  0001 C CNN "MP"
+F 10 "Through-hole" H 7950 3100 50  0001 C CNN "Mount type"
+F 11 "exp_v1" H 7950 3100 50  0001 C CNN "pcb"
+	1    7950 3100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4550 3300 4750 3300
+Wire Wire Line
+	8050 2800 8050 2900
+Wire Wire Line
+	8050 3300 8050 3550
+$Comp
+L C-Sense_diverse:GND #PWR02404
+U 1 1 65DCEE27
+P 5050 3500
+F 0 "#PWR02404" H 5050 3250 50  0001 C CNN
+F 1 "GND" H 5055 3327 50  0000 C CNN
+F 2 "" H 5050 3500 50  0001 C CNN
+F 3 "" H 5050 3500 50  0001 C CNN
+	1    5050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR02405
+U 1 1 65DCF2BD
+P 5700 3750
+F 0 "#PWR02405" H 5700 3500 50  0001 C CNN
+F 1 "GND" H 5705 3577 50  0000 C CNN
+F 2 "" H 5700 3750 50  0001 C CNN
+F 3 "" H 5700 3750 50  0001 C CNN
+	1    5700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR02406
+U 1 1 65DCFA3F
+P 6400 3750
+F 0 "#PWR02406" H 6400 3500 50  0001 C CNN
+F 1 "GND" H 6405 3577 50  0000 C CNN
+F 2 "" H 6400 3750 50  0001 C CNN
+F 3 "" H 6400 3750 50  0001 C CNN
+	1    6400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR02407
+U 1 1 65DCFE04
+P 7150 3750
+F 0 "#PWR02407" H 7150 3500 50  0001 C CNN
+F 1 "GND" H 7155 3577 50  0000 C CNN
+F 2 "" H 7150 3750 50  0001 C CNN
+F 3 "" H 7150 3750 50  0001 C CNN
+	1    7150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR02408
+U 1 1 65DD028A
+P 8050 3900
+F 0 "#PWR02408" H 8050 3650 50  0001 C CNN
+F 1 "GND" H 8055 3727 50  0000 C CNN
+F 2 "" H 8050 3900 50  0001 C CNN
+F 3 "" H 8050 3900 50  0001 C CNN
+	1    8050 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3450 6400 3350
+Wire Wire Line
+	6400 3350 6050 3350
+Wire Wire Line
+	6050 3350 6050 4100
+Wire Wire Line
+	6050 4100 4550 4100
+Connection ~ 6400 3350
+Wire Wire Line
+	6400 3350 6400 2800
+Wire Wire Line
+	5050 3100 5700 3100
+Wire Wire Line
+	5700 3450 5700 3100
+Connection ~ 5700 3100
+Wire Wire Line
+	5700 3100 7750 3100
+Wire Wire Line
+	5700 3100 5700 2800
+Wire Wire Line
+	3550 2500 5700 2500
+Connection ~ 5700 2500
+Wire Wire Line
+	5700 2500 6400 2500
+Connection ~ 6400 2500
+Wire Wire Line
+	6400 2500 8050 2500
+Wire Wire Line
+	8050 2500 8650 2500
+Wire Wire Line
+	8650 2500 8650 2600
+Wire Wire Line
+	8650 2600 8850 2600
+Connection ~ 8050 2500
+Wire Wire Line
+	8050 2900 8650 2900
+Wire Wire Line
+	8650 2900 8650 2800
+Wire Wire Line
+	8650 2800 8900 2800
+Connection ~ 8050 2900
+Wire Wire Line
+	6400 3350 7150 3350
+Wire Wire Line
+	7450 3550 8050 3550
+Connection ~ 8050 3550
+Wire Wire Line
+	8050 3550 8050 3600
+$EndSCHEMATC

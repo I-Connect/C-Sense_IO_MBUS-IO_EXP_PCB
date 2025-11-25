@@ -1,0 +1,204 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 15 27
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L I-Connect_diverse:BSN20 Q?
+U 1 1 658EDAAF
+P 4850 3200
+AR Path="/658EDAAF" Ref="Q?"  Part="1" 
+AR Path="/61FEE2D8/658EDAAF" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/658EDAAF" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/659AA85E/658EDAAF" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/658ECD7D/658EDAAF" Ref="Q1801"  Part="1" 
+F 0 "Q1801" V 5050 3250 50  0000 L CNN
+F 1 "30V N-FET" V 5100 3150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5050 3125 50  0001 L CIN
+F 3 "" H 4850 3200 50  0001 L CNN
+F 4 "DMN63D8L-7DICT-ND" H -5800 1050 50  0001 C CNN "Digi-Key_PN"
+F 5 "" H 4850 3200 50  0001 C CNN "Datasheet"
+F 6 "Q1801" H 4850 3200 50  0001 C CNN "Reference"
+F 7 "30V N-FET" H 4850 3200 50  0001 C CNN "Value"
+F 8 "Diodes Incorporated" H 4850 3200 50  0001 C CNN "MF"
+F 9 "DMN63D8L-7" H 4850 3200 50  0001 C CNN "MP"
+	1    4850 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR0115
+U 1 1 658EED14
+P 4750 3400
+F 0 "#PWR0115" H 4750 3150 50  0001 C CNN
+F 1 "GND" H 4755 3227 50  0000 C CNN
+F 2 "" H 4750 3400 50  0001 C CNN
+F 3 "" H 4750 3400 50  0001 C CNN
+	1    4750 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 658F132E
+P 4750 2550
+AR Path="/658F132E" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/658F132E" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/658F132E" Ref="R?"  Part="1" 
+AR Path="/5F078D61/659AA85E/658F132E" Ref="R?"  Part="1" 
+AR Path="/5F078D61/658ECD7D/658F132E" Ref="R1801"  Part="1" 
+F 0 "R1801" V 4850 2500 50  0000 L CNN
+F 1 "10K" V 4650 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4680 2550 50  0001 C CNN
+F 3 "" H 4750 2550 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H -6500 550 50  0001 C CNN "Digi-Key_PN"
+F 5 "R1801" H 4750 2550 50  0001 C CNN "Reference"
+F 6 "10K" H 4750 2550 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 4750 2550 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 4750 2550 50  0001 C CNN "MF"
+F 9 "RMCF0603FT10K0" H 4750 2550 50  0001 C CNN "MP"
+	1    4750 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 658F1D38
+P 5500 2550
+AR Path="/658F1D38" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/658F1D38" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/658F1D38" Ref="R?"  Part="1" 
+AR Path="/5F078D61/659AA85E/658F1D38" Ref="R?"  Part="1" 
+AR Path="/5F078D61/658ECD7D/658F1D38" Ref="R1802"  Part="1" 
+F 0 "R1802" V 5600 2500 50  0000 L CNN
+F 1 "10K" V 5400 2500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 2550 50  0001 C CNN
+F 3 "" H 5500 2550 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H -5750 550 50  0001 C CNN "Digi-Key_PN"
+F 5 "R1802" H 5500 2550 50  0001 C CNN "Reference"
+F 6 "10K" H 5500 2550 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 5500 2550 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 5500 2550 50  0001 C CNN "MF"
+F 9 "RMCF0603FT10K0" H 5500 2550 50  0001 C CNN "MP"
+	1    5500 2550
+	-1   0    0    1   
+$EndComp
+Text HLabel 5500 2400 1    50   Input ~ 0
+3V3
+Text HLabel 4750 2400 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	4750 2700 4750 2850
+Wire Wire Line
+	5500 2700 5500 3250
+Text HLabel 4250 2850 0    50   Output ~ 0
+P1_Data(INV)
+Text HLabel 5950 3250 2    50   Input ~ 0
+P1_Data_IN
+Wire Wire Line
+	4250 2850 4750 2850
+Connection ~ 4750 2850
+Wire Wire Line
+	4750 2850 4750 3000
+Text HLabel 5950 3700 2    50   Input ~ 0
+P1_RTS_OUT
+Connection ~ 5500 3250
+Wire Wire Line
+	5500 3250 5050 3250
+Text HLabel 4250 3700 0    50   Input ~ 0
+P1_RTS
+Wire Wire Line
+	5950 3700 5900 3700
+$Comp
+L C-Sense_diverse:GND #PWR0118
+U 1 1 65905A54
+P 5800 4750
+F 0 "#PWR0118" H 5800 4500 50  0001 C CNN
+F 1 "GND" H 5805 4577 50  0000 C CNN
+F 2 "" H 5800 4750 50  0001 C CNN
+F 3 "" H 5800 4750 50  0001 C CNN
+	1    5800 4750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4650 5800 4750
+Wire Wire Line
+	5900 4250 5900 3700
+Connection ~ 5900 3700
+Wire Wire Line
+	5900 3700 5250 3700
+$Comp
+L Power_Protection:SZNUP2105L D?
+U 1 1 65933265
+P 5800 4450
+AR Path="/5F078D61/65933265" Ref="D?"  Part="1" 
+AR Path="/5F078D61/659AA85E/65933265" Ref="D?"  Part="1" 
+AR Path="/5F078D61/658ECD7D/65933265" Ref="D1801"  Part="1" 
+F 0 "D1801" V 5900 4200 50  0000 C CNN
+F 1 "TVS 5V (2ch)" V 5550 4400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6025 4400 50  0001 L CNN
+F 3 "" H 5925 4575 50  0001 C CNN
+F 4 "D5V0L2B3SO-7DICT-ND" H 5800 4450 50  0001 C CNN "Digi-Key_PN"
+F 5 "D1801" H 5800 4450 50  0001 C CNN "Reference"
+F 6 "TVS 5V (2ch)" H 5800 4450 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 5800 4450 50  0001 C CNN "Component comment"
+F 8 "Diodes Incorporated" H 5800 4450 50  0001 C CNN "MF"
+F 9 "D5V0L2B3SO-7" H 5800 4450 50  0001 C CNN "MP"
+	1    5800 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3250 5700 3250
+Wire Wire Line
+	5700 4250 5700 3250
+Connection ~ 5700 3250
+Wire Wire Line
+	5700 3250 5500 3250
+$Comp
+L Device:C C?
+U 1 1 65939388
+P 5250 4450
+AR Path="/65939388" Ref="C?"  Part="1" 
+AR Path="/61FEE2D8/65939388" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/65939388" Ref="C?"  Part="1" 
+AR Path="/5F078D61/659AA85E/65939388" Ref="C?"  Part="1" 
+AR Path="/5F078D61/658ECD7D/65939388" Ref="C1801"  Part="1" 
+F 0 "C1801" H 5100 4550 50  0000 L CNN
+F 1 "1uF" H 5100 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5288 4300 50  0001 C CNN
+F 3 "" H 5250 4450 50  0001 C CNN
+F 4 "311-1446-1-ND" H -2200 750 50  0001 C CNN "Digi-Key_PN"
+F 5 "C1801" H 5250 4450 50  0001 C CNN "Reference"
+F 6 "1uF" H 5250 4450 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 5250 4450 50  0001 C CNN "Component comment"
+F 8 "YAGEO" H 5250 4450 50  0001 C CNN "MF"
+F 9 "CC0603KRX7R7BB105" H 5250 4450 50  0001 C CNN "MP"
+	1    5250 4450
+	1    0    0    1   
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR0119
+U 1 1 6593B227
+P 5250 4750
+F 0 "#PWR0119" H 5250 4500 50  0001 C CNN
+F 1 "GND" H 5255 4577 50  0000 C CNN
+F 2 "" H 5250 4750 50  0001 C CNN
+F 3 "" H 5250 4750 50  0001 C CNN
+	1    5250 4750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4300 5250 3700
+Connection ~ 5250 3700
+Wire Wire Line
+	5250 3700 4250 3700
+Wire Wire Line
+	5250 4600 5250 4750
+$EndSCHEMATC

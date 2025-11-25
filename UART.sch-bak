@@ -1,0 +1,302 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 64054819
+P 5550 2600
+AR Path="/64054819" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/64054819" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/64054819" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F5952E3/64054819" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/60256B3C/64054819" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/602570F8/64054819" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/6025B766/64054819" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/61CB59A8/64054819" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63F37544/64054819" Ref="R?"  Part="1" 
+AR Path="/5F078D61/6404ED7F/64054819" Ref="R1404"  Part="1" 
+AR Path="/5F078D61/6408967E/64054819" Ref="R?"  Part="1" 
+F 0 "R1404" V 5650 2550 50  0000 L CNN
+F 1 "500" V 5450 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5480 2600 50  0001 C CNN
+F 3 "" H 5550 2600 50  0001 C CNN
+F 4 "R1404" H 5550 2600 50  0001 C CNN "Reference"
+F 5 "500" H 5550 2600 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 5550 2600 50  0001 C CNN "Component comment"
+F 7 "" H 5550 2600 50  0001 C CNN "MF"
+F 8 "" H 5550 2600 50  0001 C CNN "MP"
+	1    5550 2600
+	1    0    0    1   
+$EndComp
+Text HLabel 4650 2400 1    50   Input ~ 0
+3V3
+Text HLabel 5550 2350 1    50   Input ~ 0
+V_EXT
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 64054821
+P 4850 3100
+AR Path="/5F078D61/63F37544/64054821" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/6404ED7F/64054821" Ref="#PWR0121"  Part="1" 
+AR Path="/5F078D61/6408967E/64054821" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0121" H 4850 2850 50  0001 C CNN
+F 1 "GND" H 4855 2927 50  0000 C CNN
+F 2 "" H 4850 3100 50  0001 C CNN
+F 3 "" H 4850 3100 50  0001 C CNN
+	1    4850 3100
+	0    1    1    0   
+$EndComp
+Text HLabel 4350 2900 0    50   Input ~ 0
+RXD_INT
+Text HLabel 4350 3600 0    50   Input ~ 0
+TXD_INT
+$Comp
+L Isolator:SFH617A-1 U?
+U 1 1 64054831
+P 5150 3000
+AR Path="/5F078D61/61E3ADD8/64054831" Ref="U?"  Part="1" 
+AR Path="/5F078D61/61E50563/64054831" Ref="U?"  Part="1" 
+AR Path="/5F078D61/63F37544/64054831" Ref="U?"  Part="1" 
+AR Path="/5F078D61/6404ED7F/64054831" Ref="U1401"  Part="1" 
+AR Path="/5F078D61/6408967E/64054831" Ref="U?"  Part="1" 
+F 0 "U1401" H 5150 3325 50  0000 C CNN
+F 1 "LTV-817" H 5150 3234 50  0000 C CNN
+F 2 "digikey-footprints:SMD-4_4.6x7.62mm_P2.54mm" H 4950 2800 50  0001 L CIN
+F 3 "" H 5150 3000 50  0001 L CNN
+F 4 "160-1893-1-ND" H 5150 3000 50  0001 C CNN "Digi-Key_PN"
+F 5 "none" H 1250 -100 50  0001 C CNN "Component comment"
+F 6 "" H 1250 -100 50  0001 C CNN "Manufacturer"
+F 7 "" H 1250 -100 50  0001 C CNN "Manufacturer_PN"
+F 8 "Lite-On Inc." H 5150 3000 50  0001 C CNN "MF"
+F 9 "LTV-817S-TA1" H 5150 3000 50  0001 C CNN "MP"
+F 10 "U1401" H 5150 3000 50  0001 C CNN "Reference"
+F 11 "LTV-817" H 5150 3000 50  0001 C CNN "Value"
+	1    5150 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Isolator:SFH617A-1 U?
+U 1 1 6405483F
+P 5150 3500
+AR Path="/5F078D61/61E3ADD8/6405483F" Ref="U?"  Part="1" 
+AR Path="/5F078D61/61E50563/6405483F" Ref="U?"  Part="1" 
+AR Path="/5F078D61/63F37544/6405483F" Ref="U?"  Part="1" 
+AR Path="/5F078D61/6404ED7F/6405483F" Ref="U1402"  Part="1" 
+AR Path="/5F078D61/6408967E/6405483F" Ref="U?"  Part="1" 
+F 0 "U1402" H 5150 3825 50  0000 C CNN
+F 1 "LTV-817" H 5150 3734 50  0000 C CNN
+F 2 "digikey-footprints:SMD-4_4.6x7.62mm_P2.54mm" H 4950 3300 50  0001 L CIN
+F 3 "" H 5150 3500 50  0001 L CNN
+F 4 "160-1893-1-ND" H 5150 3500 50  0001 C CNN "Digi-Key_PN"
+F 5 "none" H 1250 400 50  0001 C CNN "Component comment"
+F 6 "" H 1250 400 50  0001 C CNN "Manufacturer"
+F 7 "" H 1250 400 50  0001 C CNN "Manufacturer_PN"
+F 8 "Lite-On Inc." H 5150 3500 50  0001 C CNN "MF"
+F 9 "LTV-817S-TA1" H 5150 3500 50  0001 C CNN "MP"
+F 10 "U1402" H 5150 3500 50  0001 C CNN "Reference"
+F 11 "LTV-817" H 5150 3500 50  0001 C CNN "Value"
+	1    5150 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2900 5450 2900
+Wire Wire Line
+	5450 3400 5950 3400
+Wire Wire Line
+	5550 2350 5550 2450
+Wire Wire Line
+	5550 2750 5550 2900
+Wire Wire Line
+	4850 3600 4350 3600
+Wire Wire Line
+	4350 2900 4650 2900
+Wire Wire Line
+	4650 2750 4650 2900
+Connection ~ 4650 2900
+Wire Wire Line
+	4650 2900 4850 2900
+Wire Wire Line
+	4650 2400 4650 2450
+Text HLabel 4200 3400 0    50   Input ~ 0
+3V3
+$Comp
+L Device:R R?
+U 1 1 64054856
+P 4600 3400
+AR Path="/64054856" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/64054856" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/64054856" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F5952E3/64054856" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/60256B3C/64054856" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/602570F8/64054856" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/6025B766/64054856" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/61CB59A8/64054856" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63F37544/64054856" Ref="R?"  Part="1" 
+AR Path="/5F078D61/6404ED7F/64054856" Ref="R1402"  Part="1" 
+AR Path="/5F078D61/6408967E/64054856" Ref="R?"  Part="1" 
+F 0 "R1402" V 4700 3350 50  0000 L CNN
+F 1 "330" V 4500 3350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4530 3400 50  0001 C CNN
+F 3 "" H 4600 3400 50  0001 C CNN
+F 4 "R1402" H 4600 3400 50  0001 C CNN "Reference"
+F 5 "330" H 4600 3400 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 4600 3400 50  0001 C CNN "Component comment"
+F 7 "" H 4600 3400 50  0001 C CNN "MF"
+F 8 "" H 4600 3400 50  0001 C CNN "MP"
+	1    4600 3400
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4750 3400 4850 3400
+Wire Wire Line
+	4450 3400 4200 3400
+$Comp
+L Device:R R?
+U 1 1 64054863
+P 4650 2600
+AR Path="/64054863" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/64054863" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/64054863" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F5952E3/64054863" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/60256B3C/64054863" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/602570F8/64054863" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/6025B766/64054863" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/61CB59A8/64054863" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63F37544/64054863" Ref="R?"  Part="1" 
+AR Path="/5F078D61/6404ED7F/64054863" Ref="R1403"  Part="1" 
+AR Path="/5F078D61/6408967E/64054863" Ref="R?"  Part="1" 
+F 0 "R1403" V 4750 2550 50  0000 L CNN
+F 1 "10K" V 4550 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4580 2600 50  0001 C CNN
+F 3 "" H 4650 2600 50  0001 C CNN
+F 4 "R1403" H 4650 2600 50  0001 C CNN "Reference"
+F 5 "10K" H 4650 2600 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 4650 2600 50  0001 C CNN "Component comment"
+F 7 "" H 4650 2600 50  0001 C CNN "MF"
+F 8 "" H 4650 2600 50  0001 C CNN "MP"
+	1    4650 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 64054869
+P 5550 3800
+AR Path="/5F078D61/63F37544/64054869" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/6404ED7F/64054869" Ref="#PWR0122"  Part="1" 
+AR Path="/5F078D61/6408967E/64054869" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0122" H 5550 3550 50  0001 C CNN
+F 1 "GND" H 5555 3627 50  0000 C CNN
+F 2 "" H 5550 3800 50  0001 C CNN
+F 3 "" H 5550 3800 50  0001 C CNN
+	1    5550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3600 5550 3600
+Wire Wire Line
+	5550 3600 5550 3800
+Text HLabel 6400 3100 2    50   Input ~ 0
+RXD_EXT
+Text HLabel 6400 3400 2    50   Input ~ 0
+TXD_EXT
+$Comp
+L dk_TVS-Diodes:PESD1CAN-UX D?
+U 1 1 6405EE23
+P 6200 4050
+AR Path="/5F078D61/63F37544/6405EE23" Ref="D?"  Part="1" 
+AR Path="/5F078D61/6404ED7F/6405EE23" Ref="D1402"  Part="1" 
+AR Path="/5F078D61/6408967E/6405EE23" Ref="D?"  Part="1" 
+F 0 "D1402" V 6072 4278 60  0000 L CNN
+F 1 "TVS 7V" V 6178 4278 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-3" H 6400 4250 60  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf" H 6400 4350 60  0001 L CNN
+F 4 "1727-1306-1-ND" H 6400 4450 60  0001 L CNN "Digi-Key_PN"
+F 5 "PESD1CAN-UX" H 6400 4550 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 6400 4650 60  0001 L CNN "Category"
+F 7 "TVS - Diodes" H 6400 4750 60  0001 L CNN "Family"
+F 8 "https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf" H 6400 4850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/nexperia-usa-inc/PESD1CAN-UX/1727-1306-1-ND/4386316" H 6400 4950 60  0001 L CNN "DK_Detail_Page"
+F 10 "TVS DIODE 24V 50V SOT323-3" H 6400 5050 60  0001 L CNN "Description"
+F 11 "Nexperia USA Inc." H 6400 5150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6400 5250 60  0001 L CNN "Status"
+F 13 "https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf" H 6200 4050 50  0001 C CNN "Datasheet"
+F 14 "D1402" H 6200 4050 50  0001 C CNN "Reference"
+F 15 "TVS 7V" H 6200 4050 50  0001 C CNN "Value"
+	1    6200 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 6405EE29
+P 6200 4400
+AR Path="/5F078D61/63F37544/6405EE29" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/6404ED7F/6405EE29" Ref="#PWR0123"  Part="1" 
+AR Path="/5F078D61/6408967E/6405EE29" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0123" H 6200 4150 50  0001 C CNN
+F 1 "GND" H 6205 4227 50  0000 C CNN
+F 2 "" H 6200 4400 50  0001 C CNN
+F 3 "" H 6200 4400 50  0001 C CNN
+	1    6200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 640621C2
+P 5950 2600
+AR Path="/640621C2" Ref="R?"  Part="1" 
+AR Path="/61FEE2D8/640621C2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/640621C2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F5952E3/640621C2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/60256B3C/640621C2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/602570F8/640621C2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/6025B766/640621C2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60249302/61CB59A8/640621C2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63F37544/640621C2" Ref="R?"  Part="1" 
+AR Path="/5F078D61/6404ED7F/640621C2" Ref="R1405"  Part="1" 
+AR Path="/5F078D61/6408967E/640621C2" Ref="R?"  Part="1" 
+F 0 "R1405" V 6050 2550 50  0000 L CNN
+F 1 "10K" V 5850 2550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 2600 50  0001 C CNN
+F 3 "" H 5950 2600 50  0001 C CNN
+F 4 "R1405" H 5950 2600 50  0001 C CNN "Reference"
+F 5 "10K" H 5950 2600 50  0001 C CNN "Value"
+F 6 "Can be replaced with other manufacturer component with same specs" H 5950 2600 50  0001 C CNN "Component comment"
+F 7 "" H 5950 2600 50  0001 C CNN "MF"
+F 8 "" H 5950 2600 50  0001 C CNN "MP"
+	1    5950 2600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5950 2350 5950 2450
+Wire Wire Line
+	5950 2750 5950 3400
+Connection ~ 5950 3400
+Text HLabel 5950 2350 1    50   Input ~ 0
+V_EXT
+Wire Wire Line
+	6300 3550 6300 3100
+Wire Wire Line
+	5450 3100 6300 3100
+Wire Wire Line
+	6300 3100 6400 3100
+Connection ~ 6300 3100
+Wire Wire Line
+	6100 3550 6100 3400
+Wire Wire Line
+	5950 3400 6100 3400
+Wire Wire Line
+	6100 3400 6400 3400
+Connection ~ 6100 3400
+$EndSCHEMATC

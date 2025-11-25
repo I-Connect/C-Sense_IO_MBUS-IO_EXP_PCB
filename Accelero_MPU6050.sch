@@ -1,0 +1,245 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 29
+Title ""
+Date "2020-06-24"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5F93F3CB
+P 6850 3900
+AR Path="/5F93F3CB" Ref="C?"  Part="1" 
+AR Path="/5F5FF71B/5F93F3CB" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC598/5F93F3CB" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F2E0439/5F93F3CB" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5FBDF65A/5F93F3CB" Ref="C1103"  Part="1" 
+F 0 "C1103" H 6875 4000 50  0000 L CNN
+F 1 "2.2nF" H 6875 3800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6888 3750 50  0001 C CNN
+F 3 "" H 6850 3900 50  0001 C CNN
+F 4 "399-3068-1-ND" H 3600 200 50  0001 C CNN "Digi-Key_PN"
+	1    6850 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C1102
+U 1 1 5F93F3D2
+P 5200 3000
+F 0 "C1102" H 5225 3100 50  0000 L CNN
+F 1 "0.1uF" H 5225 2900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5238 2850 50  0001 C CNN
+F 3 "" H 5200 3000 50  0001 C CNN
+F 4 "490-16477-1-ND" H 1600 250 50  0001 C CNN "Digi-Key_PN"
+	1    5200 3000
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C1104
+U 1 1 5F93F3D9
+P 6850 4200
+F 0 "C1104" H 6875 4300 50  0000 L CNN
+F 1 "0.1uF" H 6875 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6888 4050 50  0001 C CNN
+F 3 "" H 6850 4200 50  0001 C CNN
+F 4 "490-16477-1-ND" H 3900 500 50  0001 C CNN "Digi-Key_PN"
+	1    6850 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01104
+U 1 1 5F93F3E0
+P 7100 4050
+F 0 "#PWR01104" H 7100 3800 50  0001 C CNN
+F 1 "GND" H 7100 3900 50  0000 C CNN
+F 2 "" H 7100 4050 50  0000 C CNN
+F 3 "" H 7100 4050 50  0000 C CNN
+	1    7100 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR01102
+U 1 1 5F93F3E6
+P 4950 3000
+F 0 "#PWR01102" H 4950 2750 50  0001 C CNN
+F 1 "GND" H 4950 2850 50  0000 C CNN
+F 2 "" H 4950 3000 50  0000 C CNN
+F 3 "" H 4950 3000 50  0000 C CNN
+	1    4950 3000
+	0    1    -1   0   
+$EndComp
+Text Notes 7100 6800 0    60   ~ 0
+Accelerometer (MPU6050)
+$Comp
+L Device:C C1101
+U 1 1 5F93F3ED
+P 5200 2650
+F 0 "C1101" H 5225 2750 50  0000 L CNN
+F 1 "10nF" H 5225 2550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5238 2500 50  0001 C CNN
+F 3 "" H 5200 2650 50  0001 C CNN
+F 4 "399-1091-1-ND" H 1950 -100 50  0001 C CNN "Digi-Key_PN"
+	1    5200 2650
+	0    -1   1    0   
+$EndComp
+Text Notes 5800 5200 0    60   ~ 0
+AD0 -> GND  = I2C  0x68\nAD0 -> VDD   = I2C  0x69
+$Comp
+L Device:R R?
+U 1 1 5F93F402
+P 5500 2400
+AR Path="/5F93F402" Ref="R?"  Part="1" 
+AR Path="/5F5FF71B/5F93F402" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC598/5F93F402" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F2E0439/5F93F402" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5FBDF65A/5F93F402" Ref="R1101"  Part="1" 
+F 0 "R1101" V 5580 2400 50  0000 C CNN
+F 1 "0" V 5500 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5430 2400 50  0001 C CNN
+F 3 "" H 5500 2400 50  0000 C CNN
+F 4 "P0.0ECT-ND" H 2550 -400 50  0001 C CNN "Digi-Key_PN"
+	1    5500 2400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3900 7000 3900
+Wire Wire Line
+	7100 4200 7100 4050
+Wire Wire Line
+	7100 4200 7000 4200
+Connection ~ 7100 4050
+Wire Wire Line
+	5500 3000 5350 3000
+Connection ~ 5500 3000
+Wire Wire Line
+	5050 3000 4950 3000
+Wire Wire Line
+	5050 3000 5050 2650
+Wire Wire Line
+	5500 2550 5500 2650
+Connection ~ 5500 2650
+Wire Wire Line
+	5350 2650 5500 2650
+Wire Wire Line
+	7100 4050 7100 3900
+Wire Wire Line
+	5500 3000 5500 3200
+Wire Wire Line
+	5500 2650 5500 3000
+Text HLabel 5500 2150 1    50   Input ~ 0
+3V3_IN
+Wire Wire Line
+	5500 2150 5500 2250
+Text HLabel 5000 3700 0    50   Input ~ 0
+SCL
+Text HLabel 6100 3800 2    50   BiDi ~ 0
+SDA
+Text HLabel 5000 3500 0    50   Input ~ 0
+AD0
+Text HLabel 6500 3700 2    50   Output ~ 0
+INT
+$Comp
+L dk_Motion-Sensors-IMUs-Inertial-Measurement-Units:MPU-6050_NRND U1101
+U 1 1 5F53DE97
+P 5500 3900
+F 0 "U1101" H 4900 3450 60  0000 C CNN
+F 1 "MPU-6050_NRND" H 4650 3300 60  0000 C CNN
+F 2 "digikey-footprints:QFN-24-1EP_4x4mm" H 5700 4100 60  0001 L CNN
+F 3 "https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf" H 5700 4200 60  0001 L CNN
+F 4 "1428-1007-1-ND" H 5700 4300 60  0001 L CNN "Digi-Key_PN"
+F 5 "MPU-6050" H 5700 4400 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 5700 4500 60  0001 L CNN "Category"
+F 7 "Motion Sensors - IMUs (Inertial Measurement Units)" H 5700 4600 60  0001 L CNN "Family"
+F 8 "https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf" H 5700 4700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/tdk-invensense/MPU-6050/1428-1007-1-ND/4038010" H 5700 4800 60  0001 L CNN "DK_Detail_Page"
+F 10 "IMU ACCEL/GYRO 3-AXIS I2C 24QFN" H 5700 4900 60  0001 L CNN "Description"
+F 11 "TDK InvenSense" H 5700 5000 60  0001 L CNN "Manufacturer"
+F 12 "Not For New Designs" H 5700 5100 60  0001 L CNN "Status"
+	1    5500 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 3000
+$Comp
+L power:GND #PWR01101
+U 1 1 5F53F5D5
+P 4600 3500
+F 0 "#PWR01101" H 4600 3250 50  0001 C CNN
+F 1 "GND" H 4600 3350 50  0000 C CNN
+F 2 "" H 4600 3500 50  0000 C CNN
+F 3 "" H 4600 3500 50  0000 C CNN
+	1    4600 3500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 3500 4700 3500
+Wire Wire Line
+	4700 3500 4700 3400
+Wire Wire Line
+	4700 3400 5000 3400
+Wire Wire Line
+	4700 3500 4700 3600
+Wire Wire Line
+	4700 3600 5000 3600
+Connection ~ 4700 3500
+$Comp
+L power:GND #PWR01103
+U 1 1 5F53FE8E
+P 5500 4600
+F 0 "#PWR01103" H 5500 4350 50  0001 C CNN
+F 1 "GND" H 5500 4450 50  0000 C CNN
+F 2 "" H 5500 4600 50  0000 C CNN
+F 3 "" H 5500 4600 50  0000 C CNN
+	1    5500 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4000 6550 4000
+Wire Wire Line
+	6550 4200 6700 4200
+NoConn ~ 6100 3500
+NoConn ~ 6100 3600
+Wire Wire Line
+	5600 3200 5600 3000
+Wire Wire Line
+	5600 3000 5500 3000
+Wire Wire Line
+	6100 3900 6700 3900
+Wire Wire Line
+	6550 4000 6550 4200
+$Comp
+L Device:R R?
+U 1 1 5F88E042
+P 6350 3400
+AR Path="/5F88E042" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/5F88E042" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F88E042" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F88E042" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F2E0439/5F88E042" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5FBDF65A/5F88E042" Ref="R1102"  Part="1" 
+F 0 "R1102" V 6450 3200 50  0000 L CNN
+F 1 "10K" V 6450 3350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6280 3400 50  0001 C CNN
+F 3 "" H 6350 3400 50  0001 C CNN
+F 4 "P10.0KHCT-ND" H 10650 -4400 50  0001 C CNN "Digi-Key_PN"
+	1    6350 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3700 6350 3700
+Wire Wire Line
+	6350 3550 6350 3700
+Connection ~ 6350 3700
+Wire Wire Line
+	6350 3700 6100 3700
+Text HLabel 6350 3250 1    50   Input ~ 0
+3V3_IN
+$EndSCHEMATC

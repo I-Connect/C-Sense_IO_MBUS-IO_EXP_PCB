@@ -1,0 +1,275 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 29 29
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dk_PMIC-OR-Controllers-Ideal-Diodes:LTC4412ES6_TRMPBF Q?
+U 1 1 601FF30D
+P 5300 3850
+F 0 "Q?" H 5000 2700 60  0000 L CNN
+F 1 "LTC4412ES6_TRMPBF" H 5000 2800 60  0000 L CNN
+F 2 "digikey-footprints:SOT-23-6" H 5500 4050 60  0001 L CNN
+F 3 "http://www.linear.com/docs/1527" H 5500 4150 60  0001 L CNN
+F 4 "LTC4412ES6#TRMPBFCT-ND" H 5500 4250 60  0001 L CNN "Digi-Key_PN"
+F 5 "LTC4412ES6#TRMPBF" H 5500 4350 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 5500 4450 60  0001 L CNN "Category"
+F 7 "PMIC - OR Controllers, Ideal Diodes" H 5500 4550 60  0001 L CNN "Family"
+F 8 "http://www.linear.com/docs/1527" H 5500 4650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/linear-technology-analog-devices/LTC4412ES6-TRMPBF/LTC4412ES6-TRMPBFCT-ND/890097" H 5500 4750 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OR CTRLR SRC SELECT TSOT23-6" H 5500 4850 60  0001 L CNN "Description"
+F 11 "Linear Technology/Analog Devices" H 5500 4950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5500 5050 60  0001 L CNN "Status"
+	1    5300 3850
+	-1   0    0    -1  
+$EndComp
+Text HLabel 4650 2100 0    50   Input ~ 0
+3-28V-IN
+Text HLabel 4650 2650 0    50   Input ~ 0
+2.5-28V-Bat-IN
+Text HLabel 4650 4150 0    50   Input ~ 0
+Stat
+Text HLabel 7000 2550 2    50   Input ~ 0
+V-OUT
+$Comp
+L Device:R R?
+U 1 1 601FF5E6
+P 4800 4350
+AR Path="/5F52A0A7/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F52A21A/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F52A35C/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F3A7F9C/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F9FDF84/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F9FE0D3/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F9FE1F1/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F9FE30F/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F9FE42D/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53D974/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53D979/601FF5E6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/601FF26E/601FF5E6" Ref="R?"  Part="1" 
+F 0 "R?" V 4880 4350 50  0000 C CNN
+F 1 "470K" V 4800 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 4350 50  0001 C CNN
+F 3 "" H 4800 4350 50  0000 C CNN
+F 4 "P470KHCT-ND" H -400 1150 50  0001 C CNN "Digi-Key_PN"
+	1    4800 4350
+	1    0    0    1   
+$EndComp
+$Comp
+L I-Connect_diverse:FDS6681Z Q?
+U 1 1 601FF5FF
+P 5100 2600
+AR Path="/5F52A0A7/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F52A21A/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F52A35C/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F3A7F9C/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F9FDF84/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F9FE0D3/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F9FE1F1/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F9FE30F/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F9FE42D/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F53D974/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F53D979/601FF5FF" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/601FF26E/601FF5FF" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4900 2900 50  0000 L CNN
+F 1 "FDS6681Z" H 4900 2350 50  0000 L CNN
+F 2 "Housings_SOIC:PowerIntegrations_SO-8" H 4950 3000 50  0001 C CIN
+F 3 "" H 5115 2655 50  0001 L CNN
+F 4 "FDS6681ZCT-ND" H 5100 2600 50  0001 C CNN "Digi-Key_PN"
+	1    5100 2600
+	1    0    0    1   
+$EndComp
+Text HLabel 4650 4550 0    50   Input ~ 0
+VCC-IN
+Wire Wire Line
+	4650 4150 4800 4150
+Wire Wire Line
+	4800 4200 4800 4150
+Connection ~ 4800 4150
+Wire Wire Line
+	4800 4150 4900 4150
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 601FF9DF
+P 5200 4550
+F 0 "#PWR?" H 5200 4300 50  0001 C CNN
+F 1 "GND" H 5205 4377 50  0000 C CNN
+F 2 "" H 5200 4550 50  0001 C CNN
+F 3 "" H 5200 4550 50  0001 C CNN
+	1    5200 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Diodes-Rectifiers-Single:B540C-13-F D?
+U 1 1 601FFF1C
+P 5100 2100
+F 0 "D?" H 5100 2362 60  0000 C CNN
+F 1 "B540C-13-F" H 5100 2256 60  0000 C CNN
+F 2 "digikey-footprints:DO-214AB" H 5300 2300 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds13012.pdf" H 5300 2400 60  0001 L CNN
+F 4 "B540C-FDICT-ND" H 5300 2500 60  0001 L CNN "Digi-Key_PN"
+F 5 "B540C-13-F" H 5300 2600 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 5300 2700 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 5300 2800 60  0001 L CNN "Family"
+F 8 "https://www.diodes.com/assets/Datasheets/ds13012.pdf" H 5300 2900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/diodes-incorporated/B540C-13-F/B540C-FDICT-ND/768814" H 5300 3000 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE SCHOTTKY 40V 5A SMC" H 5300 3100 60  0001 L CNN "Description"
+F 11 "Diodes Incorporated" H 5300 3200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5300 3300 60  0001 L CNN "Status"
+	1    5100 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2100 4900 2100
+Wire Wire Line
+	4650 2650 4750 2650
+Wire Wire Line
+	4800 2750 4750 2750
+Wire Wire Line
+	4750 2750 4750 2650
+Connection ~ 4750 2650
+Wire Wire Line
+	4750 2650 4800 2650
+Wire Wire Line
+	4800 2550 4750 2550
+Wire Wire Line
+	4750 2550 4750 2650
+Wire Wire Line
+	4800 2450 4750 2450
+Wire Wire Line
+	4750 2450 4750 2550
+Connection ~ 4750 2550
+Text HLabel 5850 4150 2    50   Input ~ 0
+CTL
+Wire Wire Line
+	5700 4150 5850 4150
+Wire Wire Line
+	4800 4500 4800 4550
+Wire Wire Line
+	4800 4550 4650 4550
+$Comp
+L Device:C C?
+U 1 1 60201693
+P 5300 3650
+AR Path="/60201693" Ref="C?"  Part="1" 
+AR Path="/5EF0C7C8/60201693" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/60201693" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/60201693" Ref="C?"  Part="1" 
+AR Path="/5EFDA025/60201693" Ref="C?"  Part="1" 
+AR Path="/5F078D61/601FF26E/60201693" Ref="C?"  Part="1" 
+F 0 "C?" H 5415 3696 50  0000 L CNN
+F 1 "0.1uF" H 5300 3550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5338 3500 50  0001 C CNN
+F 3 "" H 5300 3650 50  0001 C CNN
+F 4 "490-16477-1-ND" H 2200 950 50  0001 C CNN "Digi-Key_PN"
+	1    5300 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6020169B
+P 5750 3650
+AR Path="/6020169B" Ref="C?"  Part="1" 
+AR Path="/5EF0C7C8/6020169B" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/6020169B" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/6020169B" Ref="C?"  Part="1" 
+AR Path="/5EFDA025/6020169B" Ref="C?"  Part="1" 
+AR Path="/5F078D61/601FF26E/6020169B" Ref="C?"  Part="1" 
+F 0 "C?" H 5865 3696 50  0000 L CNN
+F 1 "1uF" H 5550 3550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5788 3500 50  0001 C CNN
+F 3 "" H 5750 3650 50  0001 C CNN
+F 4 "399-7847-1-ND" H 3000 950 50  0001 C CNN "Digi-Key_PN"
+	1    5750 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 60202D32
+P 5500 3350
+F 0 "#PWR?" H 5500 3100 50  0001 C CNN
+F 1 "GND" H 5505 3177 50  0000 C CNN
+F 2 "" H 5500 3350 50  0001 C CNN
+F 3 "" H 5500 3350 50  0001 C CNN
+	1    5500 3350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5300 3500 5300 3450
+Wire Wire Line
+	5300 3450 5500 3450
+Wire Wire Line
+	5500 3450 5500 3350
+Wire Wire Line
+	5750 3500 5750 3450
+Wire Wire Line
+	5750 3450 5500 3450
+Connection ~ 5500 3450
+Wire Wire Line
+	5300 3800 5300 3850
+Wire Wire Line
+	5300 3850 5750 3850
+Wire Wire Line
+	5750 3850 5750 3800
+Connection ~ 5300 3850
+Wire Wire Line
+	5300 3850 5300 3950
+Wire Wire Line
+	4750 2750 4750 3850
+Wire Wire Line
+	4750 3850 5300 3850
+Connection ~ 4750 2750
+Wire Wire Line
+	6150 2750 6150 4250
+Wire Wire Line
+	6150 4250 5700 4250
+Wire Wire Line
+	5400 2750 6150 2750
+Wire Wire Line
+	5400 2550 5500 2550
+Wire Wire Line
+	5400 2450 5500 2450
+Wire Wire Line
+	5500 2450 5500 2550
+Connection ~ 5500 2550
+Wire Wire Line
+	5500 2550 6250 2550
+Wire Wire Line
+	5400 2650 5500 2650
+Wire Wire Line
+	5500 2650 5500 2550
+Wire Wire Line
+	5700 4350 6250 4350
+Wire Wire Line
+	6250 4350 6250 2550
+Connection ~ 6250 2550
+Wire Wire Line
+	6250 2550 7000 2550
+Wire Wire Line
+	5300 2100 6250 2100
+Wire Wire Line
+	6250 2100 6250 2550
+$EndSCHEMATC

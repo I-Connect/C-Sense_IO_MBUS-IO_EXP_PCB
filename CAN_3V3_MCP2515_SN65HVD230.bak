@@ -1,0 +1,420 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 31 40
+Title ""
+Date "2020-06-24"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Interface_CAN_LIN:MCP2515-xSO U?
+U 1 1 6093F398
+P 4950 4150
+F 0 "U?" H 4650 4900 50  0000 C CNN
+F 1 "MCP2515-xSO" H 5350 4900 50  0000 C CNN
+F 2 "digikey-footprints:SOIC-18_W7.5mm" H 4950 3250 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf" H 5050 3350 50  0001 C CNN
+F 4 "MCP2515T-I/SOCT-ND" H 4950 4150 50  0001 C CNN "Digi-Key_PN"
+	1    4950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6093F39F
+P 4100 3250
+F 0 "R?" H 4170 3296 50  0000 L CNN
+F 1 "0" H 4170 3205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4030 3250 50  0001 C CNN
+F 3 "" H 4100 3250 50  0001 C CNN
+F 4 "P0.0ECT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    4100 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6093F3A6
+P 6350 3100
+F 0 "R?" H 6420 3146 50  0000 L CNN
+F 1 "0" H 6420 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6280 3100 50  0001 C CNN
+F 3 "" H 6350 3100 50  0001 C CNN
+F 4 "P0.0ECT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    6350 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 6093F3AE
+P 3750 4400
+F 0 "Y?" V 3704 4531 50  0000 L CNN
+F 1 "ABLS-16.000MHZ-B4-T" V 3550 4100 50  0000 L CNN
+F 2 "Diverse_C-sense:ABLS-16.000MHZ-B4-T" H 3750 4400 50  0001 C CNN
+F 3 "~" H 3750 4400 50  0001 C CNN
+F 4 "535-10226-1-ND" H 3750 4400 50  0001 C CNN "Digi-Key_PN"
+	1    3750 4400
+	0    1    1    0   
+$EndComp
+NoConn ~ 4350 4550
+NoConn ~ 5550 4450
+NoConn ~ 5550 4550
+NoConn ~ 5550 4650
+NoConn ~ 5550 4350
+NoConn ~ 5550 4250
+$Comp
+L Device:C C?
+U 1 1 6093F3BC
+P 3250 4250
+F 0 "C?" H 3100 4350 50  0000 L CNN
+F 1 "22pF" H 3050 4150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3288 4100 50  0001 C CNN
+F 3 "" H 3250 4250 50  0001 C CNN
+F 4 "xx" H -5650 2000 50  0001 C CNN "Part nr"
+F 5 "490-11453-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    3250 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6093F3C4
+P 3250 4550
+F 0 "C?" H 3300 4650 50  0000 L CNN
+F 1 "22pF" H 3250 4450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3288 4400 50  0001 C CNN
+F 3 "" H 3250 4550 50  0001 C CNN
+F 4 "xx" H -5650 2000 50  0001 C CNN "Part nr"
+F 5 "490-11453-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    3250 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6093F3CB
+P 3100 4250
+F 0 "#PWR?" H 3100 4000 50  0001 C CNN
+F 1 "GND" H 3105 4077 50  0000 C CNN
+F 2 "" H 3100 4250 50  0001 C CNN
+F 3 "" H 3100 4250 50  0001 C CNN
+	1    3100 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6093F3D1
+P 3100 4550
+F 0 "#PWR?" H 3100 4300 50  0001 C CNN
+F 1 "GND" H 3105 4377 50  0000 C CNN
+F 2 "" H 3100 4550 50  0001 C CNN
+F 3 "" H 3100 4550 50  0001 C CNN
+	1    3100 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6093F3D7
+P 4950 4950
+F 0 "#PWR?" H 4950 4700 50  0001 C CNN
+F 1 "GND" H 4955 4777 50  0000 C CNN
+F 2 "" H 4950 4950 50  0001 C CNN
+F 3 "" H 4950 4950 50  0001 C CNN
+	1    4950 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 4250 3750 4250
+Wire Wire Line
+	3750 4250 4050 4250
+Wire Wire Line
+	4050 4250 4050 4350
+Wire Wire Line
+	4050 4350 4350 4350
+Connection ~ 3750 4250
+Wire Wire Line
+	4350 4450 4050 4450
+Wire Wire Line
+	4050 4450 4050 4550
+Wire Wire Line
+	4050 4550 3750 4550
+Wire Wire Line
+	3750 4550 3400 4550
+Connection ~ 3750 4550
+$Comp
+L Device:C C?
+U 1 1 6093F3E7
+P 4750 3100
+F 0 "C?" H 4850 3200 50  0000 L CNN
+F 1 "0.1uF" H 4850 3000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4788 2950 50  0001 C CNN
+F 3 "" H 4750 3100 50  0001 C CNN
+F 4 "490-16477-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    4750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3350 4950 3250
+Wire Wire Line
+	4950 3250 4750 3250
+Wire Wire Line
+	4750 3250 4450 3250
+Connection ~ 4750 3250
+$Comp
+L power:GND #PWR?
+U 1 1 6093F3F2
+P 4750 2950
+F 0 "#PWR?" H 4750 2700 50  0001 C CNN
+F 1 "GND" H 4755 2777 50  0000 C CNN
+F 2 "" H 4750 2950 50  0001 C CNN
+F 3 "" H 4750 2950 50  0001 C CNN
+	1    4750 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6093F402
+P 6150 4600
+F 0 "R?" V 6050 4550 50  0000 L CNN
+F 1 "10K" V 6250 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 4600 50  0001 C CNN
+F 3 "" H 6150 4600 50  0001 C CNN
+F 4 "P10.0KHCT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    6150 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 3250
+$Comp
+L Device:C C?
+U 1 1 6093F40B
+P 6850 3100
+F 0 "C?" H 6950 3200 50  0000 L CNN
+F 1 "0.1uF" H 6950 3000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6888 2950 50  0001 C CNN
+F 3 "" H 6850 3100 50  0001 C CNN
+F 4 "490-16477-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    6850 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3250 7000 3250
+Wire Wire Line
+	7000 3250 7000 3350
+Connection ~ 6850 3250
+$Comp
+L power:GND #PWR?
+U 1 1 6093F415
+P 6850 2950
+F 0 "#PWR?" H 6850 2700 50  0001 C CNN
+F 1 "GND" H 6855 2777 50  0000 C CNN
+F 2 "" H 6850 2950 50  0001 C CNN
+F 3 "" H 6850 2950 50  0001 C CNN
+	1    6850 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6093F41B
+P 6450 4000
+F 0 "R?" V 6350 3950 50  0000 L CNN
+F 1 "10K" V 6550 3950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 4000 50  0001 C CNN
+F 3 "" H 6450 4000 50  0001 C CNN
+F 4 "P10.0KHCT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    6450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6093F422
+P 6450 4150
+F 0 "#PWR?" H 6450 3900 50  0001 C CNN
+F 1 "GND" H 6455 3977 50  0000 C CNN
+F 2 "" H 6450 4150 50  0001 C CNN
+F 3 "" H 6450 4150 50  0001 C CNN
+	1    6450 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3850 6450 3850
+$Comp
+L power:GND #PWR?
+U 1 1 6093F429
+P 7000 4050
+F 0 "#PWR?" H 7000 3800 50  0001 C CNN
+F 1 "GND" H 7005 3877 50  0000 C CNN
+F 2 "" H 7000 4050 50  0001 C CNN
+F 3 "" H 7000 4050 50  0001 C CNN
+	1    7000 4050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6600 3750
+Wire Wire Line
+	5550 3650 6050 3650
+Wire Wire Line
+	6050 3650 6050 3550
+Wire Wire Line
+	5550 3550 6000 3550
+Wire Wire Line
+	6000 3550 6000 3700
+Wire Wire Line
+	6000 3700 6100 3700
+Wire Wire Line
+	6100 3700 6100 3650
+$Comp
+L Interface_CAN_LIN:SN65HVD230 U?
+U 1 1 6093F439
+P 7000 3650
+F 0 "U?" H 7250 3300 50  0000 C CNN
+F 1 "SN65HVD230" H 7300 3900 50  0000 C CNN
+F 2 "digikey-footprints:SOIC-8_W3.9mm" H 7000 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf" H 6900 4050 50  0001 C CNN
+F 4 "296-11654-1-ND" H 7000 3650 50  0001 C CNN "Digi-Key_PN"
+	1    7000 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 3550 6600 3550
+$Comp
+L Device:R R?
+U 1 1 6093F447
+P 7650 3700
+F 0 "R?" V 7550 3650 50  0000 L CNN
+F 1 "120" V 7750 3650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7580 3700 50  0001 C CNN
+F 3 "" H 7650 3700 50  0001 C CNN
+F 4 "P120HCT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    7650 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3650 7500 3650
+Wire Wire Line
+	7500 3650 7500 3550
+Wire Wire Line
+	7500 3550 7650 3550
+Wire Wire Line
+	7400 3750 7500 3750
+Wire Wire Line
+	7500 3750 7500 3850
+Wire Wire Line
+	7500 3850 7650 3850
+Connection ~ 7650 3850
+Connection ~ 7650 3550
+$Comp
+L Device:R R?
+U 1 1 6093F456
+P 3400 3550
+F 0 "R?" V 3300 3500 50  0000 L CNN
+F 1 "10K" V 3500 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3330 3550 50  0001 C CNN
+F 3 "" H 3400 3550 50  0001 C CNN
+F 4 "P10.0KHCT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    3400 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3750 3400 3750
+Wire Wire Line
+	3400 3700 3400 3750
+Connection ~ 3400 3750
+Wire Wire Line
+	3400 3750 4350 3750
+Wire Wire Line
+	6350 3250 6650 3250
+Wire Wire Line
+	6100 3650 6600 3650
+Wire Wire Line
+	6150 4450 6150 3250
+Wire Wire Line
+	4950 3250 6150 3250
+Wire Wire Line
+	5550 4750 6150 4750
+Wire Wire Line
+	6150 4750 6250 4750
+Connection ~ 6150 4750
+$Comp
+L Device:C C?
+U 1 1 6093F472
+P 4450 3100
+F 0 "C?" H 4250 3200 50  0000 L CNN
+F 1 "1uF" H 4250 3000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4488 2950 50  0001 C CNN
+F 3 "" H 4450 3100 50  0001 C CNN
+F 4 "399-7847-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    4450 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 3250
+Wire Wire Line
+	4450 3250 4250 3250
+$Comp
+L power:GND #PWR?
+U 1 1 6093F47B
+P 4450 2950
+F 0 "#PWR?" H 4450 2700 50  0001 C CNN
+F 1 "GND" H 4455 2777 50  0000 C CNN
+F 2 "" H 4450 2950 50  0001 C CNN
+F 3 "" H 4450 2950 50  0001 C CNN
+	1    4450 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6093F481
+P 6650 3100
+F 0 "C?" H 6450 3200 50  0000 L CNN
+F 1 "1uF" H 6450 3000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 2950 50  0001 C CNN
+F 3 "" H 6650 3100 50  0001 C CNN
+F 4 "399-7847-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    6650 3100
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 3250
+Wire Wire Line
+	6650 3250 6850 3250
+$Comp
+L power:GND #PWR?
+U 1 1 6093F48A
+P 6650 2950
+F 0 "#PWR?" H 6650 2700 50  0001 C CNN
+F 1 "GND" H 6655 2777 50  0000 C CNN
+F 2 "" H 6650 2950 50  0001 C CNN
+F 3 "" H 6650 2950 50  0001 C CNN
+	1    6650 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 3550 7950 3550
+Wire Wire Line
+	7650 3850 7950 3850
+Text HLabel 7950 3550 2    50   BiDi ~ 0
+CAN_H
+Text HLabel 7950 3850 2    50   BiDi ~ 0
+CAN_L
+Text HLabel 6250 4750 2    50   Input ~ 0
+RESET
+Text HLabel 5550 4150 2    50   Output ~ 0
+INT
+Text HLabel 6350 2950 1    50   Input ~ 0
+3V3_IN
+Text HLabel 3350 3750 0    50   Input ~ 0
+CS
+Text HLabel 4350 3550 0    50   Input ~ 0
+MOSI
+Text HLabel 4350 3650 0    50   Output ~ 0
+MISO
+Text HLabel 4350 3850 0    50   Input ~ 0
+CLK
+Text HLabel 3400 3400 1    50   Input ~ 0
+3V3_IN
+Text HLabel 3950 3250 0    50   Input ~ 0
+3V3_IN
+Text Notes 7050 6850 0    50   ~ 0
+CAN with 3V3 transceiver
+$EndSCHEMATC

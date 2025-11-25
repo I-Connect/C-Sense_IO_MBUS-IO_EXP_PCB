@@ -1,0 +1,232 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+LIBS:C-Sense_CAN_RELAY_pcb-cache
+LIBS:D-Sense-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 29 51
+Title ""
+Date "2020-06-24"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5FBE872C
+P 6650 3650
+F 0 "#PWR?" H 6650 3400 50  0001 C CNN
+F 1 "GND" H 6650 3500 50  0000 C CNN
+F 2 "" H 6650 3650 50  0000 C CNN
+F 3 "" H 6650 3650 50  0000 C CNN
+	1    6650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L I-Connect_diverse:RFM95W-868S2 U?
+U 1 1 5FBE8732
+P 5100 3750
+F 0 "U?" H 4690 4210 50  0000 L CNN
+F 1 "RFM95W-868S2" H 5160 4200 50  0000 L CNN
+F 2 "Diverse_C-sense:RFM95" H 1800 5400 50  0001 C CNN
+F 3 "" H 1800 5400 50  0001 C CNN
+F 4 "1597-1488-ND" H 5100 3750 50  0001 C CNN "Digi-Key_PN"
+	1    5100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FBE873F
+P 5350 3050
+F 0 "C?" H 5375 3150 50  0000 L CNN
+F 1 "0.1uF" H 5375 2950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5388 2900 50  0001 C CNN
+F 3 "" H 5350 3050 50  0001 C CNN
+F 4 "490-16477-1-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    5350 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBE8746
+P 5500 3050
+F 0 "#PWR?" H 5500 2800 50  0001 C CNN
+F 1 "GND" H 5500 2900 50  0000 C CNN
+F 2 "" H 5500 3050 50  0000 C CNN
+F 3 "" H 5500 3050 50  0000 C CNN
+	1    5500 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBE874C
+P 5100 4500
+F 0 "#PWR?" H 5100 4250 50  0001 C CNN
+F 1 "GND" H 5100 4350 50  0000 C CNN
+F 2 "" H 5100 4500 50  0000 C CNN
+F 3 "" H 5100 4500 50  0000 C CNN
+	1    5100 4500
+	1    0    0    -1  
+$EndComp
+Text Notes 7100 6850 0    60   ~ 0
+LORA (RFM95)
+$Comp
+L Device:R R?
+U 1 1 5FBE875C
+P 4850 3050
+F 0 "R?" V 4930 3050 50  0000 C CNN
+F 1 "0" V 4850 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4780 3050 50  0001 C CNN
+F 3 "" H 4850 3050 50  0000 C CNN
+F 4 "P0.0ECT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    4850 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FBE8763
+P 6250 3250
+F 0 "C?" H 6275 3350 50  0000 L CNN
+F 1 "NP" H 6275 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6288 3100 50  0001 C CNN
+F 3 "" H 6250 3250 50  0001 C CNN
+	1    6250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FBE876A
+P 5850 3250
+F 0 "C?" H 5875 3350 50  0000 L CNN
+F 1 "NP" H 5875 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5888 3100 50  0001 C CNN
+F 3 "" H 5850 3250 50  0001 C CNN
+	1    5850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FBE8771
+P 6050 3450
+F 0 "R?" V 5950 3450 50  0000 C CNN
+F 1 "0" V 6050 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5980 3450 50  0001 C CNN
+F 3 "" H 6050 3450 50  0000 C CNN
+F 4 "P0.0ECT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    6050 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBE8778
+P 6250 3100
+F 0 "#PWR?" H 6250 2850 50  0001 C CNN
+F 1 "GND" H 6250 2950 50  0000 C CNN
+F 2 "" H 6250 3100 50  0000 C CNN
+F 3 "" H 6250 3100 50  0000 C CNN
+	1    6250 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FBE877E
+P 5850 3100
+F 0 "#PWR?" H 5850 2850 50  0001 C CNN
+F 1 "GND" H 5850 2950 50  0000 C CNN
+F 2 "" H 5850 3100 50  0000 C CNN
+F 3 "" H 5850 3100 50  0000 C CNN
+	1    5850 3100
+	-1   0    0    1   
+$EndComp
+Text Notes 6900 2850 2    60   ~ 0
+R and C's only used \nwhen matching needed
+Wire Wire Line
+	5000 3050 5100 3050
+Connection ~ 5100 3050
+Wire Wire Line
+	5100 4500 5100 4350
+Wire Wire Line
+	5000 4350 5100 4350
+Connection ~ 5100 4350
+Wire Wire Line
+	5100 3050 5100 3250
+Wire Wire Line
+	5600 3450 5850 3450
+Wire Wire Line
+	6250 3400 6250 3450
+Connection ~ 6250 3450
+Wire Wire Line
+	5850 3400 5850 3450
+Connection ~ 5850 3450
+Wire Wire Line
+	6200 3450 6250 3450
+NoConn ~ 5600 3650
+NoConn ~ 5600 3750
+NoConn ~ 5600 3850
+Wire Wire Line
+	5100 3050 5200 3050
+Wire Wire Line
+	5100 4350 5200 4350
+Wire Wire Line
+	6250 3450 6450 3450
+Wire Wire Line
+	5850 3450 5900 3450
+Text HLabel 4600 3450 0    50   Input ~ 0
+SCK
+Text HLabel 4600 3550 0    50   Input ~ 0
+MOSI
+Text HLabel 4600 3650 0    50   Output ~ 0
+MISO
+Text HLabel 3900 3750 0    50   Input ~ 0
+CS
+Text HLabel 4600 3950 0    50   Input ~ 0
+RESET
+Text HLabel 5600 4050 2    50   BiDi ~ 0
+IO01
+Text HLabel 5600 3950 2    50   BiDi ~ 0
+IO02
+Text HLabel 5600 4150 2    50   BiDi ~ 0
+IO00
+Text HLabel 4700 3050 0    50   Input ~ 0
+3V3_IN
+$Comp
+L Device:R R?
+U 1 1 60CA020B
+P 4050 3600
+F 0 "R?" V 4150 3400 50  0000 L CNN
+F 1 "10K" V 4150 3550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3980 3600 50  0001 C CNN
+F 3 "" H 4050 3600 50  0001 C CNN
+F 4 "P10.0KHCT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    4050 3600
+	1    0    0    -1  
+$EndComp
+Text HLabel 4050 3450 1    50   Input ~ 0
+3V3_IN
+Wire Wire Line
+	3900 3750 4050 3750
+Wire Wire Line
+	4050 3750 4600 3750
+Connection ~ 4050 3750
+$Comp
+L Connector:Conn_Coaxial J?
+U 1 1 5F55370C
+P 6650 3450
+AR Path="/5F55370C" Ref="J?"  Part="1" 
+AR Path="/61FEE2D8/5F55370C" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/5F55370C" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC60B/5F55370C" Ref="J?"  Part="1" 
+F 0 "J?" H 6850 3800 60  0000 C CNN
+F 1 "UFL" H 6850 3700 60  0000 C CNN
+F 2 "digikey-footprints:Coax_Conn_U.FL" H 6600 3898 50  0001 C CNN
+F 3 "" H 6650 3450 60  0000 C CNN
+F 4 "CONUFL001-SMD-TCT-ND" H 6650 3450 50  0001 C CNN "Digi-Key_PN"
+	1    6650 3450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

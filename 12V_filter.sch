@@ -1,0 +1,465 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 16 27
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3350 2450 0    50   Input ~ 0
+12V_IN
+Text HLabel 8800 2750 2    50   Input ~ 0
+12V_OUT
+$Comp
+L Device:Ferrite_Bead FB2301
+U 1 1 5F556B18
+P 5750 2750
+F 0 "FB2301" V 5476 2750 50  0000 C CNN
+F 1 "600 Ohms@100Mhz 2.1A" V 5567 2750 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5680 2750 50  0001 C CNN
+F 3 "~" H 5750 2750 50  0001 C CNN
+F 4 "732-6126-1-ND" H 5750 2750 50  0001 C CNN "Digi-Key_PN"
+F 5 "~" H 5750 2750 50  0001 C CNN "Datasheet"
+F 6 "FB2301" H 5750 2750 50  0001 C CNN "Reference"
+F 7 "600 Ohms@100Mhz 2.1A" H 5750 2750 50  0001 C CNN "Value"
+F 8 "Can be replaced with other manufacturer component with same specs" H 5750 2750 50  0001 C CNN "Component comment"
+F 9 "Würth Elektronik" H 5750 2750 50  0001 C CNN "MF"
+F 10 "74279220601" H 5750 2750 50  0001 C CNN "MP"
+	1    5750 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F556B19
+P 6250 3050
+AR Path="/5F556B19" Ref="C?"  Part="1" 
+AR Path="/5EF0C7C8/5F556B19" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/5F556B19" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/5F556B19" Ref="C?"  Part="1" 
+AR Path="/5EFDA025/5F556B19" Ref="C?"  Part="1" 
+AR Path="/60A86F3C/5F556B19" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F5E35D6/5F556B19" Ref="C2301"  Part="1" 
+F 0 "C2301" H 6365 3096 50  0000 L CNN
+F 1 "0.1uF" H 6250 2950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6288 2900 50  0001 C CNN
+F 3 "" H 6250 3050 50  0001 C CNN
+F 4 "490-4779-1-ND" H 3150 350 50  0001 C CNN "Digi-Key_PN"
+F 5 "C2301" H 6250 3050 50  0001 C CNN "Reference"
+F 6 "0.1uF" H 6250 3050 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 6250 3050 50  0001 C CNN "Component comment"
+F 8 "Murata Electronics" H 6250 3050 50  0001 C CNN "MF"
+F 9 "GCM188R71H104KA57D" H 6250 3050 50  0001 C CNN "MP"
+	1    6250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR02303
+U 1 1 5F556B1A
+P 6250 3200
+F 0 "#PWR02303" H 6250 2950 50  0001 C CNN
+F 1 "GND" H 6255 3027 50  0000 C CNN
+F 2 "" H 6250 3200 50  0001 C CNN
+F 3 "" H 6250 3200 50  0001 C CNN
+	1    6250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR02304
+U 1 1 5FAD9FE1
+P 6800 3200
+F 0 "#PWR02304" H 6800 2950 50  0001 C CNN
+F 1 "GND" H 6805 3027 50  0000 C CNN
+F 2 "" H 6800 3200 50  0001 C CNN
+F 3 "" H 6800 3200 50  0001 C CNN
+	1    6800 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2750 6250 2750
+Wire Wire Line
+	6800 2900 6800 2750
+Wire Wire Line
+	6250 2900 6250 2750
+Connection ~ 6250 2750
+Wire Wire Line
+	6250 2750 6800 2750
+$Comp
+L Device:CP C?
+U 1 1 5FAD9FE2
+P 6800 3050
+AR Path="/5EFC7D9A/5FAD9FE2" Ref="C?"  Part="1" 
+AR Path="/60A86F3C/5FAD9FE2" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F5E35D6/5FAD9FE2" Ref="C2302"  Part="1" 
+F 0 "C2302" H 6825 3150 50  0000 L CNN
+F 1 "150uF 25V" H 6850 2950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_8x10.2" H 6838 2900 50  0001 C CNN
+F 3 "" H 6800 3050 50  0001 C CNN
+F 4 "PCE4547CT-ND" H 300 150 50  0001 C CNN "Digi-Key_PN"
+F 5 "C2302" H 6800 3050 50  0001 C CNN "Reference"
+F 6 "330uF 25V" H 6800 3050 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 6800 3050 50  0001 C CNN "Component comment"
+F 8 "Panasonic Electronic Components" H 6800 3050 50  0001 C CNN "MF"
+F 9 "EEE-FP1E151AP" H 6800 3050 50  0001 C CNN "MP"
+	1    6800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6025B2C8
+P 3500 3400
+AR Path="/5F52A0A7/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F52A21A/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F52A35C/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F3A7F9C/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F9FDF84/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F9FE0D3/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F9FE1F1/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F9FE30F/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F9FE42D/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53D974/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53D979/6025B2C8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F5E35D6/6025B2C8" Ref="R2301"  Part="1" 
+F 0 "R2301" V 3580 3400 50  0000 C CNN
+F 1 "1K" V 3500 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 3400 50  0001 C CNN
+F 3 "" H 3500 3400 50  0000 C CNN
+F 4 "P1.00KHCT-ND" H -1050 -300 50  0001 C CNN "Digi-Key_PN"
+F 5 "R2301" H 3500 3400 50  0001 C CNN "Reference"
+F 6 "1K" H 3500 3400 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 3500 3400 50  0001 C CNN "Component comment"
+F 8 "Panasonic Electronic Components" H 3500 3400 50  0001 C CNN "MF"
+F 9 "ERJ-3EKF1001V" H 3500 3400 50  0001 C CNN "MP"
+	1    3500 3400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6025B2D0
+P 3700 3550
+AR Path="/5F52A0A7/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F52A21A/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F52A35C/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F3A7F9C/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F9FDF84/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F9FE0D3/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F9FE1F1/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F9FE30F/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F9FE42D/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53D974/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53D979/6025B2D0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F5E35D6/6025B2D0" Ref="R2302"  Part="1" 
+F 0 "R2302" V 3780 3550 50  0000 C CNN
+F 1 "10K" V 3700 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 3550 50  0001 C CNN
+F 3 "" H 3700 3550 50  0000 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H -1050 -300 50  0001 C CNN "Digi-Key_PN"
+F 5 "R2302" H 3700 3550 50  0001 C CNN "Reference"
+F 6 "10K" H 3700 3550 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 3700 3550 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 3700 3550 50  0001 C CNN "MF"
+F 9 "RMCF0603FT10K0" H 3700 3550 50  0001 C CNN "MP"
+	1    3700 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L I-Connect_diverse:BSN20 Q?
+U 1 1 6025B2D8
+P 4050 3350
+AR Path="/5F52A0A7/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F52A21A/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F52A35C/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F3A7F9C/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F9FDF84/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F9FE0D3/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F9FE1F1/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F9FE30F/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F9FE42D/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F53D974/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F53D979/6025B2D8" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F5E35D6/6025B2D8" Ref="Q2301"  Part="1" 
+F 0 "Q2301" V 4000 3450 50  0000 L CNN
+F 1 "BSN20" V 4250 3350 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4250 3275 50  0001 L CIN
+F 3 "" H 4050 3350 50  0001 L CNN
+F 4 "BSN20-7DICT-ND" H -1050 -300 50  0001 C CNN "Digi-Key_PN"
+F 5 "Q2301" H 4050 3350 50  0001 C CNN "Reference"
+F 6 "BSN20" H 4050 3350 50  0001 C CNN "Value"
+F 7 "Diodes Incorporated" H 4050 3350 50  0001 C CNN "MF"
+F 8 "BSN20-7" H 4050 3350 50  0001 C CNN "MP"
+	1    4050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6025B2E0
+P 4150 2900
+AR Path="/5F52A0A7/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F52A21A/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F52A35C/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F3A7F9C/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F9FDF84/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F9FE0D3/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F9FE1F1/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F9FE30F/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F9FE42D/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53D974/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53D979/6025B2E0" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F5E35D6/6025B2E0" Ref="R2303"  Part="1" 
+F 0 "R2303" V 4230 2900 50  0000 C CNN
+F 1 "10K" V 4150 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 2900 50  0001 C CNN
+F 3 "" H 4150 2900 50  0000 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H -1050 -300 50  0001 C CNN "Digi-Key_PN"
+F 5 "R2303" H 4150 2900 50  0001 C CNN "Reference"
+F 6 "10K" H 4150 2900 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 4150 2900 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 4150 2900 50  0001 C CNN "MF"
+F 9 "RMCF0603FT10K0" H 4150 2900 50  0001 C CNN "MP"
+	1    4150 2900
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6025B2E7
+P 4150 3750
+AR Path="/5F52A0A7/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F52A21A/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F52A35C/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A7F9C/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FDF84/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE0D3/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE1F1/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE30F/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE42D/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F53D974/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F53D979/6025B2E7" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F5E35D6/6025B2E7" Ref="#PWR02302"  Part="1" 
+F 0 "#PWR02302" H 4150 3500 50  0001 C CNN
+F 1 "GND" H 4150 3600 50  0000 C CNN
+F 2 "" H 4150 3750 50  0001 C CNN
+F 3 "" H 4150 3750 50  0001 C CNN
+	1    4150 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2750 4400 2750
+Wire Wire Line
+	4400 2650 4500 2650
+Wire Wire Line
+	4400 2850 4500 2850
+Connection ~ 4400 2750
+Wire Wire Line
+	5100 2750 5200 2750
+Wire Wire Line
+	5200 2850 5100 2850
+Connection ~ 5200 2750
+Wire Wire Line
+	5200 2650 5100 2650
+Wire Wire Line
+	5200 2950 5100 2950
+Connection ~ 5200 2850
+Connection ~ 3700 3400
+Wire Wire Line
+	4150 2450 4150 2750
+Connection ~ 4150 2750
+Wire Wire Line
+	3650 3400 3700 3400
+Wire Wire Line
+	4150 3550 4150 3750
+Wire Wire Line
+	4150 3050 4150 3150
+Wire Wire Line
+	4150 3050 4400 3050
+Wire Wire Line
+	4400 3050 4400 2950
+Wire Wire Line
+	4400 2950 4500 2950
+Wire Wire Line
+	4400 2650 4400 2750
+Wire Wire Line
+	5200 2650 5200 2750
+$Comp
+L power:GND #PWR?
+U 1 1 6025B302
+P 3700 3700
+AR Path="/5F52A0A7/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F52A21A/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F52A35C/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A7F9C/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FDF84/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE0D3/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE1F1/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE30F/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F9FE42D/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F53D974/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F53D979/6025B302" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F5E35D6/6025B302" Ref="#PWR02301"  Part="1" 
+F 0 "#PWR02301" H 3700 3450 50  0001 C CNN
+F 1 "GND" H 3700 3550 50  0000 C CNN
+F 2 "" H 3700 3700 50  0001 C CNN
+F 3 "" H 3700 3700 50  0001 C CNN
+	1    3700 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2750 4500 2750
+Wire Wire Line
+	4400 2750 4400 2850
+Wire Wire Line
+	5200 2750 5200 2850
+Wire Wire Line
+	5200 2850 5200 2950
+Wire Wire Line
+	3700 3400 3850 3400
+Text HLabel 3350 3400 0    50   Input ~ 0
+Enable
+$Comp
+L I-Connect_diverse:FDS6681Z Q?
+U 1 1 6025B312
+P 4800 2800
+AR Path="/5F52A0A7/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F52A21A/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F52A35C/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F3A7F9C/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F9FDF84/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F9FE0D3/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F9FE1F1/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F9FE30F/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F9FE42D/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B5/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BA/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5BF/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C4/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5C9/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC5CE/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F53D974/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F53D979/6025B312" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F5E35D6/6025B312" Ref="Q2302"  Part="1" 
+F 0 "Q2302" H 4600 3100 50  0000 L CNN
+F 1 "FDS6681Z" H 4600 2550 50  0000 L CNN
+F 2 "Housings_SOIC:PowerIntegrations_SO-8" H 4650 3200 50  0001 C CIN
+F 3 "" H 4815 2855 50  0001 L CNN
+F 4 "FDS6681ZCT-ND" H 4800 2800 50  0001 C CNN "Digi-Key_PN"
+F 5 "Q2302" H 4800 2800 50  0001 C CNN "Reference"
+F 6 "FDS6681Z" H 4800 2800 50  0001 C CNN "Value"
+F 7 "onsemi" H 4800 2800 50  0001 C CNN "MF"
+F 8 "FDS6681Z" H 4800 2800 50  0001 C CNN "MP"
+	1    4800 2800
+	-1   0    0    1   
+$EndComp
+Connection ~ 4150 3050
+Wire Wire Line
+	5200 2750 5600 2750
+Wire Wire Line
+	3350 2450 4150 2450
+$Comp
+L Device:D_TVS D?
+U 1 1 603D5619
+P 7900 3000
+AR Path="/5FE425E2/603D5619" Ref="D?"  Part="1" 
+AR Path="/5F5EC06C/603D5619" Ref="D?"  Part="1" 
+AR Path="/5F5DF2AE/603D5619" Ref="D?"  Part="1" 
+AR Path="/5FA72486/603D5619" Ref="D?"  Part="1" 
+AR Path="/5FA9171D/603D5619" Ref="D?"  Part="1" 
+AR Path="/5FAB0A4A/603D5619" Ref="D?"  Part="1" 
+AR Path="/5F078D61/5FC98B34/603D5619" Ref="D?"  Part="1" 
+AR Path="/5F078D61/601D8183/603D5619" Ref="D?"  Part="1" 
+AR Path="/5F078D61/601FF26E/603D5619" Ref="D?"  Part="1" 
+AR Path="/5F078D61/5F5E35D6/603D5619" Ref="D2301"  Part="1" 
+F 0 "D2301" V 7850 2600 60  0000 L CNN
+F 1 "TVS 30V" V 7750 2550 60  0000 L CNN
+F 2 "w_smd_diode:do214aa" H 8100 3200 60  0001 L CNN
+F 3 "" H 8100 3300 60  0001 L CNN
+F 4 "SMBJ30CALFCT-ND" H 7900 3000 50  0001 C CNN "Digi-Key_PN"
+F 5 "D2301" H 7900 3000 50  0001 C CNN "Reference"
+F 6 "TVS 30V" H 7900 3000 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 7900 3000 50  0001 C CNN "Component comment"
+F 8 "Littelfuse Inc." H 7900 3000 50  0001 C CNN "MF"
+F 9 "SMBJ30CA" H 7900 3000 50  0001 C CNN "MP"
+	1    7900 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 2850 7900 2750
+$Comp
+L C-Sense_diverse:GND #PWR02305
+U 1 1 603D6528
+P 7900 3200
+F 0 "#PWR02305" H 7900 2950 50  0001 C CNN
+F 1 "GND" H 7905 3027 50  0000 C CNN
+F 2 "" H 7900 3200 50  0001 C CNN
+F 3 "" H 7900 3200 50  0001 C CNN
+	1    7900 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3150 7900 3200
+$Comp
+L Device:Fuse F1702
+U 1 1 61CF54B7
+P 8450 2750
+F 0 "F1702" V 8253 2750 50  0000 C CNN
+F 1 "Fuse 2A" V 8344 2750 50  0000 C CNN
+F 2 "D_Sense:Fuse-3544-2" V 8380 2750 50  0001 C CNN
+F 3 "~" H 8450 2750 50  0001 C CNN
+F 4 "36-3544-2-ND" H 8450 2750 50  0001 C CNN "Digi-Key_PN"
+F 5 "~" H 8450 2750 50  0001 C CNN "Datasheet"
+F 6 "F1702" H 8450 2750 50  0001 C CNN "Reference"
+F 7 "Fuse 2A" H 8450 2750 50  0001 C CNN "Value"
+F 8 "Keystone Electronics" H 8450 2750 50  0001 C CNN "MF"
+F 9 "3544-2" H 8450 2750 50  0001 C CNN "MP"
+	1    8450 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 2750 7900 2750
+Connection ~ 6800 2750
+Connection ~ 7900 2750
+Wire Wire Line
+	7900 2750 8300 2750
+Wire Wire Line
+	8600 2750 8800 2750
+$EndSCHEMATC

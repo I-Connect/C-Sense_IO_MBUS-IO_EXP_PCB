@@ -1,0 +1,130 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 17
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 5150 4400 0    60   ~ 0
+1K -> max 24 mA at 24V\n\n2K2 -> max 11 mA at 24V\n2K2 -> max 5.5 mA at 12V
+Text HLabel 6550 3450 2    50   Output ~ 0
+SIGNAL_OUT
+Text HLabel 6450 3050 2    50   Output ~ 0
+VCC_PULLUP
+$Comp
+L Isolator:SFH617A-1 U2401
+U 1 1 63F978EA
+P 5950 3550
+AR Path="/5F078D61/61E3ADD8/63F978EA" Ref="U2401"  Part="1" 
+AR Path="/5F078D61/61E50563/63F978EA" Ref="U2501"  Part="1" 
+F 0 "U2501" H 5950 3875 50  0000 C CNN
+F 1 "LTV-817" H 5950 3784 50  0000 C CNN
+F 2 "digikey-footprints:SMD-4_4.6x7.62mm_P2.54mm" H 5750 3350 50  0001 L CIN
+F 3 "" H 5950 3550 50  0001 L CNN
+F 4 "160-1893-1-ND" H 5950 3550 50  0001 C CNN "Digi-Key_PN"
+F 5 "none" H 2050 450 50  0001 C CNN "Component comment"
+F 6 "" H 2050 450 50  0001 C CNN "Manufacturer"
+F 7 "" H 2050 450 50  0001 C CNN "Manufacturer_PN"
+F 8 "Lite-On Inc." H 5950 3550 50  0001 C CNN "MF"
+F 9 "LTV-817S-TA1" H 5950 3550 50  0001 C CNN "MP"
+F 10 "U2501" H 5950 3550 50  0001 C CNN "Reference"
+F 11 "LTV-817" H 5950 3550 50  0001 C CNN "Value"
+	1    5950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:R R2401
+U 1 1 63F978EB
+P 5400 3450
+AR Path="/5F078D61/61E3ADD8/63F978EB" Ref="R2401"  Part="1" 
+AR Path="/5F078D61/61E50563/63F978EB" Ref="R2501"  Part="1" 
+F 0 "R2501" V 5300 3400 50  0000 L CNN
+F 1 "2K2" V 5500 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5330 3450 50  0001 C CNN
+F 3 "" H 5400 3450 50  0001 C CNN
+F 4 "RMCF0603FT2K20CT-ND" H 2050 450 50  0001 C CNN "Digi-Key_PN"
+F 5 "Can be replaced with other manufacturer component with same specs" H 2050 450 50  0001 C CNN "Component comment"
+F 6 "" H 2050 450 50  0001 C CNN "Manufacturer"
+F 7 "" H 2050 450 50  0001 C CNN "Manufacturer_PN"
+F 8 "Stackpole Electronics Inc" H 5400 3450 50  0001 C CNN "MF"
+F 9 "RMCF0603FT2K20" H 5400 3450 50  0001 C CNN "MP"
+F 10 "R2501" H 5400 3450 50  0001 C CNN "Reference"
+F 11 "2K2" H 5400 3450 50  0001 C CNN "Value"
+	1    5400 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR0159
+U 1 1 63F978EC
+P 5650 3700
+AR Path="/5F078D61/61E3ADD8/63F978EC" Ref="#PWR0159"  Part="1" 
+AR Path="/5F078D61/61E50563/63F978EC" Ref="#PWR02502"  Part="1" 
+F 0 "#PWR02502" H 5650 3450 50  0001 C CNN
+F 1 "GND" H 5655 3527 50  0000 C CNN
+F 2 "" H 5650 3700 50  0001 C CNN
+F 3 "" H 5650 3700 50  0001 C CNN
+	1    5650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR0160
+U 1 1 63F978ED
+P 6250 3700
+AR Path="/5F078D61/61E3ADD8/63F978ED" Ref="#PWR0160"  Part="1" 
+AR Path="/5F078D61/61E50563/63F978ED" Ref="#PWR02503"  Part="1" 
+F 0 "#PWR02503" H 6250 3450 50  0001 C CNN
+F 1 "GND" H 6255 3527 50  0000 C CNN
+F 2 "" H 6250 3700 50  0001 C CNN
+F 3 "" H 6250 3700 50  0001 C CNN
+	1    6250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:R R2402
+U 1 1 5FCE8D6D
+P 6350 3200
+AR Path="/5F078D61/61E3ADD8/5FCE8D6D" Ref="R2402"  Part="1" 
+AR Path="/5F078D61/61E50563/5FCE8D6D" Ref="R2502"  Part="1" 
+F 0 "R2502" V 6250 3150 50  0000 L CNN
+F 1 "10K" V 6450 3150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6280 3200 50  0001 C CNN
+F 3 "" H 6350 3200 50  0001 C CNN
+F 4 "RMCF0603FT10K0CT-ND" H 2050 450 50  0001 C CNN "Digi-Key_PN"
+F 5 "Can be replaced with other manufacturer component with same specs" H 2050 450 50  0001 C CNN "Component comment"
+F 6 "" H 2050 450 50  0001 C CNN "Manufacturer"
+F 7 "" H 2050 450 50  0001 C CNN "Manufacturer_PN"
+F 8 "Stackpole Electronics Inc" H 6350 3200 50  0001 C CNN "MF"
+F 9 "RMCF0603FT10K0" H 6350 3200 50  0001 C CNN "MP"
+F 10 "R2502" H 6350 3200 50  0001 C CNN "Reference"
+F 11 "10K" H 6350 3200 50  0001 C CNN "Value"
+	1    6350 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3450 5650 3450
+Wire Wire Line
+	6250 3450 6350 3450
+Wire Wire Line
+	6350 3350 6350 3450
+Connection ~ 6350 3450
+Wire Wire Line
+	6350 3450 6550 3450
+Wire Wire Line
+	6250 3650 6250 3700
+Wire Wire Line
+	5650 3650 5650 3700
+Wire Wire Line
+	6350 3050 6450 3050
+Text HLabel 4950 3450 0    50   Input ~ 0
+SIGNAL_IN
+Wire Wire Line
+	4950 3450 5250 3450
+$EndSCHEMATC

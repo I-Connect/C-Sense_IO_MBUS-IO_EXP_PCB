@@ -1,0 +1,434 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 22 31
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Jumper:SolderJumper_2_Open JP2201
+U 1 1 5F5E6A8E
+P 6400 2900
+F 0 "JP2201" H 6900 2900 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 3014 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 2900 50  0001 C CNN
+F 3 "~" H 6400 2900 50  0001 C CNN
+F 4 "Not placed" H 6400 2900 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2202
+U 1 1 5F62745E
+P 6400 3000
+F 0 "JP2202" H 6900 3000 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 3114 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3000 50  0001 C CNN
+F 3 "~" H 6400 3000 50  0001 C CNN
+F 4 "Not placed" H 6400 3000 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2203
+U 1 1 5F627492
+P 6400 3100
+F 0 "JP2203" H 6900 3100 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 3214 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3100 50  0001 C CNN
+F 3 "~" H 6400 3100 50  0001 C CNN
+F 4 "Not placed" H 6400 3100 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2204
+U 1 1 5F6274C8
+P 6400 3200
+F 0 "JP2204" H 6900 3200 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 3314 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3200 50  0001 C CNN
+F 3 "~" H 6400 3200 50  0001 C CNN
+F 4 "Not placed" H 6400 3200 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2205
+U 1 1 5F6275DF
+P 6400 3300
+F 0 "JP2205" H 6900 3300 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 3414 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3300 50  0001 C CNN
+F 3 "~" H 6400 3300 50  0001 C CNN
+F 4 "Not placed" H 6400 3300 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2206
+U 1 1 5F6275E6
+P 6400 3400
+F 0 "JP2206" H 6900 3400 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 3514 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3400 50  0001 C CNN
+F 3 "~" H 6400 3400 50  0001 C CNN
+F 4 "Not placed" H 6400 3400 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2208
+U 1 1 5F6275ED
+P 6400 3600
+F 0 "JP2208" H 6900 3600 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 3714 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3600 50  0001 C CNN
+F 3 "~" H 6400 3600 50  0001 C CNN
+F 4 "Not placed" H 6400 3600 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   100 50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   100 50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   100 50  0001 C CNN "Manufacturer_PN"
+	1    6400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP2207
+U 1 1 5F6275F4
+P 6400 3500
+F 0 "JP2207" H 6900 3500 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 6400 3614 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 6400 3500 50  0001 C CNN
+F 3 "~" H 6400 3500 50  0001 C CNN
+F 4 "Not placed" H 6400 3500 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   -100 50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   -100 50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   -100 50  0001 C CNN "Manufacturer_PN"
+	1    6400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2209
+U 1 1 5F6479D1
+P 6400 3800
+F 0 "JP2209" H 6900 3800 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 3914 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 3800 50  0001 C CNN
+F 3 "~" H 6400 3800 50  0001 C CNN
+F 4 "Not placed" H 6400 3800 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP2210
+U 1 1 5F6479D8
+P 6400 3900
+F 0 "JP2210" H 6900 3900 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 6400 4014 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 6400 3900 50  0001 C CNN
+F 3 "~" H 6400 3900 50  0001 C CNN
+F 4 "Not placed" H 6400 3900 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2212
+U 1 1 5F6479E6
+P 6400 4100
+F 0 "JP2212" H 6900 4100 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 4214 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 4100 50  0001 C CNN
+F 3 "~" H 6400 4100 50  0001 C CNN
+F 4 "Not placed" H 6400 4100 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2213
+U 1 1 5F6479ED
+P 6400 4200
+F 0 "JP2213" H 6900 4200 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 4314 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 4200 50  0001 C CNN
+F 3 "~" H 6400 4200 50  0001 C CNN
+F 4 "Not placed" H 6400 4200 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2214
+U 1 1 5F6479F4
+P 6400 4300
+F 0 "JP2214" H 6900 4300 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 4414 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 4300 50  0001 C CNN
+F 3 "~" H 6400 4300 50  0001 C CNN
+F 4 "Not placed" H 6400 4300 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2215
+U 1 1 5F6479FB
+P 6400 4400
+F 0 "JP2215" H 6900 4400 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 4514 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 4400 50  0001 C CNN
+F 3 "~" H 6400 4400 50  0001 C CNN
+F 4 "Not placed" H 6400 4400 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2216
+U 1 1 5F647A02
+P 6400 4500
+F 0 "JP2216" H 6900 4500 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6400 4614 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6400 4500 50  0001 C CNN
+F 3 "~" H 6400 4500 50  0001 C CNN
+F 4 "Not placed" H 6400 4500 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   0   50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   0   50  0001 C CNN "Manufacturer_PN"
+	1    6400 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2900 6250 2900
+Wire Wire Line
+	6250 3000 6050 3000
+Wire Wire Line
+	6050 3100 6250 3100
+Wire Wire Line
+	6250 3200 6050 3200
+Wire Wire Line
+	6050 3300 6250 3300
+Wire Wire Line
+	6250 3400 6050 3400
+Wire Wire Line
+	6050 3500 6250 3500
+Wire Wire Line
+	6250 3600 6050 3600
+Wire Wire Line
+	6050 3800 6250 3800
+Wire Wire Line
+	6250 3900 6050 3900
+Wire Wire Line
+	6050 4000 6250 4000
+Wire Wire Line
+	6250 4100 6050 4100
+Wire Wire Line
+	6050 4200 6250 4200
+Wire Wire Line
+	6250 4300 6050 4300
+Wire Wire Line
+	6050 4400 6250 4400
+Wire Wire Line
+	6250 4500 6050 4500
+$Comp
+L C-Sense_diverse:GND #PWR02203
+U 1 1 5F814ED6
+P 6700 4600
+F 0 "#PWR02203" H 6700 4350 50  0001 C CNN
+F 1 "GND" H 6705 4427 50  0000 C CNN
+F 2 "" H 6700 4600 50  0001 C CNN
+F 3 "" H 6700 4600 50  0001 C CNN
+	1    6700 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2900 6700 2900
+Wire Wire Line
+	6700 2900 6700 3000
+Wire Wire Line
+	6550 4500 6700 4500
+Connection ~ 6700 4500
+Wire Wire Line
+	6700 4500 6700 4600
+Wire Wire Line
+	6550 4400 6700 4400
+Connection ~ 6700 4400
+Wire Wire Line
+	6700 4400 6700 4500
+Wire Wire Line
+	6550 4300 6700 4300
+Connection ~ 6700 4300
+Wire Wire Line
+	6700 4300 6700 4400
+Wire Wire Line
+	6550 4200 6700 4200
+Connection ~ 6700 4200
+Wire Wire Line
+	6700 4200 6700 4300
+Wire Wire Line
+	6550 4100 6700 4100
+Connection ~ 6700 4100
+Wire Wire Line
+	6700 4100 6700 4200
+Wire Wire Line
+	6550 4000 6700 4000
+Connection ~ 6700 4000
+Wire Wire Line
+	6700 4000 6700 4100
+Wire Wire Line
+	6550 3900 6700 3900
+Connection ~ 6700 3900
+Wire Wire Line
+	6700 3900 6700 4000
+Wire Wire Line
+	6550 3800 6700 3800
+Connection ~ 6700 3800
+Wire Wire Line
+	6700 3800 6700 3900
+Wire Wire Line
+	6550 3600 6700 3600
+Connection ~ 6700 3600
+Wire Wire Line
+	6700 3600 6700 3800
+Wire Wire Line
+	6550 3500 6700 3500
+Connection ~ 6700 3500
+Wire Wire Line
+	6700 3500 6700 3600
+Wire Wire Line
+	6550 3400 6700 3400
+Connection ~ 6700 3400
+Wire Wire Line
+	6700 3400 6700 3500
+Wire Wire Line
+	6550 3300 6700 3300
+Connection ~ 6700 3300
+Wire Wire Line
+	6700 3300 6700 3400
+Wire Wire Line
+	6550 3200 6700 3200
+Connection ~ 6700 3200
+Wire Wire Line
+	6700 3200 6700 3300
+Wire Wire Line
+	6550 3100 6700 3100
+Connection ~ 6700 3100
+Wire Wire Line
+	6700 3100 6700 3200
+Wire Wire Line
+	6550 3000 6700 3000
+Connection ~ 6700 3000
+Wire Wire Line
+	6700 3000 6700 3100
+$Sheet
+S 4500 2700 1550 1900
+U 61870E05
+F0 "versionMultiplexer" 50
+F1 "16Ch_DigitalMultiplexer_MCP23S17.sch" 50
+F2 "3V3_IN" I L 4500 2800 50 
+F3 "!RESET" I L 4500 3600 50 
+F4 "!INT" O L 4500 3700 50 
+F5 "IO0" B R 6050 2900 50 
+F6 "IO1" B R 6050 3000 50 
+F7 "IO2" B R 6050 3100 50 
+F8 "IO3" B R 6050 3200 50 
+F9 "IO4" B R 6050 3300 50 
+F10 "IO5" B R 6050 3400 50 
+F11 "IO6" B R 6050 3500 50 
+F12 "IO7" B R 6050 3600 50 
+F13 "IO8" B R 6050 3800 50 
+F14 "IO9" B R 6050 3900 50 
+F15 "IO10" B R 6050 4000 50 
+F16 "IO11" B R 6050 4100 50 
+F17 "IO12" B R 6050 4200 50 
+F18 "IO13" B R 6050 4300 50 
+F19 "IO14" B R 6050 4400 50 
+F20 "IO15" B R 6050 4500 50 
+F21 "CS" I L 4500 2950 50 
+F22 "SCK" I L 4500 3050 50 
+F23 "MOSI" I L 4500 3150 50 
+F24 "MISO" O L 4500 3250 50 
+F25 "ADDR2" I L 4500 4500 50 
+F26 "ADDR1" I L 4500 4400 50 
+F27 "ADDR0" I L 4500 4300 50 
+$EndSheet
+NoConn ~ 4500 3700
+Text HLabel 4500 2800 0    50   Input ~ 0
+3V3_IN
+Text HLabel 4500 2950 0    50   Input ~ 0
+MP_VERS_CS
+Text HLabel 4500 3050 0    50   Input ~ 0
+SCK
+Text HLabel 4500 3150 0    50   Input ~ 0
+MOSI
+Text HLabel 4500 3250 0    50   Output ~ 0
+MISO
+Text HLabel 4500 3600 0    50   Input ~ 0
+MP_VERS_RST
+Text HLabel 4500 4300 0    50   Input ~ 0
+ADDR0
+Text HLabel 4500 4400 0    50   Input ~ 0
+ADDR1
+Text HLabel 4500 4500 0    50   Input ~ 0
+ADDR2
+Text Notes 7150 4200 0    50   ~ 0
+Version 6 (0110)
+Text Notes 7150 3200 0    50   ~ 0
+Module 2 (0010)
+$Comp
+L Jumper:SolderJumper_2_Bridged JP2211
+U 1 1 61C5625D
+P 6400 4000
+F 0 "JP2211" H 6900 4000 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 6400 4114 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 6400 4000 50  0001 C CNN
+F 3 "~" H 6400 4000 50  0001 C CNN
+F 4 "Not placed" H 6400 4000 50  0001 C CNN "Digi-Key_PN"
+F 5 "Not placed" H 0   100 50  0001 C CNN "Component comment"
+F 6 "Not placed" H 0   100 50  0001 C CNN "Manufacturer"
+F 7 "Not placed" H 0   100 50  0001 C CNN "Manufacturer_PN"
+	1    6400 4000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

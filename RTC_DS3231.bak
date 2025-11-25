@@ -1,0 +1,215 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 15 37
+Title ""
+Date "2020-06-24"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7150 6800 0    60   ~ 0
+RTC (DS3231)
+Wire Wire Line
+	3800 3850 4000 3850
+Wire Wire Line
+	3800 3950 4000 3950
+Text HLabel 3800 3850 0    50   Input ~ 0
+SCL
+Text HLabel 3800 3950 0    50   BiDi ~ 0
+SDA
+Text Notes 3500 4600 0    60   ~ 0
+ I2C  0x68\n
+$Comp
+L Timer_RTC:DS3231M U?
+U 1 1 5F576D15
+P 4500 4050
+AR Path="/5F078D61/5F2AC5A4/5F576D15" Ref="U?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/5F576D15" Ref="U?"  Part="1" 
+F 0 "U?" H 4850 3650 50  0000 C CNN
+F 1 "DS3231S" H 5000 3550 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16W_7.5x10.3mm_P1.27mm" H 4500 3450 50  0001 C CNN
+F 3 "http://datasheets.maximintegrated.com/en/ds/DS3231.pdf" H 4770 4100 50  0001 C CNN
+F 4 "DS3231SN#T&R" H 4500 4050 50  0001 C CNN "Digi-Key_PN"
+	1    4500 4050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4000 4250
+$Comp
+L power:GND #PWR0219
+U 1 1 5F5778DA
+P 4500 4450
+AR Path="/5F078D61/5F2AC5A4/5F5778DA" Ref="#PWR0219"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/5F5778DA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4500 4200 50  0001 C CNN
+F 1 "GND" H 4500 4300 50  0000 C CNN
+F 2 "" H 4500 4450 50  0000 C CNN
+F 3 "" H 4500 4450 50  0000 C CNN
+	1    4500 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F577A5A
+P 4700 3450
+AR Path="/5F078D61/5F2AC5A4/5F577A5A" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/5F577A5A" Ref="C?"  Part="1" 
+F 0 "C?" H 4725 3550 50  0000 L CNN
+F 1 "0.1uF" H 4725 3350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4738 3300 50  0001 C CNN
+F 3 "" H 4700 3450 50  0001 C CNN
+F 4 "490-16477-1-ND" H -550 -650 50  0001 C CNN "Digi-Key_PN"
+	1    4700 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0220
+U 1 1 5F577A60
+P 4850 3450
+AR Path="/5F078D61/5F2AC5A4/5F577A60" Ref="#PWR0220"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/5F577A60" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4850 3200 50  0001 C CNN
+F 1 "GND" H 4850 3300 50  0000 C CNN
+F 2 "" H 4850 3450 50  0000 C CNN
+F 3 "" H 4850 3450 50  0000 C CNN
+	1    4850 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F577A67
+P 4550 3150
+AR Path="/5F078D61/5F2AC5A4/5F577A67" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/5F577A67" Ref="R?"  Part="1" 
+F 0 "R?" V 4630 3150 50  0000 C CNN
+F 1 "0" V 4550 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4480 3150 50  0001 C CNN
+F 3 "" H 4550 3150 50  0000 C CNN
+F 4 "P0.0ECT-ND" H -1000 -800 50  0001 C CNN "Digi-Key_PN"
+	1    4550 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3450 4550 3300
+Text HLabel 4550 3000 1    50   Input ~ 0
+BAT_3V
+$Comp
+L Device:C C?
+U 1 1 5F5789E2
+P 4100 3450
+AR Path="/5F078D61/5F2AC5A4/5F5789E2" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/5F5789E2" Ref="C?"  Part="1" 
+F 0 "C?" H 4125 3550 50  0000 L CNN
+F 1 "0.1uF" H 4125 3350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4138 3300 50  0001 C CNN
+F 3 "" H 4100 3450 50  0001 C CNN
+F 4 "490-16477-1-ND" H -850 350 50  0001 C CNN "Digi-Key_PN"
+	1    4100 3450
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0221
+U 1 1 5F5789E8
+P 3950 3450
+AR Path="/5F078D61/5F2AC5A4/5F5789E8" Ref="#PWR0221"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/5F5789E8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3950 3200 50  0001 C CNN
+F 1 "GND" H 3950 3300 50  0000 C CNN
+F 2 "" H 3950 3450 50  0000 C CNN
+F 3 "" H 3950 3450 50  0000 C CNN
+	1    3950 3450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F5789EF
+P 4300 3150
+AR Path="/5F078D61/5F2AC5A4/5F5789EF" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/5F5789EF" Ref="R?"  Part="1" 
+F 0 "R?" V 4380 3150 50  0000 C CNN
+F 1 "0" V 4300 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4230 3150 50  0001 C CNN
+F 3 "" H 4300 3150 50  0000 C CNN
+F 4 "P0.0ECT-ND" H -300 250 50  0001 C CNN "Digi-Key_PN"
+	1    4300 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3300 4300 3450
+Wire Wire Line
+	4250 3450 4300 3450
+Connection ~ 4300 3450
+Wire Wire Line
+	4300 3450 4300 3550
+Text HLabel 4300 3000 1    50   Input ~ 0
+3V3
+Wire Wire Line
+	4550 3450 4550 3550
+Wire Wire Line
+	4550 3550 4500 3550
+Wire Wire Line
+	4500 3550 4500 3650
+Connection ~ 4550 3450
+Wire Wire Line
+	4300 3550 4400 3550
+Wire Wire Line
+	4400 3550 4400 3600
+$Comp
+L Device:R R?
+U 1 1 5F57C144
+P 5200 3850
+AR Path="/5F078D61/5F2AC5A4/5F57C144" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/5F57C144" Ref="R?"  Part="1" 
+F 0 "R?" V 5280 3850 50  0000 C CNN
+F 1 "10K" V 5200 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 3850 50  0001 C CNN
+F 3 "" H 5200 3850 50  0000 C CNN
+F 4 "P10.0KHCT-ND" H -300 450 50  0001 C CNN "Digi-Key_PN"
+	1    5200 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 3850 5050 3850
+Wire Wire Line
+	4400 3600 5350 3600
+Wire Wire Line
+	5350 3600 5350 3850
+Connection ~ 4400 3600
+Wire Wire Line
+	4400 3600 4400 3650
+$Comp
+L Device:R R?
+U 1 1 5F57D15D
+P 5550 3900
+AR Path="/5F078D61/5F2AC5A4/5F57D15D" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/5F57D15D" Ref="R?"  Part="1" 
+F 0 "R?" V 5630 3900 50  0000 C CNN
+F 1 "10K" V 5550 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5480 3900 50  0001 C CNN
+F 3 "" H 5550 3900 50  0000 C CNN
+F 4 "P10.0KHCT-ND" H -150 500 50  0001 C CNN "Digi-Key_PN"
+	1    5550 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 4150 5550 4150
+Wire Wire Line
+	5550 3700 5550 3750
+Wire Wire Line
+	5550 4050 5550 4150
+Connection ~ 5550 4150
+Wire Wire Line
+	5550 4150 5600 4150
+Text HLabel 5600 4150 2    50   Output ~ 0
+INT
+Text HLabel 5550 3700 1    50   Input ~ 0
+3V3
+Text Notes 7000 3400 0    50   ~ 0
+vervangen door AB08X5 Real-Time Clock ?
+$EndSCHEMATC

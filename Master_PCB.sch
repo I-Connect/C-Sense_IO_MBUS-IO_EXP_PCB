@@ -1,0 +1,2196 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 27
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 8250 8800 1000 550 
+U 658599CB
+F0 "Analog_in" 50
+F1 "Analog_in_exp.sch" 50
+F2 "signal_IN" I R 9250 8950 50 
+F3 "3V3_IN" I L 8250 8900 50 
+F4 "0.5*VCC_voltage_OUT" I R 9250 9200 50 
+F5 "signal_OUT" O L 8250 9100 50 
+$EndSheet
+Text Label 8250 9100 2    50   ~ 0
+Analog_in_EXP
+Text Label 9250 9200 0    50   ~ 0
+Analog_ref_voltage
+Text Label 9250 8950 0    50   ~ 0
+Analog_signal_in
+Text Label 15800 7800 1    50   ~ 0
+Analog_ref_voltage
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 6587120A
+P 15700 7800
+AR Path="/5F078D61/5F511C13/6587120A" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/6587120A" Ref="#PWR0204"  Part="1" 
+F 0 "#PWR0204" H 15700 7550 50  0001 C CNN
+F 1 "GND" V 15705 7627 50  0000 C CNN
+F 2 "" H 15700 7800 50  0001 C CNN
+F 3 "" H 15700 7800 50  0001 C CNN
+	1    15700 7800
+	1    0    0    1   
+$EndComp
+$Comp
+L SJ1-3533NG:SJ1-3533NG J203
+U 1 1 65862ED2
+P 15700 9000
+F 0 "J203" V 16150 9300 50  0000 R CNN
+F 1 "SJ1-3533NG" V 15200 9250 50  0000 R CNN
+F 2 "CUI_SJ1-3533NG" H 15700 9000 50  0001 L BNN
+F 3 "" H 15700 9000 50  0001 L BNN
+F 4 "CUI Devices" H 15700 9000 50  0001 L BNN "MF"
+F 5 "3.5 mm, Stereo, Right Angle, Through Hole, Isolated Ground, Audio Jack Connector" H 15700 9000 50  0001 L BNN "DESCRIPTION"
+F 6 "None" H 15700 9000 50  0001 L BNN "PACKAGE"
+F 7 "" H 15700 9000 50  0001 L BNN "PRICE"
+F 8 "None" H 15700 9000 50  0001 L BNN "Package"
+F 9 "" H 15700 9000 50  0001 L BNN "Check_prices"
+F 10 "" H 15700 9000 50  0001 L BNN "CUI_PURCHASE_URL"
+F 11 "" H 15700 9000 50  0001 L BNN "SnapEDA_Link"
+F 12 "SJ1-3533NG" H 15700 9000 50  0001 L BNN "MP"
+F 13 "" H 15700 9000 50  0001 L BNN "Purchase-URL"
+F 14 "" H 15700 9000 50  0001 L BNN "Price"
+F 15 "" H 15700 9000 50  0001 L BNN "Availability"
+F 16 "" H 15700 9000 50  0001 L BNN "CUI_purchase_URL"
+F 17 "" H 15700 9000 50  0001 L BNN "AVAILABILITY"
+F 18 "3.5 mm Right-Angle Stereo Jack, 3 Pin PCB Mount, Isolated Ground" H 15700 9000 50  0001 L BNN "Description"
+F 19 "CP1-3533NG-ND" H 15700 9000 50  0001 C CNN "Digi-Key_PN"
+F 20 "J203" H 15700 9000 50  0001 C CNN "Reference"
+F 21 "SJ1-3533NG" H 15700 9000 50  0001 C CNN "Value"
+F 22 "Through-hole" V 15700 9000 50  0001 C CNN "Mount type"
+F 23 "exp_v1" V 15700 9000 50  0001 C CNN "pcb"
+	1    15700 9000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15800 7800 15800 8400
+Wire Wire Line
+	15600 7800 15600 8400
+Wire Wire Line
+	15700 7800 15700 8400
+$Sheet
+S 8200 7100 850  600 
+U 65A1EFAA
+F0 "Signal_Relay1" 50
+F1 "Signal_Relay_exp.sch" 50
+F2 "3V3_IN" I L 8200 7200 50 
+F3 "COMMON" I R 9050 7400 50 
+F4 "NO" O R 9050 7200 50 
+F5 "NC" O R 9050 7600 50 
+F6 "Enable" I L 8200 7350 50 
+$EndSheet
+Text Label 8200 7200 2    50   ~ 0
+3V3_EXP
+Wire Wire Line
+	9050 7200 9200 7200
+Wire Wire Line
+	9200 7200 9200 7300
+Wire Wire Line
+	9050 7600 9200 7600
+Wire Wire Line
+	9200 7600 9200 7500
+Wire Wire Line
+	9050 8050 9200 8050
+Wire Wire Line
+	9200 8050 9200 8150
+Wire Wire Line
+	9050 8450 9200 8450
+Wire Wire Line
+	9200 8450 9200 8350
+Text Label 8200 7350 2    50   ~ 0
+MP_Dig1_EXP
+Text Label 8200 8200 2    50   ~ 0
+MP_Dig2_EXP
+Text Notes 6750 6700 0    50   ~ 0
+Expansion PCB
+$Comp
+L power:GND #PWR?
+U 1 1 65D23359
+P 7050 8750
+AR Path="/5F26C8F5/65D23359" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/65D23359" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65D23359" Ref="#PWR0209"  Part="1" 
+F 0 "#PWR0209" H 7050 8500 50  0001 C CNN
+F 1 "GND" V 7050 8550 50  0000 C CNN
+F 2 "" H 7050 8750 50  0000 C CNN
+F 3 "" H 7050 8750 50  0000 C CNN
+	1    7050 8750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65D23353
+P 7050 8550
+AR Path="/5F26C8F5/65D23353" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/65D23353" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65D23353" Ref="#PWR0208"  Part="1" 
+F 0 "#PWR0208" H 7050 8300 50  0001 C CNN
+F 1 "GND" V 7050 8350 50  0000 C CNN
+F 2 "" H 7050 8550 50  0000 C CNN
+F 3 "" H 7050 8550 50  0000 C CNN
+	1    7050 8550
+	0    -1   -1   0   
+$EndComp
+Text Label 7050 9150 0    50   ~ 0
+3V3_EXP
+Text Label 7050 9350 0    50   ~ 0
+MBUS_MISO_EXP
+Text Label 7050 9450 0    50   ~ 0
+MBUS_CS_EXP
+Text Label 7050 9650 0    50   ~ 0
+MOSI_EXP
+Text Label 7050 9550 0    50   ~ 0
+CLK_EXP
+$Comp
+L power:GND #PWR?
+U 1 1 65D23348
+P 7050 9250
+AR Path="/5F26C8F5/65D23348" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/65D23348" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65D23348" Ref="#PWR0210"  Part="1" 
+F 0 "#PWR0210" H 7050 9000 50  0001 C CNN
+F 1 "GND" V 7050 9050 50  0000 C CNN
+F 2 "" H 7050 9250 50  0000 C CNN
+F 3 "" H 7050 9250 50  0000 C CNN
+	1    7050 9250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J213
+U 1 1 65D23342
+P 6850 9350
+F 0 "J213" H 6700 9800 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 6100 9700 50  0000 L CNN
+F 2 "Pin_Headers:PinHeader_1x06_P2.54mm_Vertical" H 6850 9350 50  0001 C CNN
+F 3 "~" H 6850 9350 50  0001 C CNN
+F 4 "~" H 6850 9350 50  0001 C CNN "Datasheet"
+F 5 "J213" H 6850 9350 50  0001 C CNN "Reference"
+F 6 "Conn_01x06_Female" H 6850 9350 50  0001 C CNN "Value"
+F 7 "S7039-ND" H 6850 9350 50  0001 C CNN "Digi-Key_PN"
+F 8 "Sullins Connector Solutions" H 6850 9350 50  0001 C CNN "MF"
+F 9 "PPPC061LFBN-RC" H 6850 9350 50  0001 C CNN "MP"
+F 10 "Through-hole" H 6850 9350 50  0001 C CNN "Mount type"
+F 11 "exp_v1" H 6850 9350 50  0001 C CNN "pcb"
+	1    6850 9350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J212
+U 1 1 65D2333C
+P 6850 8550
+F 0 "J212" H 6700 8900 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 6100 8800 50  0000 L CNN
+F 2 "Pin_Headers:PinHeader_1x04_P2.54mm_Vertical" H 6850 8550 50  0001 C CNN
+F 3 "~" H 6850 8550 50  0001 C CNN
+F 4 "~" H 6850 8550 50  0001 C CNN "Datasheet"
+F 5 "J212" H 6850 8550 50  0001 C CNN "Reference"
+F 6 "Conn_01x04_Female" H 6850 8550 50  0001 C CNN "Value"
+F 7 "S7037-ND" H 6850 8550 50  0001 C CNN "Digi-Key_PN"
+F 8 "Sullins Connector Solutions" H 6850 8550 50  0001 C CNN "MF"
+F 9 "PPPC041LFBN-RC" H 6850 8550 50  0001 C CNN "MP"
+F 10 "Through-hole" H 6850 8550 50  0001 C CNN "Mount type"
+F 11 "exp_v1" H 6850 8550 50  0001 C CNN "pcb"
+	1    6850 8550
+	-1   0    0    -1  
+$EndComp
+Text Label 7050 8450 0    50   ~ 0
+3V3_EXP
+Text Label 7050 8650 0    50   ~ 0
+3V8-32V_EXP
+Text Label 7050 7650 0    50   ~ 0
+MP_Dig4_EXP
+Text Label 7050 7750 0    50   ~ 0
+MP_Dig3_EXP
+Text Label 7050 7850 0    50   ~ 0
+MP_Dig2_EXP
+Text Label 7050 7950 0    50   ~ 0
+MP_Dig1_EXP
+$Comp
+L Connector:Conn_01x10_Female J211
+U 1 1 65BAA544
+P 6850 7550
+F 0 "J211" H 6800 8200 50  0000 C CNN
+F 1 "Conn_01x10_Female" H 6500 8100 50  0000 C CNN
+F 2 "Pin_Headers:PinHeader_1x10_P2.54mm_Vertical" H 6850 7550 50  0001 C CNN
+F 3 "~" H 6850 7550 50  0001 C CNN
+F 4 "~" H 6850 7550 50  0001 C CNN "Datasheet"
+F 5 "J211" H 6850 7550 50  0001 C CNN "Reference"
+F 6 "Conn_01x10_Female" H 6850 7550 50  0001 C CNN "Value"
+F 7 "S7043-ND" H 6850 7550 50  0001 C CNN "Digi-Key_PN"
+F 8 "Sullins Connector Solutions" H 6850 7550 50  0001 C CNN "MF"
+F 9 "PPPC101LFBN-RC" H 6850 7550 50  0001 C CNN "MP"
+F 10 "Through-hole" H 6850 7550 50  0001 C CNN "Mount type"
+F 11 "exp_v1" H 6850 7550 50  0001 C CNN "pcb"
+	1    6850 7550
+	-1   0    0    -1  
+$EndComp
+Text Label 14000 8600 3    50   ~ 0
+3V8-32V_EXP
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 65BF41FB
+P 15200 7600
+AR Path="/65BF41FB" Ref="J?"  Part="1" 
+AR Path="/5EF0C7C8/65BF41FB" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65BF41FB" Ref="J?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65BF41FB" Ref="J?"  Part="1" 
+AR Path="/5EFDA025/65BF41FB" Ref="J?"  Part="1" 
+AR Path="/5F078D61/65BF41FB" Ref="J214"  Part="1" 
+F 0 "J214" H 15200 7400 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 15350 7200 50  0001 L CNN
+F 2 "I_Connect:691322310002" H 15200 7600 50  0001 C CNN
+F 3 "~" H 15200 7600 50  0001 C CNN
+F 4 "~" H 15200 7600 50  0001 C CNN "Datasheet"
+F 5 "J214" H 15200 7600 50  0001 C CNN "Reference"
+F 6 "Conn_01x02_Male" H 15200 7600 50  0001 C CNN "Value"
+F 7 "Myewei electronic Store" H 15200 7600 50  0001 C CNN "MF"
+F 8 "YN15EDGRC-3.81-2P（orange）" H 15200 7600 50  0001 C CNN "MP"
+F 9 "Through-hole" H 15200 7600 50  0001 C CNN "Mount type"
+F 10 "exp_v1" H 15200 7600 50  0001 C CNN "pcb"
+	1    15200 7600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13850 9050 13700 9050
+Text Notes 15350 7650 1    50   ~ 0
+White
+Wire Wire Line
+	13850 8300 13850 9050
+$Comp
+L Power_Protection:SZNUP2105L D206
+U 1 1 65E02AAB
+P 14850 9000
+F 0 "D206" V 14950 8750 50  0000 C CNN
+F 1 "TVS 32V (2ch)" V 15100 8950 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 15075 8950 50  0001 L CNN
+F 3 "" H 14975 9125 50  0001 C CNN
+F 4 "DESD32VS2SO-7DICT-ND" H 14850 9000 50  0001 C CNN "Digi-Key_PN"
+F 5 "D206" H 14850 9000 50  0001 C CNN "Reference"
+F 6 "TVS 32V (2ch)" H 14850 9000 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 14850 9000 50  0001 C CNN "Component comment"
+F 8 "Diodes Incorporated" H 14850 9000 50  0001 C CNN "MF"
+F 9 "DESD32VS2SO-7" H 14850 9000 50  0001 C CNN "MP"
+F 10 "exp_v1" V 14850 9000 50  0001 C CNN "pcb"
+	1    14850 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65E02AB1
+P 14850 9200
+AR Path="/5F26C8F5/65E02AB1" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/65E02AB1" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65E02AB1" Ref="#PWR0214"  Part="1" 
+F 0 "#PWR0214" H 14850 8950 50  0001 C CNN
+F 1 "GND" V 14850 9000 50  0000 C CNN
+F 2 "" H 14850 9200 50  0000 C CNN
+F 3 "" H 14850 9200 50  0000 C CNN
+	1    14850 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:SZNUP2105L D204
+U 1 1 65E09505
+P 14350 9000
+F 0 "D204" V 14450 8750 50  0000 C CNN
+F 1 "TVS 32V (2ch)" V 14600 8950 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14575 8950 50  0001 L CNN
+F 3 "" H 14475 9125 50  0001 C CNN
+F 4 "DESD32VS2SO-7DICT-ND" H 14350 9000 50  0001 C CNN "Digi-Key_PN"
+F 5 "D204" H 14350 9000 50  0001 C CNN "Reference"
+F 6 "TVS 32V (2ch)" H 14350 9000 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 14350 9000 50  0001 C CNN "Component comment"
+F 8 "Diodes Incorporated" H 14350 9000 50  0001 C CNN "MF"
+F 9 "DESD32VS2SO-7" H 14350 9000 50  0001 C CNN "MP"
+F 10 "exp_v1" V 14350 9000 50  0001 C CNN "pcb"
+	1    14350 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65E0950B
+P 14350 9200
+AR Path="/5F26C8F5/65E0950B" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/65E0950B" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65E0950B" Ref="#PWR0213"  Part="1" 
+F 0 "#PWR0213" H 14350 8950 50  0001 C CNN
+F 1 "GND" V 14350 9000 50  0000 C CNN
+F 2 "" H 14350 9200 50  0000 C CNN
+F 3 "" H 14350 9200 50  0000 C CNN
+	1    14350 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14000 8000 15000 8000
+Wire Wire Line
+	14000 8400 14000 8000
+Wire Wire Line
+	14000 8400 14250 8400
+Wire Wire Line
+	13850 8300 14450 8300
+Wire Wire Line
+	14450 8800 14450 8300
+Connection ~ 14450 8300
+Wire Wire Line
+	14450 8300 15000 8300
+Wire Wire Line
+	14250 8800 14250 8400
+Connection ~ 14250 8400
+Wire Wire Line
+	14250 8400 15000 8400
+Text Label 15600 7800 1    50   ~ 0
+Analog_signal_in
+Text Label 7050 8050 0    50   ~ 0
+Analog_in_EXP
+Text Label 7050 7150 0    50   ~ 0
+GPIO03(rX0)_EXP
+Text Label 7050 7250 0    50   ~ 0
+GPIO01(tX0)_EXP
+Text Label 8200 8050 2    50   ~ 0
+3V3_EXP
+Text Label 8250 8900 2    50   ~ 0
+3V3_EXP
+Text Label 7050 7350 0    50   ~ 0
+GPIO12_EXP
+Text Label 7050 7450 0    50   ~ 0
+GPIO02_EXP
+Wire Wire Line
+	14000 8600 14000 8400
+Connection ~ 14000 8400
+$Comp
+L power:GND #PWR?
+U 1 1 65E047DB
+P 14800 6950
+AR Path="/5F26C8F5/65E047DB" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/65E047DB" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65E047DB" Ref="#PWR0216"  Part="1" 
+F 0 "#PWR0216" H 14800 6700 50  0001 C CNN
+F 1 "GND" V 14800 6750 50  0000 C CNN
+F 2 "" H 14800 6950 50  0000 C CNN
+F 3 "" H 14800 6950 50  0000 C CNN
+	1    14800 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65E04FF2
+P 14350 6950
+AR Path="/5F26C8F5/65E04FF2" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/65E04FF2" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65E04FF2" Ref="#PWR0217"  Part="1" 
+F 0 "#PWR0217" H 14350 6700 50  0001 C CNN
+F 1 "GND" V 14350 6750 50  0000 C CNN
+F 2 "" H 14350 6950 50  0000 C CNN
+F 3 "" H 14350 6950 50  0000 C CNN
+	1    14350 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_TVS D210
+U 1 1 65E03E7B
+P 14800 7100
+F 0 "D210" V 14754 7179 50  0000 L CNN
+F 1 "D_TVS" V 14845 7179 50  0000 L CNN
+F 2 "w_smd_diode:do214ac" H 14800 7100 50  0001 C CNN
+F 3 "~" H 14800 7100 50  0001 C CNN
+F 4 "118-SMAJ40CACT-ND" H 14800 7100 50  0001 C CNN "Digi-Key_PN"
+F 5 "Bourns Inc." V 14800 7100 50  0001 C CNN "MF"
+F 6 "SMAJ40CA" V 14800 7100 50  0001 C CNN "MP"
+F 7 "~" H 14800 7100 50  0001 C CNN "Datasheet"
+F 8 "D210" H 14800 7100 50  0001 C CNN "Reference"
+F 9 "D_TVS" H 14800 7100 50  0001 C CNN "Value"
+F 10 "exp_v1" V 14800 7100 50  0001 C CNN "pcb"
+	1    14800 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_TVS D209
+U 1 1 65E02063
+P 14350 7100
+F 0 "D209" V 14304 7179 50  0000 L CNN
+F 1 "D_TVS" V 14395 7179 50  0000 L CNN
+F 2 "w_smd_diode:do214ac" H 14350 7100 50  0001 C CNN
+F 3 "~" H 14350 7100 50  0001 C CNN
+F 4 "118-SMAJ40CACT-ND" H 14350 7100 50  0001 C CNN "Digi-Key_PN"
+F 5 "Bourns Inc." V 14350 7100 50  0001 C CNN "MF"
+F 6 "SMAJ40CA" V 14350 7100 50  0001 C CNN "MP"
+F 7 "~" H 14350 7100 50  0001 C CNN "Datasheet"
+F 8 "D209" H 14350 7100 50  0001 C CNN "Reference"
+F 9 "D_TVS" H 14350 7100 50  0001 C CNN "Value"
+F 10 "exp_v1" V 14350 7100 50  0001 C CNN "pcb"
+	1    14350 7100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13700 7050 14000 7050
+Wire Wire Line
+	14000 7050 14000 7600
+Wire Wire Line
+	14000 7600 14800 7600
+Wire Wire Line
+	15000 7500 14350 7500
+Wire Wire Line
+	14100 7500 14100 6950
+Wire Wire Line
+	14100 6950 13700 6950
+Wire Wire Line
+	14350 7250 14350 7500
+Connection ~ 14350 7500
+Wire Wire Line
+	14350 7500 14100 7500
+Wire Wire Line
+	14800 7250 14800 7600
+Connection ~ 14800 7600
+Wire Wire Line
+	14800 7600 15000 7600
+Wire Notes Line
+	6700 6600 16000 6600
+Wire Notes Line
+	16000 6600 16000 9800
+Wire Notes Line
+	16000 9800 6700 9800
+Wire Notes Line
+	6700 9800 6700 6600
+$Sheet
+S 12850 6850 850  600 
+U 65DA0C7E
+F0 "M-Bus" 50
+F1 "M-Bus.sch" 50
+F2 "3-36V_IN" I L 12850 6950 50 
+F3 "Tx" I L 12850 7250 50 
+F4 "Rx" I L 12850 7350 50 
+F5 "MBus+" I R 13700 6950 50 
+F6 "MBus-" I R 13700 7050 50 
+$EndSheet
+Text Label 12850 6950 2    50   ~ 0
+3V8-32V_EXP
+$Sheet
+S 12650 8800 1050 400 
+U 657EE66D
+F0 "Digital1-In" 50
+F1 "digital_in.sch" 50
+F2 "SIGNAL_OUT" O L 12650 9050 50 
+F3 "VCC_PULLUP" O L 12650 8950 50 
+F4 "SIGNAL_IN" I R 13700 9050 50 
+$EndSheet
+Text Label 12650 8950 2    50   ~ 0
+3V3_EXP
+Text Label 12850 7350 2    50   ~ 0
+MBUS_RX
+Text Label 12850 7250 2    50   ~ 0
+MBUS_TX
+$Sheet
+S 10600 6850 1000 1150
+U 66614393
+F0 "SPI-UART" 50
+F1 "SPI-UART.sch" 50
+F2 "3V3" I L 10600 6950 50 
+F3 "MISO" O L 10600 7100 50 
+F4 "MOSI" I L 10600 7200 50 
+F5 "CLK" I L 10600 7300 50 
+F6 "CS" I L 10600 7400 50 
+F7 "N_RST" I L 10600 7550 50 
+F8 "N_IRQ" O L 10600 7650 50 
+F9 "GPIO_0" B R 11600 6950 50 
+F10 "GPIO_1" B R 11600 7050 50 
+F11 "GPIO_2" B R 11600 7150 50 
+F12 "GPIO_3" B R 11600 7250 50 
+F13 "GPIO_4-N_DSR" B R 11600 7350 50 
+F14 "GPIO_5-N_DTR" B R 11600 7450 50 
+F15 "GPIO_7-RI" B R 11600 7650 50 
+F16 "GPIO_6-CD" B R 11600 7550 50 
+F17 "RX" I R 11600 7800 50 
+F18 "TX" O R 11600 7900 50 
+F19 "N_CTS" I L 10600 7800 50 
+F20 "N_RTS" O L 10600 7900 50 
+$EndSheet
+Text Label 11600 7900 0    50   ~ 0
+MBUS_TX_SPI
+Text Label 11600 7800 0    50   ~ 0
+MBUS_RX_SPI
+NoConn ~ 11600 6950
+NoConn ~ 11600 7050
+NoConn ~ 11600 7150
+NoConn ~ 11600 7250
+NoConn ~ 11600 7350
+NoConn ~ 11600 7450
+NoConn ~ 11600 7550
+NoConn ~ 11600 7650
+NoConn ~ 10600 7900
+NoConn ~ 10600 7800
+Text Label 10600 7100 2    50   ~ 0
+MBUS_MISO_EXP
+Text Label 10600 7200 2    50   ~ 0
+MOSI_EXP
+Text Label 10600 7300 2    50   ~ 0
+CLK_EXP
+Text Label 10600 7400 2    50   ~ 0
+MBUS_CS_EXP
+Text Label 10600 6950 2    50   ~ 0
+3V3_EXP
+Text Label 10600 7650 2    50   ~ 0
+MP_Dig3_EXP
+NoConn ~ 10600 7550
+$Comp
+L I-Connect_diverse:JUMPER3 JP201
+U 1 1 667E9236
+P 10400 9450
+F 0 "JP201" V 10446 9552 50  0000 L CNN
+F 1 "JUMPER3" V 10355 9552 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm" V 10309 9551 50  0001 L CNN
+F 3 "" H 10400 9450 50  0000 C CNN
+F 4 "exp_v1" V 10400 9450 50  0001 C CNN "pcb"
+F 5 "Not placed" H 10400 9450 50  0001 C CNN "MF"
+F 6 "Not placed" H 10400 9450 50  0001 C CNN "MP"
+F 7 "Not placed" H 10400 9450 50  0001 C CNN "Mount type"
+F 8 "JP201" H 10400 9450 50  0001 C CNN "Reference"
+F 9 "JUMPER3" H 10400 9450 50  0001 C CNN "Value"
+	1    10400 9450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L I-Connect_diverse:JUMPER3 JP202
+U 1 1 66820E91
+P 11450 9450
+F 0 "JP202" V 11496 9552 50  0000 L CNN
+F 1 "JUMPER3" V 11405 9552 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm" V 11359 9551 50  0001 L CNN
+F 3 "" H 11450 9450 50  0000 C CNN
+F 4 "exp_v1" V 11450 9450 50  0001 C CNN "pcb"
+F 5 "Not placed" H 11450 9450 50  0001 C CNN "MF"
+F 6 "Not placed" H 11450 9450 50  0001 C CNN "MP"
+F 7 "Not placed" H 11450 9450 50  0001 C CNN "Mount type"
+F 8 "JP202" H 11450 9450 50  0001 C CNN "Reference"
+F 9 "JUMPER3" H 11450 9450 50  0001 C CNN "Value"
+	1    11450 9450
+	0    -1   -1   0   
+$EndComp
+Text Label 10500 9450 0    50   ~ 0
+MBUS_TX
+Text Label 11550 9450 0    50   ~ 0
+MBUS_RX
+Text Label 11450 9700 0    50   ~ 0
+MBUS_RX_SPI
+Text Label 10400 9700 0    50   ~ 0
+MBUS_TX_SPI
+Text Label 10400 9200 0    50   ~ 0
+GPIO01(tX0)_EXP
+Text Label 11450 9200 0    50   ~ 0
+GPIO03(rX0)_EXP
+Text Notes 9750 7550 1    50   ~ 0
+Blue
+Wire Wire Line
+	9200 8350 9400 8350
+Wire Wire Line
+	9200 8150 9400 8150
+Wire Wire Line
+	9200 7300 9400 7300
+Wire Wire Line
+	9200 7500 9400 7500
+Wire Wire Line
+	9400 8250 9050 8250
+Text Notes 9750 8400 1    50   ~ 0
+White
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 65AA5D6B
+P 9600 8250
+AR Path="/65AA5D6B" Ref="J?"  Part="1" 
+AR Path="/5EF0C7C8/65AA5D6B" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65AA5D6B" Ref="J?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65AA5D6B" Ref="J?"  Part="1" 
+AR Path="/5EFDA025/65AA5D6B" Ref="J?"  Part="1" 
+AR Path="/5F078D61/65AA5D6B" Ref="J207"  Part="1" 
+F 0 "J207" H 9650 8450 50  0000 L CNN
+F 1 "Conn_01x03_Male" V 9750 7850 50  0001 L CNN
+F 2 "I_Connect:691322310003" H 9600 8250 50  0001 C CNN
+F 3 "~" H 9600 8250 50  0001 C CNN
+F 4 "~" H 9600 8250 50  0001 C CNN "Datasheet"
+F 5 "J207" H 9600 8250 50  0001 C CNN "Reference"
+F 6 "Conn_01x03_Male" H 9600 8250 50  0001 C CNN "Value"
+F 7 "Myewei electronic Store" H 9600 8250 50  0001 C CNN "MF"
+F 8 "YN15EDGRC-3.81-3P（white）" H 9600 8250 50  0001 C CNN "MP"
+F 9 "Through-hole" H 9600 8250 50  0001 C CNN "Mount type"
+F 10 "exp_v1" H 9600 8250 50  0001 C CNN "pcb"
+	1    9600 8250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 7400 9050 7400
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 65AA5246
+P 9600 7400
+AR Path="/65AA5246" Ref="J?"  Part="1" 
+AR Path="/5EF0C7C8/65AA5246" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65AA5246" Ref="J?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65AA5246" Ref="J?"  Part="1" 
+AR Path="/5EFDA025/65AA5246" Ref="J?"  Part="1" 
+AR Path="/5F078D61/65AA5246" Ref="J206"  Part="1" 
+F 0 "J206" H 9650 7600 50  0000 L CNN
+F 1 "Conn_01x03_Male" V 9750 7000 50  0001 L CNN
+F 2 "I_Connect:691322310003" H 9600 7400 50  0001 C CNN
+F 3 "~" H 9600 7400 50  0001 C CNN
+F 4 "~" H 9600 7400 50  0001 C CNN "Datasheet"
+F 5 "J206" H 9600 7400 50  0001 C CNN "Reference"
+F 6 "Conn_01x03_Male" H 9600 7400 50  0001 C CNN "Value"
+F 7 "Myewei electronic Store" H 9600 7400 50  0001 C CNN "MF"
+F 8 "YN15EDGRC-3.81-3P（blue）" H 9600 7400 50  0001 C CNN "MP"
+F 9 "Through-hole" H 9600 7400 50  0001 C CNN "Mount type"
+F 10 "exp_v1" H 9600 7400 50  0001 C CNN "pcb"
+	1    9600 7400
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 10600 8250 1000 650 
+U 66997EAC
+F0 "868_footprint" 50
+F1 "868_footprint.sch" 50
+F2 "3V3" I L 10600 8350 50 
+F3 "MOSI" I L 10600 8500 50 
+F4 "CLK" I L 10600 8600 50 
+F5 "CS" I L 10600 8800 50 
+F6 "MISO" O L 10600 8700 50 
+$EndSheet
+Text Label 7050 7550 0    50   ~ 0
+GPIO_35_EXP
+Text Label 12650 9050 2    50   ~ 0
+GPIO_35_EXP
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 66A0A24A
+P 15200 8000
+AR Path="/66A0A24A" Ref="J?"  Part="1" 
+AR Path="/5EF0C7C8/66A0A24A" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/66A0A24A" Ref="J?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/66A0A24A" Ref="J?"  Part="1" 
+AR Path="/5EFDA025/66A0A24A" Ref="J?"  Part="1" 
+AR Path="/5F078D61/66A0A24A" Ref="J215"  Part="1" 
+F 0 "J215" H 15200 7800 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 15350 7600 50  0001 L CNN
+F 2 "I_Connect:691322310002" H 15200 8000 50  0001 C CNN
+F 3 "~" H 15200 8000 50  0001 C CNN
+F 4 "~" H 15200 8000 50  0001 C CNN "Datasheet"
+F 5 "J215" H 15200 8000 50  0001 C CNN "Reference"
+F 6 "Conn_01x02_Male" H 15200 8000 50  0001 C CNN "Value"
+F 7 "Myewei electronic Store" H 15200 8000 50  0001 C CNN "MF"
+F 8 "YN15EDGRC-3.81-2P（green）" H 15200 8000 50  0001 C CNN "MP"
+F 9 "Through-hole" H 15200 8000 50  0001 C CNN "Mount type"
+F 10 "exp_v1" H 15200 8000 50  0001 C CNN "pcb"
+	1    15200 8000
+	-1   0    0    1   
+$EndComp
+Text Notes 15350 8050 1    50   ~ 0
+Green
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 66A0E857
+P 15200 8400
+AR Path="/66A0E857" Ref="J?"  Part="1" 
+AR Path="/5EF0C7C8/66A0E857" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/66A0E857" Ref="J?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/66A0E857" Ref="J?"  Part="1" 
+AR Path="/5EFDA025/66A0E857" Ref="J?"  Part="1" 
+AR Path="/5F078D61/66A0E857" Ref="J216"  Part="1" 
+F 0 "J216" H 15200 8200 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 15350 8000 50  0001 L CNN
+F 2 "I_Connect:691322310002" H 15200 8400 50  0001 C CNN
+F 3 "~" H 15200 8400 50  0001 C CNN
+F 4 "~" H 15200 8400 50  0001 C CNN "Datasheet"
+F 5 "J216" H 15200 8400 50  0001 C CNN "Reference"
+F 6 "Conn_01x02_Male" H 15200 8400 50  0001 C CNN "Value"
+F 7 "Myewei electronic Store" H 15200 8400 50  0001 C CNN "MF"
+F 8 "YN15EDGRC-3.81-2P（white）" H 15200 8400 50  0001 C CNN "MP"
+F 9 "Through-hole" H 15200 8400 50  0001 C CNN "Mount type"
+F 10 "exp_v1" H 15200 8400 50  0001 C CNN "pcb"
+	1    15200 8400
+	-1   0    0    1   
+$EndComp
+Text Notes 15350 8450 1    50   ~ 0
+Orange
+Text Label 10600 8350 2    50   ~ 0
+3V3_EXP
+Text Label 10600 8700 2    50   ~ 0
+MBUS_MISO_EXP
+Text Label 10600 8500 2    50   ~ 0
+MOSI_EXP
+Text Label 10600 8600 2    50   ~ 0
+CLK_EXP
+Text Label 10600 8800 2    50   ~ 0
+MBUS_CS_EXP
+NoConn ~ 14750 8800
+Wire Wire Line
+	14950 8800 14950 7900
+Wire Wire Line
+	13650 7900 14950 7900
+Wire Wire Line
+	14950 7900 15000 7900
+Connection ~ 14950 7900
+Text Label 12750 7900 2    50   ~ 0
+MP_Dig4_EXP
+$Sheet
+S 12750 7750 900  400 
+U 65E7FB8B
+F0 "dig_out_2" 50
+F1 "dig_out_exp.sch" 50
+F2 "ENABLE" I L 12750 7900 50 
+F3 "Output" O R 13650 7900 50 
+$EndSheet
+Wire Wire Line
+	10500 9450 10500 9700
+Wire Wire Line
+	10500 9700 10400 9700
+Wire Wire Line
+	11550 9450 11550 9700
+Wire Wire Line
+	11550 9700 11450 9700
+$Sheet
+S 8200 7950 850  600 
+U 65A5FB75
+F0 "Signal_Relay2" 50
+F1 "Signal_Relay_exp.sch" 50
+F2 "3V3_IN" I L 8200 8050 50 
+F3 "COMMON" I R 9050 8250 50 
+F4 "NO" O R 9050 8050 50 
+F5 "NC" O R 9050 8450 50 
+F6 "Enable" I L 8200 8200 50 
+$EndSheet
+Wire Wire Line
+	1450 6500 1450 7450
+Wire Wire Line
+	1250 6500 1250 7450
+Wire Wire Line
+	1550 6500 1550 7450
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 5F558904
+P 4300 10000
+AR Path="/5F558904" Ref="J?"  Part="1" 
+AR Path="/5EF0C7C8/5F558904" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/5F558904" Ref="J?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/5F558904" Ref="J?"  Part="1" 
+AR Path="/5EFDA025/5F558904" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F558904" Ref="J303"  Part="1" 
+F 0 "J303" H 4300 9850 50  0000 L CNN
+F 1 "Conn_01x03_Male" V 4450 9600 50  0001 L CNN
+F 2 "I_Connect:691322310003" H 4300 10000 50  0001 C CNN
+F 3 "~" H 4300 10000 50  0001 C CNN
+F 4 "~" H 4300 10000 50  0001 C CNN "Datasheet"
+F 5 "J303" H 4300 10000 50  0001 C CNN "Reference"
+F 6 "Conn_01x03_Male" H 4300 10000 50  0001 C CNN "Value"
+F 7 "Myewei electronic Store" H 4300 10000 50  0001 C CNN "MF"
+F 8 "YN15EDGRC-3.81-3P（green）" H 4300 10000 50  0001 C CNN "MP"
+F 9 "Through-hole" H 4300 10000 50  0001 C CNN "Mount type"
+	1    4300 10000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 8750 1700 9700
+Text Label 4200 8750 1    50   ~ 0
+RS485_+
+Text Label 4300 8750 1    50   ~ 0
+RS485_-
+$Comp
+L power:GND #PWR?
+U 1 1 63E489B1
+P 4400 8750
+AR Path="/5F26C8F5/63E489B1" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/63E489B1" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/63E489B1" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 4400 8500 50  0001 C CNN
+F 1 "GND" V 4400 8550 50  0000 C CNN
+F 2 "" H 4400 8750 50  0000 C CNN
+F 3 "" H 4400 8750 50  0000 C CNN
+	1    4400 8750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Power_Protection:SZNUP2105L D201
+U 1 1 63FDC39F
+P 3350 9050
+F 0 "D201" V 3450 8800 50  0000 C CNN
+F 1 "TVS 32V (2ch)" V 3600 8950 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3575 9000 50  0001 L CNN
+F 3 "" H 3475 9175 50  0001 C CNN
+F 4 "DESD32VS2SO-7DICT-ND" H 3350 9050 50  0001 C CNN "Digi-Key_PN"
+F 5 "D201" H 3350 9050 50  0001 C CNN "Reference"
+F 6 "TVS 32V (2ch)" H 3350 9050 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 3350 9050 50  0001 C CNN "Component comment"
+F 8 "Diodes Incorporated" H 3350 9050 50  0001 C CNN "MF"
+F 9 "DESD32VS2SO-7" H 3350 9050 50  0001 C CNN "MP"
+	1    3350 9050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Power_Protection:SZNUP2105L D202
+U 1 1 63FDD677
+P 3350 9450
+F 0 "D202" V 3450 9200 50  0000 C CNN
+F 1 "TVS 32V (2ch)" V 3100 9350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3575 9400 50  0001 L CNN
+F 3 "" H 3475 9575 50  0001 C CNN
+F 4 "DESD32VS2SO-7DICT-ND" H 3350 9450 50  0001 C CNN "Digi-Key_PN"
+F 5 "D202" H 3350 9450 50  0001 C CNN "Reference"
+F 6 "TVS 32V (2ch)" H 3350 9450 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 3350 9450 50  0001 C CNN "Component comment"
+F 8 "Diodes Incorporated" H 3350 9450 50  0001 C CNN "MF"
+F 9 "DESD32VS2SO-7" H 3350 9450 50  0001 C CNN "MP"
+	1    3350 9450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 63FFC3A6
+P 3900 10000
+AR Path="/5F078D61/5F511C13/63FFC3A6" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/63FFC3A6" Ref="#PWR0201"  Part="1" 
+F 0 "#PWR0201" H 3900 9750 50  0001 C CNN
+F 1 "GND" H 3905 9827 50  0000 C CNN
+F 2 "" H 3900 10000 50  0001 C CNN
+F 3 "" H 3900 10000 50  0001 C CNN
+	1    3900 10000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 9050 3900 9050
+Wire Wire Line
+	3900 9050 3900 9450
+Wire Wire Line
+	3550 9450 3900 9450
+Connection ~ 3900 9450
+Wire Wire Line
+	3900 9450 3900 10000
+Wire Wire Line
+	4200 8750 4200 9800
+Wire Wire Line
+	4300 8750 4300 9800
+Wire Wire Line
+	4400 8750 4400 9800
+Text Notes 2400 10800 0    50   ~ 0
+IF OPEN THERM FUNCTIONALITY IS USED\nINPUT VOLTAGE NEEDS TO BE 24V
+$Comp
+L Device:Fuse F201
+U 1 1 63E51396
+P 1500 9550
+F 0 "F201" V 1550 9650 50  0000 L CNN
+F 1 "Fuse 4A" V 1450 9400 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1430 9550 50  0001 C CNN
+F 3 "~" H 1500 9550 50  0001 C CNN
+F 4 "507-1898-1-ND" H 1500 9550 50  0001 C CNN "Digi-Key_PN"
+F 5 "Bel Fuse Inc." H 1500 9550 50  0001 C CNN "MF"
+F 6 "0685T4000-01" H 1500 9550 50  0001 C CNN "MP"
+F 7 "~" H 1500 9550 50  0001 C CNN "Datasheet"
+F 8 "F201" H 1500 9550 50  0001 C CNN "Reference"
+F 9 "Fuse 4A" H 1500 9550 50  0001 C CNN "Value"
+	1    1500 9550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D208
+U 1 1 63EFFF7E
+P 1500 9000
+F 0 "D208" H 1550 9150 50  0000 R CNN
+F 1 "Shottky 4A" H 1650 8950 50  0000 R CNN
+F 2 "Diode_SMD:D_SMB" H 1600 9200 50  0001 L BNN
+F 3 "" H 1500 9000 50  0001 L BNN
+F 4 "SSB44-E3/52T" H 1600 9100 50  0001 L BNN "MP"
+F 5 "Vishay General Semiconductor - Diodes Division" H 1600 9400 50  0001 L BNN "MF"
+F 6 "" H 1600 9300 50  0001 L BNN "PACKAGE"
+F 7 "SSB44-E3/52TGICT-ND" H 1500 9000 50  0001 C CNN "Digi-Key_PN"
+F 8 "D208" H 1500 9000 50  0001 C CNN "Reference"
+F 9 "Shottky 4A" H 1500 9000 50  0001 C CNN "Value"
+F 10 "Can be replaced with other manufacturer component with same specs" H 1500 9000 50  0001 C CNN "Component comment"
+	1    1500 9000
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1500 8850 1500 8700
+Text Label 2750 8800 1    50   ~ 0
+OT_slave_1
+Text Label 2850 8800 1    50   ~ 0
+OT_slave_2
+Text Label 3050 8800 1    50   ~ 0
+OT_master_2
+Text Label 2950 8800 1    50   ~ 0
+OT_master_1
+Text Label 1500 8700 1    50   ~ 0
+3V8-32V
+$Comp
+L power:GND #PWR?
+U 1 1 5F6D6303
+P 1700 8750
+AR Path="/5F26C8F5/5F6D6303" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5F6D6303" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F6D6303" Ref="#PWR0301"  Part="1" 
+F 0 "#PWR0301" H 1700 8500 50  0001 C CNN
+F 1 "GND" V 1700 8550 50  0000 C CNN
+F 2 "" H 1700 8750 50  0000 C CNN
+F 3 "" H 1700 8750 50  0000 C CNN
+	1    1700 8750
+	1    0    0    1   
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 6586C8CF
+P 600 9500
+AR Path="/5F078D61/5F511C13/6586C8CF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/6586C8CF" Ref="#PWR0202"  Part="1" 
+F 0 "#PWR0202" H 600 9250 50  0001 C CNN
+F 1 "GND" H 605 9327 50  0000 C CNN
+F 2 "" H 600 9500 50  0001 C CNN
+F 3 "" H 600 9500 50  0001 C CNN
+	1    600  9500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 9200 1500 9200
+Connection ~ 1500 9200
+Wire Wire Line
+	1500 9200 1500 9150
+$Comp
+L Power_Protection:SZNUP2105L D205
+U 1 1 65EBEE16
+P 1000 9300
+F 0 "D205" V 1100 9050 50  0000 C CNN
+F 1 "TVS 32V (2ch)" V 750 9250 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1225 9250 50  0001 L CNN
+F 3 "" H 1125 9425 50  0001 C CNN
+F 4 "DESD32VS2SO-7DICT-ND" H 1000 9300 50  0001 C CNN "Digi-Key_PN"
+F 5 "D205" H 1000 9300 50  0001 C CNN "Reference"
+F 6 "TVS 32V (2ch)" H 1000 9300 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 1000 9300 50  0001 C CNN "Component comment"
+F 8 "Diodes Incorporated" H 1000 9300 50  0001 C CNN "MF"
+F 9 "DESD32VS2SO-7" H 1000 9300 50  0001 C CNN "MP"
+	1    1000 9300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	800  9300 600  9300
+Wire Wire Line
+	600  9300 600  9500
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 65EF7AEF
+P 5250 10000
+AR Path="/65EF7AEF" Ref="J?"  Part="1" 
+AR Path="/5EF0C7C8/65EF7AEF" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65EF7AEF" Ref="J?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65EF7AEF" Ref="J?"  Part="1" 
+AR Path="/5EFDA025/65EF7AEF" Ref="J?"  Part="1" 
+AR Path="/5F078D61/65EF7AEF" Ref="J204"  Part="1" 
+F 0 "J204" H 5300 9800 50  0000 L CNN
+F 1 "Conn_01x03_Male" V 5400 9600 50  0001 L CNN
+F 2 "I_Connect:691322310003" H 5250 10000 50  0001 C CNN
+F 3 "~" H 5250 10000 50  0001 C CNN
+F 4 "~" H 5250 10000 50  0001 C CNN "Datasheet"
+F 5 "J204" H 5250 10000 50  0001 C CNN "Reference"
+F 6 "Conn_01x03_Male" H 5250 10000 50  0001 C CNN "Value"
+F 7 "Myewei electronic Store" H 5250 10000 50  0001 C CNN "MF"
+F 8 "YN15EDGRC-3.81-3P（black）" H 5250 10000 50  0001 C CNN "MP"
+F 9 "Through-hole" H 5250 10000 50  0001 C CNN "Mount type"
+	1    5250 10000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L dk_Barrel-Power-Connectors:PJ-102A J201
+U 1 1 65F4B40A
+P 1500 9900
+F 0 "J201" V 1479 9656 50  0000 R CNN
+F 1 "PJ-102A" V 1388 9656 50  0000 R CNN
+F 2 "digikey-footprints:Barrel_Jack_5.5mmODx2.1mmID_PJ-102A" H 1700 10100 60  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 1700 10200 60  0001 L CNN
+F 4 "CP-102A-ND" H 1700 10300 60  0001 L CNN "Digi-Key_PN"
+F 5 "PJ-102A" H 1700 10400 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1700 10500 60  0001 L CNN "Category"
+F 7 "Barrel - Power Connectors" H 1700 10600 60  0001 L CNN "Family"
+F 8 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 1700 10700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cui-inc/PJ-102A/CP-102A-ND/275425" H 1700 10800 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN PWR JACK 2X5.5MM SOLDER" H 1700 10900 60  0001 L CNN "Description"
+F 11 "CUI Inc." H 1700 11000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1700 11100 60  0001 L CNN "Status"
+F 13 "https://www.cui.com/product/resource/digikeypdf/pj-102a.pdf" H 1500 9900 50  0001 C CNN "Datasheet"
+F 14 "J201" H 1500 9900 50  0001 C CNN "Reference"
+F 15 "PJ-102A" H 1500 9900 50  0001 C CNN "Value"
+F 16 "CUI Devices" H 1500 9900 50  0001 C CNN "MF"
+F 17 "CONN PWR JACK 2X5.5MM SOLDER" H 1500 9900 50  0001 C CNN "MP"
+F 18 "Through-hole" V 1500 9900 50  0001 C CNN "Mount type"
+	1    1500 9900
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 1600 9800
+NoConn ~ 1200 9400
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 6580D56E
+P 2300 10050
+AR Path="/6580D56E" Ref="J?"  Part="1" 
+AR Path="/5EF0C7C8/6580D56E" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/6580D56E" Ref="J?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/6580D56E" Ref="J?"  Part="1" 
+AR Path="/5EFDA025/6580D56E" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F511C13/6580D56E" Ref="J?"  Part="1" 
+AR Path="/5F078D61/6580D56E" Ref="J202"  Part="1" 
+F 0 "J202" H 2300 9750 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 2450 9650 50  0001 L CNN
+F 2 "I_Connect:691322310004" H 2300 10050 50  0001 C CNN
+F 3 "~" H 2300 10050 50  0001 C CNN
+F 4 "~" H 2300 10050 50  0001 C CNN "Datasheet"
+F 5 "J202" H 2300 10050 50  0001 C CNN "Reference"
+F 6 "Conn_01x04_Male" H 2300 10050 50  0001 C CNN "Value"
+F 7 "Myewei electronic Store" H 2300 10050 50  0001 C CNN "MF"
+F 8 "YN15EDGRC-3.81-4P（red）" H 2300 10050 50  0001 C CNN "MP"
+F 9 "Through-hole" H 2300 10050 50  0001 C CNN "Mount type"
+	1    2300 10050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 9850 2300 9700
+Wire Wire Line
+	2300 9700 1700 9700
+Connection ~ 1700 9700
+Wire Wire Line
+	1700 9700 1700 9800
+Text Notes 2250 10350 0    50   ~ 0
+Red
+Text Notes 2850 10350 0    50   ~ 0
+Blue
+Text Notes 4200 10350 0    50   ~ 0
+Green
+Text Notes 5150 10350 0    50   ~ 0
+Black
+Text Label 2400 8800 1    50   ~ 0
+CAN_H
+Text Label 2500 8800 1    50   ~ 0
+CAN_L
+Wire Wire Line
+	2400 8800 2400 9850
+Wire Wire Line
+	2500 8800 2500 9850
+$Comp
+L 5555165-1:5555165-1 J205
+U 1 1 65973685
+P 1450 7850
+F 0 "J205" V 1247 8180 50  0000 L CNN
+F 1 "RJ12" V 1338 8180 50  0000 L CNN
+F 2 "I_Connect:RJ12_smd_0441440005" H 1450 7850 50  0001 L BNN
+F 3 "" H 1450 7850 50  0001 L BNN
+F 4 "" H 1450 7850 50  0001 L BNN "Check_prices"
+F 5 "" H 1450 7850 50  0001 L BNN "Package"
+F 6 "" H 1450 7850 50  0001 L BNN "STANDARD"
+F 7 "" H 1450 7850 50  0001 L BNN "PARTREV"
+F 8 "" H 1450 7850 50  0001 L BNN "SnapEDA_Link"
+F 9 "" H 1450 7850 50  0001 L BNN "Purchase-URL"
+F 10 "" H 1450 7850 50  0001 L BNN "Number_of_Positions"
+F 11 "Molex" H 1450 7850 50  0001 L BNN "MANUFACTURER"
+F 12 "" H 1450 7850 50  0001 L BNN "Comment"
+F 13 "Molex" H 1450 7850 50  0001 L BNN "MF"
+F 14 "" H 1450 7850 50  0001 L BNN "Description"
+F 15 "" H 1450 7850 50  0001 L BNN "Price"
+F 16 "0441440005" H 1450 7850 50  0001 L BNN "MP"
+F 17 "" H 1450 7850 50  0001 L BNN "EU_RoHS_Compliance"
+F 18 "" H 1450 7850 50  0001 L BNN "Availability"
+F 19 "" H 1450 7850 50  0001 L BNN "Centerline_Pitch"
+F 20 "J205" H 1450 7850 50  0001 C CNN "Reference"
+F 21 "RJ12" H 1450 7850 50  0001 C CNN "Value"
+F 22 "WM5567CT-ND" H 1450 7850 50  0001 C CNN "Digi-Key_PN"
+	1    1450 7850
+	0    1    1    0   
+$EndComp
+NoConn ~ 1150 7450
+NoConn ~ 1350 7450
+NoConn ~ 1650 7450
+$Comp
+L Connector:Conn_01x10_Female J208
+U 1 1 65BA9048
+P 6550 7550
+F 0 "J208" H 6350 8200 50  0000 L CNN
+F 1 "Conn_01x10_Female" H 5800 8100 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical_SMD_Pin1Right" H 6550 7550 50  0001 C CNN
+F 3 "~" H 6550 7550 50  0001 C CNN
+F 4 "~" H 6550 7550 50  0001 C CNN "Datasheet"
+F 5 "J208" H 6550 7550 50  0001 C CNN "Reference"
+F 6 "Conn_01x10_Female" H 6550 7550 50  0001 C CNN "Value"
+F 7 "Sullins Connector Solutions" H 6550 7550 50  0001 C CNN "MF"
+F 8 "NPPC101KFXC-RC" H 6550 7550 50  0001 C CNN "MP"
+F 9 "S5641-ND" H 6550 7550 50  0001 C CNN "Digi-Key_PN"
+	1    6550 7550
+	1    0    0    -1  
+$EndComp
+Text Label 6350 7950 2    50   ~ 0
+MP_Dig1
+Text Label 6350 7850 2    50   ~ 0
+MP_Dig2
+Text Label 6350 7750 2    50   ~ 0
+MP_Dig3
+Text Label 6350 7650 2    50   ~ 0
+MP_Dig4
+Text Label 6350 8650 2    50   ~ 0
+3V8-32V
+Text Label 6350 8450 2    50   ~ 0
+3V3
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5F5B3AA7
+P 2850 10050
+AR Path="/5F5B3AA7" Ref="J?"  Part="1" 
+AR Path="/5EF0C7C8/5F5B3AA7" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/5F5B3AA7" Ref="J?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/5F5B3AA7" Ref="J?"  Part="1" 
+AR Path="/5EFDA025/5F5B3AA7" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F5B3AA7" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F5B3AA7" Ref="J301"  Part="1" 
+F 0 "J301" H 2850 9750 50  0000 L CNN
+F 1 "Conn_01x04_MAle" V 3000 9650 50  0001 L CNN
+F 2 "I_Connect:691322310004" H 2850 10050 50  0001 C CNN
+F 3 "~" H 2850 10050 50  0001 C CNN
+F 4 "~" H 2850 10050 50  0001 C CNN "Datasheet"
+F 5 "J301" H 2850 10050 50  0001 C CNN "Reference"
+F 6 "Conn_01x04_MAle" H 2850 10050 50  0001 C CNN "Value"
+F 7 "Myewei electronic Store" H 2850 10050 50  0001 C CNN "MF"
+F 8 "YN15EDGRC-3.81-4P（blue）" H 2850 10050 50  0001 C CNN "MP"
+F 9 "Through-hole" H 2850 10050 50  0001 C CNN "Mount type"
+	1    2850 10050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J209
+U 1 1 65CCDE10
+P 6550 8550
+F 0 "J209" H 6450 8900 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 5850 8800 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Right" H 6550 8550 50  0001 C CNN
+F 3 "~" H 6550 8550 50  0001 C CNN
+F 4 "~" H 6550 8550 50  0001 C CNN "Datasheet"
+F 5 "J209" H 6550 8550 50  0001 C CNN "Reference"
+F 6 "Conn_01x04_Female" H 6550 8550 50  0001 C CNN "Value"
+F 7 "S5635-ND" H 6550 8550 50  0001 C CNN "Digi-Key_PN"
+F 8 "Sullins Connector Solutions" H 6550 8550 50  0001 C CNN "MF"
+F 9 "NPPC041KFXC-RC" H 6550 8550 50  0001 C CNN "MP"
+	1    6550 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J210
+U 1 1 65CECC70
+P 6550 9350
+F 0 "J210" H 6400 9800 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 5800 9700 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical_SMD_Pin1Right" H 6550 9350 50  0001 C CNN
+F 3 "~" H 6550 9350 50  0001 C CNN
+F 4 "~" H 6550 9350 50  0001 C CNN "Datasheet"
+F 5 "J210" H 6550 9350 50  0001 C CNN "Reference"
+F 6 "Conn_01x06_Female" H 6550 9350 50  0001 C CNN "Value"
+F 7 "S5637-ND" H 6550 9350 50  0001 C CNN "Digi-Key_PN"
+F 8 "Sullins Connector Solutions" H 6550 9350 50  0001 C CNN "MF"
+F 9 "NPPC061KFXC-RC" H 6550 9350 50  0001 C CNN "MP"
+	1    6550 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65CF4FC4
+P 6350 9250
+AR Path="/5F26C8F5/65CF4FC4" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/65CF4FC4" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65CF4FC4" Ref="#PWR0207"  Part="1" 
+F 0 "#PWR0207" H 6350 9000 50  0001 C CNN
+F 1 "GND" V 6350 9050 50  0000 C CNN
+F 2 "" H 6350 9250 50  0000 C CNN
+F 3 "" H 6350 9250 50  0000 C CNN
+	1    6350 9250
+	0    1    -1   0   
+$EndComp
+Text Label 6350 9550 2    50   ~ 0
+CLK
+Text Label 6350 9650 2    50   ~ 0
+MOSI
+Text Label 6350 9350 2    50   ~ 0
+MBUS_MISO
+Text Label 6350 9150 2    50   ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 65CFCCD3
+P 6350 8550
+AR Path="/5F26C8F5/65CFCCD3" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/65CFCCD3" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65CFCCD3" Ref="#PWR0205"  Part="1" 
+F 0 "#PWR0205" H 6350 8300 50  0001 C CNN
+F 1 "GND" V 6350 8350 50  0000 C CNN
+F 2 "" H 6350 8550 50  0000 C CNN
+F 3 "" H 6350 8550 50  0000 C CNN
+	1    6350 8550
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65CFD12B
+P 6350 8750
+AR Path="/5F26C8F5/65CFD12B" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/65CFD12B" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65CFD12B" Ref="#PWR0206"  Part="1" 
+F 0 "#PWR0206" H 6350 8500 50  0001 C CNN
+F 1 "GND" V 6350 8550 50  0000 C CNN
+F 2 "" H 6350 8750 50  0000 C CNN
+F 3 "" H 6350 8750 50  0000 C CNN
+	1    6350 8750
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2750 8800 2750 9150
+Wire Wire Line
+	2850 8800 2850 8950
+Wire Wire Line
+	3150 9150 2750 9150
+Connection ~ 2750 9150
+Wire Wire Line
+	2750 9150 2750 9850
+Wire Wire Line
+	3150 8950 2850 8950
+Connection ~ 2850 8950
+Wire Wire Line
+	2850 8950 2850 9850
+Wire Wire Line
+	2950 8800 2950 9550
+Wire Wire Line
+	3050 8800 3050 9350
+Wire Wire Line
+	3150 9550 2950 9550
+Connection ~ 2950 9550
+Wire Wire Line
+	2950 9550 2950 9850
+Wire Wire Line
+	3150 9350 3050 9350
+Connection ~ 3050 9350
+Wire Wire Line
+	3050 9350 3050 9850
+Text Label 6350 8050 2    50   ~ 0
+Analog_in
+Text Label 6350 7150 2    50   ~ 0
+GPIO03(rX0)
+Text Label 6350 7250 2    50   ~ 0
+GPIO01(tX0)
+Wire Wire Line
+	1500 9700 1500 9800
+Wire Wire Line
+	1500 9400 1500 9350
+Wire Wire Line
+	1500 9350 1500 9200
+Connection ~ 1500 9350
+Wire Wire Line
+	2200 9350 1500 9350
+Wire Wire Line
+	2200 9350 2200 9850
+Text Label 6350 7450 2    50   ~ 0
+GPIO02
+Text Label 6350 7350 2    50   ~ 0
+GPIO12
+Text Label 6350 9450 2    50   ~ 0
+MBUS_CS
+Text Label 5150 8750 1    50   ~ 0
+Relay0_NO
+Text Label 5350 8750 1    50   ~ 0
+Relay0_NC
+Text Label 5250 8750 1    50   ~ 0
+Relay0_COM
+Wire Wire Line
+	5150 8750 5150 9800
+Wire Wire Line
+	5250 9800 5250 8750
+Wire Wire Line
+	5350 8750 5350 9800
+Text Label 6350 7550 2    50   ~ 0
+GPIO_35
+$Sheet
+S 5550 750  1100 550 
+U 5EF662F5
+F0 "CAN_transceiver" 50
+F1 "3V3_CAN_transceiver.sch" 50
+F2 "CAN_H" B R 6650 900 50 
+F3 "CAN_L" B R 6650 1000 50 
+F4 "3V3_IN" I L 5550 1200 50 
+F5 "RX_CAN" I L 5550 900 50 
+F6 "TX_CAN" I L 5550 1000 50 
+$EndSheet
+Text Label 5550 900  2    50   ~ 0
+RX_CAN
+Text Label 5550 1000 2    50   ~ 0
+TX_CAN
+Text Label 5000 4200 2    50   ~ 0
+RX_CAN
+Text Label 6500 4250 0    50   ~ 0
+TX_CAN
+Text Label 5550 1200 2    50   ~ 0
+3V3
+Text Label 6650 900  0    50   ~ 0
+CAN_H
+Text Label 6650 1000 0    50   ~ 0
+CAN_L
+Text Label 5550 3850 2    50   ~ 0
+3V3
+$Sheet
+S 5550 3750 950  1950
+U 5F2AC57F
+F0 "Master_MPU" 50
+F1 "ESP32_MPU.sch" 50
+F2 "3V3_IN" I L 5550 3850 50 
+F3 "ENABLE" I L 5550 3950 50 
+F4 "GPIO23" B L 5550 4900 50 
+F5 "GPIO22" B L 5550 4800 50 
+F6 "GPIO21" B L 5550 4700 50 
+F7 "GPIO19" B L 5550 4600 50 
+F8 "GPIO18" B L 5550 4500 50 
+F9 "GPIO05*" B R 6500 4250 50 
+F10 "GPIO16" B L 5550 4300 50 
+F11 "GPIO04" B L 5550 4200 50 
+F12 "GPIO17" B L 5550 4400 50 
+F13 "GPIO02*" B R 6500 4100 50 
+F14 "GPIO36*" I R 6500 5300 50 
+F15 "GPIO39*" I R 6500 5400 50 
+F16 "GPIO34*" I R 6500 5100 50 
+F17 "GPIO35*" I R 6500 5200 50 
+F18 "GPIO32" B L 5550 5300 50 
+F19 "GPIO33" B L 5550 5400 50 
+F20 "GPIO25" B L 5550 5000 50 
+F21 "GPIO26" B L 5550 5100 50 
+F22 "GPIO27" B L 5550 5200 50 
+F23 "GPIO13" B R 6500 4600 50 
+F24 "GPIO12*" B R 6500 4500 50 
+F25 "GPIO14" B R 6500 4700 50 
+F26 "GPIO15*" B R 6500 4800 50 
+F27 "GPIO03(rX0)" I R 6500 3850 50 
+F28 "GPIO01(tX0)" I R 6500 3950 50 
+$EndSheet
+$Sheet
+S 5550 2200 800  350 
+U 5F512514
+F0 "status_led" 50
+F1 "status_led.sch" 50
+F2 "led_enable" I L 5550 2300 50 
+$EndSheet
+Text Label 5550 2300 2    50   ~ 0
+LED_ENABLE
+Wire Wire Line
+	5000 4700 5550 4700
+Wire Wire Line
+	5550 4200 5000 4200
+Wire Wire Line
+	5000 4300 5550 4300
+Wire Wire Line
+	5550 4400 5000 4400
+Text Label 2500 1100 0    50   ~ 0
+3V3
+Text Label 1450 1100 2    50   ~ 0
+3V8-32V
+Wire Wire Line
+	6500 4600 6550 4600
+Wire Wire Line
+	6850 4600 7100 4600
+Text Label 7100 4600 0    50   ~ 0
+UART_RS485_TX
+$Sheet
+S 9600 600  1300 700 
+U 63F37544
+F0 "ModBus" 50
+F1 "ModBus.sch" 50
+F2 "3V3" I L 9600 700 50 
+F3 "RS485_-" O R 10900 950 50 
+F4 "RS485_+" O R 10900 850 50 
+F5 "RS485_RXD" O L 9600 850 50 
+F6 "RS485_TXD" I L 9600 950 50 
+$EndSheet
+Text Label 9600 700  2    50   ~ 0
+3V3
+Text Label 9600 950  2    50   ~ 0
+UART_RS485_TX
+Text Label 9600 850  2    50   ~ 0
+UART_RS485_RX
+Text Label 11050 3600 0    50   ~ 0
+OT_master_1
+Text Label 11050 3700 0    50   ~ 0
+OT_master_2
+Text Label 11050 4000 0    50   ~ 0
+OT_slave_2
+Text Label 11050 3900 0    50   ~ 0
+OT_slave_1
+Text Label 9600 4000 2    50   ~ 0
+OT_slave_OUT
+Text Label 9600 3900 2    50   ~ 0
+OT_slave_IN
+Text Label 9600 4200 2    50   ~ 0
+OT_master_IN
+Text Label 9600 4300 2    50   ~ 0
+OT_master_OUT
+$Sheet
+S 9600 3450 1450 1050
+U 63D7F2FD
+F0 "opentherm" 50
+F1 "opentherm.sch" 50
+F2 "24V_in" I L 9600 3550 50 
+F3 "3V3_in" I L 9600 3650 50 
+F4 "OT_slave_OUT" I L 9600 4000 50 
+F5 "OT_master_IN" O L 9600 4200 50 
+F6 "OT_master_OUT" I L 9600 4300 50 
+F7 "OT_master_1" B R 11050 3600 50 
+F8 "OT_master_2" B R 11050 3700 50 
+F9 "OT_slave_IN" O L 9600 3900 50 
+F10 "OT_slave_1" B R 11050 3900 50 
+F11 "OT_slave_2" B R 11050 4000 50 
+$EndSheet
+Text Label 5000 4400 2    50   ~ 0
+OT_slave_IN
+Text Label 5000 4300 2    50   ~ 0
+OT_master_IN
+Text Label 5000 4700 2    50   ~ 0
+OT_slave_OUT
+Text Label 5000 4800 2    50   ~ 0
+OT_master_OUT
+Wire Wire Line
+	5550 4800 5000 4800
+Text Label 9600 3650 2    50   ~ 0
+3V3
+Text Label 9600 3550 2    50   ~ 0
+3V8-32V
+Text Label 10900 850  0    50   ~ 0
+RS485_+
+Text Label 10900 950  0    50   ~ 0
+RS485_-
+$Sheet
+S 1450 950  1050 400 
+U 5F2AC58D
+F0 "3V3_PWR_Supply" 50
+F1 "3V3_PWR_Supply.sch" 50
+F2 "3.8-32V_IN" I L 1450 1100 50 
+F3 "3V3_OUT" O R 2500 1100 50 
+$EndSheet
+Wire Wire Line
+	5000 5400 5550 5400
+$Sheet
+S 9600 2300 1400 900 
+U 63DE8BAC
+F0 "ethernet" 50
+F1 "ethernet.sch" 50
+F2 "SCLK" I L 9600 2550 50 
+F3 "MOSI" I L 9600 2650 50 
+F4 "RSTn" I L 9600 3000 50 
+F5 "PMODE_1" I R 11000 2500 50 
+F6 "PMODE_2" I R 11000 2600 50 
+F7 "MISO" O L 9600 2750 50 
+F8 "3V3" I L 9600 2400 50 
+F9 "INTn" O L 9600 3100 50 
+F10 "CSn" I L 9600 2850 50 
+F11 "PMODE_0" I R 11000 2400 50 
+$EndSheet
+Text Label 5000 4500 2    50   ~ 0
+CLK
+Text Label 5000 4600 2    50   ~ 0
+MISO
+Text Label 5000 4900 2    50   ~ 0
+MOSI
+Wire Wire Line
+	5550 4600 5000 4600
+Text Label 9600 2550 2    50   ~ 0
+CLK
+Text Label 9600 2750 2    50   ~ 0
+ETH_MISO
+Text Label 9600 2650 2    50   ~ 0
+MOSI
+Text Label 9600 2850 2    50   ~ 0
+ETH_CS
+Text Label 9600 3000 2    50   ~ 0
+ETH_RSTn
+Text Label 5000 5300 2    50   ~ 0
+ETH_CS
+Text Label 14250 5650 0    50   ~ 0
+ETH_RSTn
+Text Label 9600 2400 2    50   ~ 0
+3V3
+Text Label 11900 2200 2    50   ~ 0
+3V3
+$Comp
+L C-Sense_diverse:R R?
+U 1 1 63FE88EC
+P 11450 2400
+AR Path="/5F078D61/63DE8BAC/63FE88EC" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63FE88EC" Ref="R201"  Part="1" 
+F 0 "R201" V 11500 2600 50  0000 C CNN
+F 1 "100K" V 11500 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11380 2400 50  0001 C CNN
+F 3 "" H 11450 2400 50  0001 C CNN
+F 4 "R201" H 11450 2400 50  0001 C CNN "Reference"
+F 5 "100K" H 11450 2400 50  0001 C CNN "Value"
+F 6 "RMCF0603FT100KCT-ND" H 11450 2400 50  0001 C CNN "Digi-Key_PN"
+F 7 "Stackpole Electronics Inc" H 11450 2400 50  0001 C CNN "MF"
+F 8 "RMCF0603FT100K" H 11450 2400 50  0001 C CNN "MP"
+	1    11450 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L C-Sense_diverse:R R?
+U 1 1 63FE9354
+P 11450 2500
+AR Path="/5F078D61/63DE8BAC/63FE9354" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63FE9354" Ref="R202"  Part="1" 
+F 0 "R202" V 11500 2700 50  0000 C CNN
+F 1 "100K" V 11500 2300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11380 2500 50  0001 C CNN
+F 3 "" H 11450 2500 50  0001 C CNN
+F 4 "R202" H 11450 2500 50  0001 C CNN "Reference"
+F 5 "100K" H 11450 2500 50  0001 C CNN "Value"
+F 6 "RMCF0603FT100KCT-ND" H 11450 2500 50  0001 C CNN "Digi-Key_PN"
+F 7 "Stackpole Electronics Inc" H 11450 2500 50  0001 C CNN "MF"
+F 8 "RMCF0603FT100K" H 11450 2500 50  0001 C CNN "MP"
+	1    11450 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L C-Sense_diverse:R R?
+U 1 1 63FE9728
+P 11450 2600
+AR Path="/5F078D61/63DE8BAC/63FE9728" Ref="R?"  Part="1" 
+AR Path="/5F078D61/63FE9728" Ref="R203"  Part="1" 
+F 0 "R203" V 11500 2800 50  0000 C CNN
+F 1 "100K" V 11500 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11380 2600 50  0001 C CNN
+F 3 "" H 11450 2600 50  0001 C CNN
+F 4 "R203" H 11450 2600 50  0001 C CNN "Reference"
+F 5 "100K" H 11450 2600 50  0001 C CNN "Value"
+F 6 "RMCF0603FT100KCT-ND" H 11450 2600 50  0001 C CNN "Digi-Key_PN"
+F 7 "Stackpole Electronics Inc" H 11450 2600 50  0001 C CNN "MF"
+F 8 "RMCF0603FT100K" H 11450 2600 50  0001 C CNN "MP"
+	1    11450 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11000 2400 11300 2400
+Wire Wire Line
+	11300 2500 11000 2500
+Wire Wire Line
+	11000 2600 11300 2600
+Wire Wire Line
+	11900 2600 11600 2600
+Wire Wire Line
+	11600 2500 11900 2500
+Connection ~ 11900 2500
+Wire Wire Line
+	11900 2500 11900 2600
+Wire Wire Line
+	11900 2200 11900 2400
+Wire Wire Line
+	11900 2400 11900 2500
+Connection ~ 11900 2400
+Wire Wire Line
+	11600 2400 11900 2400
+Text Label 7100 4700 0    50   ~ 0
+UART_RS485_RX
+Text Label 14800 4650 0    50   ~ 0
+MP_Dig1
+$Sheet
+S 12800 650  1450 1050
+U 659AA85E
+F0 "GSM" 50
+F1 "GSM.sch" 50
+F2 "3V8_IN" I L 12800 800 50 
+F3 "3V3_IN" I L 12800 900 50 
+F4 "RX_IN" I L 12800 1350 50 
+F5 "TX_OUT" O L 12800 1450 50 
+F6 "1V8_IN" I L 12800 1000 50 
+F7 "SIM_PRESENT" O R 14250 800 50 
+F8 "W_DISABLE" I R 14250 1100 50 
+F9 "PWR_KEY" I R 14250 1200 50 
+F10 "nRESET" I R 14250 1300 50 
+$EndSheet
+Text Label 1450 1800 2    50   ~ 0
+3V8-32V
+Text Label 2500 1800 0    50   ~ 0
+3V7
+Text Label 12800 1000 2    50   ~ 0
+1V8
+Text Label 12800 800  2    50   ~ 0
+3V7
+Text Label 12800 900  2    50   ~ 0
+3V3
+Text Label 5000 5000 2    50   ~ 0
+UART_GSM_TX
+Text Label 5000 5100 2    50   ~ 0
+UART_GSM_RX
+Text Label 12800 1350 2    50   ~ 0
+UART_GSM_RX
+Text Label 12800 1450 2    50   ~ 0
+UART_GSM_TX
+$Comp
+L Device:R R?
+U 1 1 602E5579
+P 6700 4700
+AR Path="/602E5579" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/602E5579" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/602E5579" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/602E5579" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/602E5579" Ref="R?"  Part="1" 
+AR Path="/5F078D61/602E5579" Ref="R309"  Part="1" 
+F 0 "R309" V 6650 4850 50  0000 L CNN
+F 1 "220" V 6700 4650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 4700 50  0001 C CNN
+F 3 "" H 6700 4700 50  0001 C CNN
+F 4 "RMCF0603JT220RCT-ND" H 550 1550 50  0001 C CNN "Digi-Key_PN"
+F 5 "R309" H 6700 4700 50  0001 C CNN "Reference"
+F 6 "220" H 6700 4700 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 6700 4700 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 6700 4700 50  0001 C CNN "MF"
+F 9 "RMCF0603JT220R" H 6700 4700 50  0001 C CNN "MP"
+	1    6700 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L C-Sense_diverse:R R?
+U 1 1 65E32824
+P 5200 4500
+AR Path="/5F078D61/63DE8BAC/65E32824" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65E32824" Ref="R204"  Part="1" 
+F 0 "R204" V 5150 4650 50  0000 C CNN
+F 1 "33" V 5200 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 4500 50  0001 C CNN
+F 3 "" H 5200 4500 50  0001 C CNN
+F 4 "R204" H 5200 4500 50  0001 C CNN "Reference"
+F 5 "33" H 5200 4500 50  0001 C CNN "Value"
+F 6 "Vishay Dale" H 5200 4500 50  0001 C CNN "MF"
+F 7 "CRCW060333R0FKEAC" H 5200 4500 50  0001 C CNN "MP"
+F 8 "541-3988-1-ND" H 5200 4500 50  0001 C CNN "Digi-Key_PN"
+	1    5200 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L C-Sense_diverse:R R?
+U 1 1 65E34D6A
+P 5200 4900
+AR Path="/5F078D61/63DE8BAC/65E34D6A" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65E34D6A" Ref="R205"  Part="1" 
+F 0 "R205" V 5150 5050 50  0000 C CNN
+F 1 "33" V 5200 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 4900 50  0001 C CNN
+F 3 "" H 5200 4900 50  0001 C CNN
+F 4 "R205" H 5200 4900 50  0001 C CNN "Reference"
+F 5 "33" H 5200 4900 50  0001 C CNN "Value"
+F 6 "Vishay Dale" H 5200 4900 50  0001 C CNN "MF"
+F 7 "CRCW060333R0FKEAC" H 5200 4900 50  0001 C CNN "MP"
+F 8 "541-3988-1-ND" H 5200 4900 50  0001 C CNN "Digi-Key_PN"
+	1    5200 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 4500 5550 4500
+Wire Wire Line
+	5350 4900 5550 4900
+Wire Wire Line
+	5000 4900 5050 4900
+Wire Wire Line
+	5050 4500 5000 4500
+$Comp
+L C-Sense_diverse:R R?
+U 1 1 65E54BA8
+P 5200 5000
+AR Path="/5F078D61/63DE8BAC/65E54BA8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65E54BA8" Ref="R206"  Part="1" 
+F 0 "R206" V 5150 5150 50  0000 C CNN
+F 1 "33" V 5200 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 5000 50  0001 C CNN
+F 3 "" H 5200 5000 50  0001 C CNN
+F 4 "R206" H 5200 5000 50  0001 C CNN "Reference"
+F 5 "33" H 5200 5000 50  0001 C CNN "Value"
+F 6 "Vishay Dale" H 5200 5000 50  0001 C CNN "MF"
+F 7 "CRCW060333R0FKEAC" H 5200 5000 50  0001 C CNN "MP"
+F 8 "541-3988-1-ND" H 5200 5000 50  0001 C CNN "Digi-Key_PN"
+	1    5200 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L C-Sense_diverse:R R?
+U 1 1 65E54F45
+P 5200 5100
+AR Path="/5F078D61/63DE8BAC/65E54F45" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65E54F45" Ref="R207"  Part="1" 
+F 0 "R207" V 5150 5250 50  0000 C CNN
+F 1 "33" V 5200 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 5100 50  0001 C CNN
+F 3 "" H 5200 5100 50  0001 C CNN
+F 4 "R207" H 5200 5100 50  0001 C CNN "Reference"
+F 5 "33" H 5200 5100 50  0001 C CNN "Value"
+F 6 "Vishay Dale" H 5200 5100 50  0001 C CNN "MF"
+F 7 "CRCW060333R0FKEAC" H 5200 5100 50  0001 C CNN "MP"
+F 8 "541-3988-1-ND" H 5200 5100 50  0001 C CNN "Digi-Key_PN"
+	1    5200 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 5000 5550 5000
+Wire Wire Line
+	5550 5100 5350 5100
+Wire Wire Line
+	5050 5100 5000 5100
+Wire Wire Line
+	5000 5000 5050 5000
+Wire Wire Line
+	5000 5200 5550 5200
+Wire Wire Line
+	5550 5300 5000 5300
+Wire Wire Line
+	6500 4700 6550 4700
+Wire Wire Line
+	6850 4700 7100 4700
+$Comp
+L C-Sense_diverse:R R?
+U 1 1 65E75118
+P 6700 4600
+AR Path="/5F078D61/63DE8BAC/65E75118" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65E75118" Ref="R208"  Part="1" 
+F 0 "R208" V 6650 4750 50  0000 C CNN
+F 1 "33" V 6700 4600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 4600 50  0001 C CNN
+F 3 "" H 6700 4600 50  0001 C CNN
+F 4 "R208" H 6700 4600 50  0001 C CNN "Reference"
+F 5 "33" H 6700 4600 50  0001 C CNN "Value"
+F 6 "Vishay Dale" H 6700 4600 50  0001 C CNN "MF"
+F 7 "CRCW060333R0FKEAC" H 6700 4600 50  0001 C CNN "MP"
+F 8 "541-3988-1-ND" H 6700 4600 50  0001 C CNN "Digi-Key_PN"
+	1    6700 4600
+	0    1    1    0   
+$EndComp
+Text Label 6500 5400 0    50   ~ 0
+Analog_in
+Text Label 2500 1950 0    50   ~ 0
+1V8
+$Sheet
+S 1450 1650 1050 400 
+U 65AC4B7B
+F0 "GSM_PWR_Supply" 50
+F1 "GSM_PWR_Supply.sch" 50
+F2 "3V7_OUT" O R 2500 1800 50 
+F3 "1V8_OUT" O R 2500 1950 50 
+F4 "3V8-32V_IN" I L 1450 1800 50 
+F5 "Disable" I L 1450 1950 50 
+$EndSheet
+Text Label 5550 1750 2    50   ~ 0
+3V3
+$Sheet
+S 5550 1650 800  350 
+U 6587AFEC
+F0 "power_led" 50
+F1 "power_led.sch" 50
+F2 "led_enable" I L 5550 1750 50 
+$EndSheet
+Text Label 9600 1800 2    50   ~ 0
+P1_RTS
+Text Label 6500 5300 0    50   ~ 0
+P1_Data
+Text Label 14250 6150 0    50   ~ 0
+Disable_GSM_PWR
+Text Label 1450 1950 2    50   ~ 0
+Disable_GSM_PWR
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 6598D971
+P 1450 6500
+AR Path="/5F078D61/5F511C13/6598D971" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/6598D971" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 1450 6250 50  0001 C CNN
+F 1 "GND" V 1455 6327 50  0000 C CNN
+F 2 "" H 1450 6500 50  0001 C CNN
+F 3 "" H 1450 6500 50  0001 C CNN
+	1    1450 6500
+	1    0    0    1   
+$EndComp
+Text Label 10900 1750 0    50   ~ 0
+P1_RTS_OUT
+Text Label 10900 1850 0    50   ~ 0
+P1_Data_IN
+Text Label 1550 6500 1    50   ~ 0
+P1_RTS_OUT
+Text Label 1250 6500 1    50   ~ 0
+P1_Data_IN
+$Sheet
+S 5550 2800 800  350 
+U 65862B93
+F0 "watchdog" 50
+F1 "watchdog.sch" 50
+F2 "WD_IN" I L 5550 3000 50 
+F3 "2V5-5V5" I L 5550 2900 50 
+F4 "WD_OUT" O R 6350 2900 50 
+$EndSheet
+Text Label 6350 2900 0    50   ~ 0
+EN
+Text Label 5550 2900 2    50   ~ 0
+3V3
+Text Label 5550 3000 2    50   ~ 0
+LED_ENABLE
+Text Label 5550 3950 2    50   ~ 0
+EN
+Text Label 9600 1950 2    50   ~ 0
+P1_Data
+$Sheet
+S 9600 1550 1300 500 
+U 658ECD7D
+F0 "P1" 50
+F1 "P1.sch" 50
+F2 "P1_RTS" I L 9600 1800 50 
+F3 "P1_Data_IN" I R 10900 1850 50 
+F4 "P1_RTS_OUT" I R 10900 1750 50 
+F5 "P1_Data(INV)" O L 9600 1950 50 
+F6 "3V3" I L 9600 1600 50 
+$EndSheet
+$Sheet
+S 12800 1950 1450 750 
+U 658FCDE8
+F0 "SD" 50
+F1 "SD.sch" 50
+F2 "CS" I L 12800 2300 50 
+F3 "MISO" I L 12800 2400 50 
+F4 "3V3_IN" I L 12800 2050 50 
+F5 "MOSI" I L 12800 2500 50 
+F6 "CLK" I L 12800 2200 50 
+$EndSheet
+Text Label 12800 2200 2    50   ~ 0
+CLK
+Text Label 12800 2500 2    50   ~ 0
+MOSI
+Text Label 12800 2400 2    50   ~ 0
+SD_MISO
+Text Label 12800 2300 2    50   ~ 0
+SD_CS
+$Sheet
+S 12800 2950 1450 1350
+U 6592F7F2
+F0 "SPI_base" 50
+F1 "SPI_base.sch" 50
+F2 "3V3_IN" I L 12800 3050 50 
+F3 "MISO" O L 12800 3200 50 
+F4 "MISO_IN_1" I L 12800 3300 50 
+F5 "CS_1" I L 12800 3400 50 
+F6 "MISO_IN_2" I L 12800 3500 50 
+F7 "CS_2" I L 12800 3600 50 
+F8 "MISO_IN_3" I L 12800 3700 50 
+F9 "CS_3" I L 12800 3800 50 
+F10 "MISO_IN_4" I L 12800 3900 50 
+F11 "CS_4" I L 12800 4000 50 
+$EndSheet
+Text Label 12800 3300 2    50   ~ 0
+ETH_MISO
+Text Label 12800 3200 2    50   ~ 0
+MISO
+Text Label 12800 3500 2    50   ~ 0
+SD_MISO
+Text Label 12800 3400 2    50   ~ 0
+ETH_CS
+Text Label 12800 3600 2    50   ~ 0
+SD_CS
+Text Label 12800 2050 2    50   ~ 0
+3V3
+Text Label 12800 3050 2    50   ~ 0
+3V3
+Text Label 5000 5200 2    50   ~ 0
+SD_CS
+Text Label 5000 5400 2    50   ~ 0
+MP_CS
+Text Label 12800 4650 2    50   ~ 0
+3V3
+Text Label 12800 5100 2    50   ~ 0
+CLK
+Text Label 12800 5200 2    50   ~ 0
+MOSI
+Text Label 12800 5300 2    50   ~ 0
+MP_MISO
+Text Label 12800 3700 2    50   ~ 0
+MP_MISO
+Text Label 12800 5000 2    50   ~ 0
+MP_CS
+Text Label 12800 3800 2    50   ~ 0
+MP_CS
+Text Label 12800 4850 2    50   ~ 0
+MP_!INT
+Text Label 6500 5100 0    50   ~ 0
+MP_!INT
+Text Label 9600 3100 2    50   ~ 0
+ETH_!INT
+Text Label 14250 5750 0    50   ~ 0
+ETH_!INT
+Text Label 12800 4750 2    50   ~ 0
+EN
+Text Label 14250 800  0    50   ~ 0
+SIM_PRESENT
+Text Label 14250 6050 0    50   ~ 0
+SIM_PRESENT
+Text Label 14800 4750 0    50   ~ 0
+MP_Dig2
+Text Label 14800 4850 0    50   ~ 0
+MP_Dig3
+Text Label 14800 4950 0    50   ~ 0
+MP_Dig4
+$Comp
+L Device:R R?
+U 1 1 65B0DCD6
+P 14400 4650
+AR Path="/65B0DCD6" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/65B0DCD6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65B0DCD6" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65B0DCD6" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/65B0DCD6" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65B0DCD6" Ref="R209"  Part="1" 
+F 0 "R209" V 14350 4800 50  0000 L CNN
+F 1 "220" V 14400 4600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 4650 50  0001 C CNN
+F 3 "" H 14400 4650 50  0001 C CNN
+F 4 "RMCF0603JT220RCT-ND" H 8250 1500 50  0001 C CNN "Digi-Key_PN"
+F 5 "R209" H 14400 4650 50  0001 C CNN "Reference"
+F 6 "220" H 14400 4650 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 14400 4650 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 14400 4650 50  0001 C CNN "MF"
+F 9 "RMCF0603JT220R" H 14400 4650 50  0001 C CNN "MP"
+	1    14400 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65B0E179
+P 14400 4750
+AR Path="/65B0E179" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/65B0E179" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65B0E179" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65B0E179" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/65B0E179" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65B0E179" Ref="R210"  Part="1" 
+F 0 "R210" V 14350 4900 50  0000 L CNN
+F 1 "220" V 14400 4700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 4750 50  0001 C CNN
+F 3 "" H 14400 4750 50  0001 C CNN
+F 4 "RMCF0603JT220RCT-ND" H 8250 1600 50  0001 C CNN "Digi-Key_PN"
+F 5 "R210" H 14400 4750 50  0001 C CNN "Reference"
+F 6 "220" H 14400 4750 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 14400 4750 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 14400 4750 50  0001 C CNN "MF"
+F 9 "RMCF0603JT220R" H 14400 4750 50  0001 C CNN "MP"
+	1    14400 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65B0E57C
+P 14400 4850
+AR Path="/65B0E57C" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/65B0E57C" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65B0E57C" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65B0E57C" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/65B0E57C" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65B0E57C" Ref="R211"  Part="1" 
+F 0 "R211" V 14350 5000 50  0000 L CNN
+F 1 "220" V 14400 4800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 4850 50  0001 C CNN
+F 3 "" H 14400 4850 50  0001 C CNN
+F 4 "RMCF0603JT220RCT-ND" H 8250 1700 50  0001 C CNN "Digi-Key_PN"
+F 5 "R211" H 14400 4850 50  0001 C CNN "Reference"
+F 6 "220" H 14400 4850 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 14400 4850 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 14400 4850 50  0001 C CNN "MF"
+F 9 "RMCF0603JT220R" H 14400 4850 50  0001 C CNN "MP"
+	1    14400 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 65B0E92B
+P 14400 4950
+AR Path="/65B0E92B" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/65B0E92B" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/65B0E92B" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/65B0E92B" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/65B0E92B" Ref="R?"  Part="1" 
+AR Path="/5F078D61/65B0E92B" Ref="R212"  Part="1" 
+F 0 "R212" V 14350 5100 50  0000 L CNN
+F 1 "220" V 14400 4900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 14330 4950 50  0001 C CNN
+F 3 "" H 14400 4950 50  0001 C CNN
+F 4 "RMCF0603JT220RCT-ND" H 8250 1800 50  0001 C CNN "Digi-Key_PN"
+F 5 "R212" H 14400 4950 50  0001 C CNN "Reference"
+F 6 "220" H 14400 4950 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 14400 4950 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 14400 4950 50  0001 C CNN "MF"
+F 9 "RMCF0603JT220R" H 14400 4950 50  0001 C CNN "MP"
+	1    14400 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14550 4650 14800 4650
+Wire Wire Line
+	14800 4750 14550 4750
+Wire Wire Line
+	14550 4850 14800 4850
+Wire Wire Line
+	14800 4950 14550 4950
+Text Label 12800 5600 2    50   ~ 0
+3V3
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 65B4FFFC
+P 12800 5400
+AR Path="/5F078D61/5F511C13/65B4FFFC" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65B4FFFC" Ref="#PWR0211"  Part="1" 
+F 0 "#PWR0211" H 12800 5150 50  0001 C CNN
+F 1 "GND" V 12805 5227 50  0000 C CNN
+F 2 "" H 12800 5400 50  0001 C CNN
+F 3 "" H 12800 5400 50  0001 C CNN
+	1    12800 5400
+	0    1    -1   0   
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 65B50B50
+P 12800 5500
+AR Path="/5F078D61/5F511C13/65B50B50" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/65B50B50" Ref="#PWR0212"  Part="1" 
+F 0 "#PWR0212" H 12800 5250 50  0001 C CNN
+F 1 "GND" V 12805 5327 50  0000 C CNN
+F 2 "" H 12800 5500 50  0001 C CNN
+F 3 "" H 12800 5500 50  0001 C CNN
+	1    12800 5500
+	0    1    -1   0   
+$EndComp
+Text Label 12800 3900 2    50   ~ 0
+MBUS_MISO
+Text Label 14250 5550 0    50   ~ 0
+LED_ENABLE
+Text Label 6500 3850 0    50   ~ 0
+GPIO03(rX0)
+Text Label 6500 3950 0    50   ~ 0
+GPIO01(tX0)
+Text Label 6500 4100 0    50   ~ 0
+GPIO02
+Text Label 6500 4500 0    50   ~ 0
+GPIO12
+Text Label 12800 4000 2    50   ~ 0
+MBUS_CS
+Wire Wire Line
+	15600 5950 15500 5950
+Wire Wire Line
+	15500 5850 15500 5950
+$Comp
+L power:GND #PWR?
+U 1 1 665EDC3C
+P 15600 5950
+AR Path="/5F26C8F5/665EDC3C" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/665EDC3C" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/665EDC3C" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 15600 5700 50  0001 C CNN
+F 1 "GND" V 15600 5750 50  0000 C CNN
+F 2 "" H 15600 5950 50  0000 C CNN
+F 3 "" H 15600 5950 50  0000 C CNN
+	1    15600 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14250 5850 14900 5850
+Wire Wire Line
+	14250 5950 14900 5950
+Text Label 6500 4800 0    50   ~ 0
+MBUS_CS
+$Sheet
+S 9600 4900 850  600 
+U 668A631A
+F0 "Signal_Relay0" 50
+F1 "Signal_Relay.sch" 50
+F2 "3V3_IN" I L 9600 5000 50 
+F3 "COMMON" I R 10450 5200 50 
+F4 "NO" O R 10450 5000 50 
+F5 "NC" O R 10450 5400 50 
+F6 "Enable" I L 9600 5150 50 
+$EndSheet
+Text Label 9600 5000 2    50   ~ 0
+3V3
+Text Label 10450 5000 0    50   ~ 0
+Relay0_NO
+Text Label 9600 5150 2    50   ~ 0
+MP_Dig6
+Text Label 10450 5400 0    50   ~ 0
+Relay0_NC
+Text Label 10450 5200 0    50   ~ 0
+Relay0_COM
+Text Label 6500 5200 0    50   ~ 0
+GPIO_35
+Text Label 9600 1600 2    50   ~ 0
+3V3
+Connection ~ 15500 5950
+$Comp
+L Switch:SW_DIP_x02 SW201
+U 1 1 665B9081
+P 15200 5850
+F 0 "SW201" H 15200 6217 50  0000 C CNN
+F 1 "SW_DIP_x02" H 15200 6126 50  0000 C CNN
+F 2 "I_Connect:TDP02H1SBD1" H 15200 5850 50  0001 C CNN
+F 3 "" H 15200 5850 50  0001 C CNN
+F 4 "CKN9425-ND" H 15200 5850 50  0001 C CNN "Digi-Key_PN"
+F 5 "C&K" H 15200 5850 50  0001 C CNN "MF"
+F 6 "TDP02H1SBD1" H 15200 5850 50  0001 C CNN "MP"
+F 7 "SW201" H 15200 5850 50  0001 C CNN "Reference"
+F 8 "SW_DIP_x02" H 15200 5850 50  0001 C CNN "Value"
+	1    15200 5850
+	1    0    0    1   
+$EndComp
+Text Label 14250 1100 0    50   ~ 0
+W_DISABLE
+Text Label 14250 1200 0    50   ~ 0
+PWR_KEY
+Text Label 14250 5450 0    50   ~ 0
+PWR_KEY
+Text Label 14250 1300 0    50   ~ 0
+GSM_nReset
+Text Label 14250 5250 0    50   ~ 0
+GSM_nReset
+$Sheet
+S 12800 4550 1450 1700
+U 6593EFC6
+F0 "SPI_multiplexer" 50
+F1 "SPI_multiplexer.sch" 50
+F2 "3V3_IN" I L 12800 4650 50 
+F3 "!RESET" I L 12800 4750 50 
+F4 "!INT" O L 12800 4850 50 
+F5 "IO0" B R 14250 4650 50 
+F6 "IO1" B R 14250 4750 50 
+F7 "IO2" B R 14250 4850 50 
+F8 "IO3" B R 14250 4950 50 
+F9 "IO4" B R 14250 5050 50 
+F10 "IO5" B R 14250 5150 50 
+F11 "IO6" B R 14250 5250 50 
+F12 "IO7" B R 14250 5350 50 
+F13 "IO8" B R 14250 5450 50 
+F14 "IO9" B R 14250 5550 50 
+F15 "IO10" B R 14250 5650 50 
+F16 "IO11" B R 14250 5750 50 
+F17 "IO12" B R 14250 5850 50 
+F18 "IO13" B R 14250 5950 50 
+F19 "IO14" B R 14250 6050 50 
+F20 "IO15" B R 14250 6150 50 
+F21 "CS" I L 12800 5000 50 
+F22 "SCK" I L 12800 5100 50 
+F23 "MOSI" I L 12800 5200 50 
+F24 "MISO" O L 12800 5300 50 
+F25 "ADDR2" I L 12800 5400 50 
+F26 "ADDR1" I L 12800 5500 50 
+F27 "ADDR0" I L 12800 5600 50 
+$EndSheet
+Text Label 14250 5350 0    50   ~ 0
+W_DISABLE
+Text Label 14250 5150 0    50   ~ 0
+P1_RTS
+Text Label 14250 5050 0    50   ~ 0
+MP_Dig6
+$EndSCHEMATC

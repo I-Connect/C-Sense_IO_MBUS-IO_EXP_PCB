@@ -1,0 +1,204 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 40
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Analog_ADC:ADS7828 U?
+U 1 1 5F052E64
+P 4800 3700
+AR Path="/5EFB5942/5F052E64" Ref="U?"  Part="1" 
+AR Path="/5EFB5942/5F03D078/5F052E64" Ref="U?"  Part="1" 
+F 0 "U?" H 4350 4450 50  0000 C CNN
+F 1 "ADS7828" H 4450 4350 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5750 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads7828.pdf" H 4800 3700 50  0001 C CNN
+	1    4800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F053744
+P 4800 2250
+AR Path="/5F5FF71B/5EF6C7D0/5F053744" Ref="R?"  Part="1" 
+AR Path="/60CB310B/5F053744" Ref="R?"  Part="1" 
+AR Path="/61321795/5F053744" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC636/5F053744" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC64F/5F053744" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0267FD/5F053744" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F026818/5F053744" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F03D078/5F053744" Ref="R?"  Part="1" 
+F 0 "R?" H 4870 2296 50  0000 L CNN
+F 1 "0" H 4870 2205 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4730 2250 50  0001 C CNN
+F 3 "" H 4800 2250 50  0001 C CNN
+F 4 "P0.0ECT-ND" H 950 -1000 50  0001 C CNN "Digi-Key_PN"
+	1    4800 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F05374C
+P 5050 2800
+AR Path="/5F5FF71B/5EF6C7D0/5F05374C" Ref="C?"  Part="1" 
+AR Path="/60CB310B/5F05374C" Ref="C?"  Part="1" 
+AR Path="/61321795/5F05374C" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC636/5F05374C" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC64F/5F05374C" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F0267FD/5F05374C" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F026818/5F05374C" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F03D078/5F05374C" Ref="C?"  Part="1" 
+F 0 "C?" H 5150 2900 50  0000 L CNN
+F 1 "0.1uF" H 5150 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 2650 50  0001 C CNN
+F 3 "" H 5050 2800 50  0001 C CNN
+F 4 "490-16477-1-ND" H 650 -200 50  0001 C CNN "Digi-Key_PN"
+	1    5050 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F053754
+P 5050 2450
+AR Path="/5F5FF71B/5EF6C7D0/5F053754" Ref="C?"  Part="1" 
+AR Path="/60CB310B/5F053754" Ref="C?"  Part="1" 
+AR Path="/61321795/5F053754" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC636/5F053754" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC64F/5F053754" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F0267FD/5F053754" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F026818/5F053754" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F03D078/5F053754" Ref="C?"  Part="1" 
+F 0 "C?" H 4850 2550 50  0000 L CNN
+F 1 "1uF" H 4850 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 2300 50  0001 C CNN
+F 3 "" H 5050 2450 50  0001 C CNN
+F 4 "399-7847-1-ND" H 1000 -550 50  0001 C CNN "Digi-Key_PN"
+	1    5050 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 2400 4800 2450
+Wire Wire Line
+	4900 2800 4800 2800
+Connection ~ 4800 2800
+Wire Wire Line
+	4800 2800 4800 3000
+Wire Wire Line
+	4900 2450 4800 2450
+Connection ~ 4800 2450
+Wire Wire Line
+	4800 2450 4800 2800
+Wire Wire Line
+	4800 2050 4800 2100
+$Comp
+L power:GND #PWR?
+U 1 1 5F053763
+P 5300 2650
+AR Path="/5F5FF71B/5EF6C7D0/5F053763" Ref="#PWR?"  Part="1" 
+AR Path="/60CB310B/5F053763" Ref="#PWR?"  Part="1" 
+AR Path="/61321795/5F053763" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC636/5F053763" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC64F/5F053763" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5F0267FD/5F053763" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5F026818/5F053763" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5F03D078/5F053763" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 5300 2400 50  0001 C CNN
+F 1 "GND" H 5305 2477 50  0000 C CNN
+F 2 "" H 5300 2650 50  0001 C CNN
+F 3 "" H 5300 2650 50  0001 C CNN
+	1    5300 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5200 2450 5300 2450
+Wire Wire Line
+	5300 2450 5300 2650
+Wire Wire Line
+	5300 2650 5300 2800
+Wire Wire Line
+	5300 2800 5200 2800
+Connection ~ 5300 2650
+Text HLabel 4800 2050 1    50   Input ~ 0
+2V7-5V_IN
+Text HLabel 5200 3400 2    50   Input ~ 0
+SCL
+Text HLabel 5200 3300 2    50   Input ~ 0
+SDA
+Text HLabel 5200 4100 2    50   Input ~ 0
+A0
+Text HLabel 5200 4200 2    50   Input ~ 0
+A1
+Text Notes 6450 3650 0    50   ~ 0
+AD0-GND, AD1-GND = 0x48
+$Comp
+L power:GND #PWR?
+U 1 1 5F0699B5
+P 4800 4500
+AR Path="/5F5FF71B/5EF6C7D0/5F0699B5" Ref="#PWR?"  Part="1" 
+AR Path="/60CB310B/5F0699B5" Ref="#PWR?"  Part="1" 
+AR Path="/61321795/5F0699B5" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC636/5F0699B5" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC64F/5F0699B5" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5F0267FD/5F0699B5" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5F026818/5F0699B5" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5F03D078/5F0699B5" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 4800 4250 50  0001 C CNN
+F 1 "GND" H 4805 4327 50  0000 C CNN
+F 2 "" H 4800 4500 50  0001 C CNN
+F 3 "" H 4800 4500 50  0001 C CNN
+	1    4800 4500
+	1    0    0    -1  
+$EndComp
+Text HLabel 5200 3700 2    50   Input ~ 0
+V-REF
+$Comp
+L power:GND #PWR?
+U 1 1 5F0699FB
+P 4300 4500
+AR Path="/5F5FF71B/5EF6C7D0/5F0699FB" Ref="#PWR?"  Part="1" 
+AR Path="/60CB310B/5F0699FB" Ref="#PWR?"  Part="1" 
+AR Path="/61321795/5F0699FB" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC636/5F0699FB" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC64F/5F0699FB" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5F0267FD/5F0699FB" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5F026818/5F0699FB" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5F03D078/5F0699FB" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 4300 4250 50  0001 C CNN
+F 1 "GND" H 4305 4327 50  0000 C CNN
+F 2 "" H 4300 4500 50  0001 C CNN
+F 3 "" H 4300 4500 50  0001 C CNN
+	1    4300 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4200 4300 4200
+Wire Wire Line
+	4300 4200 4300 4500
+Text HLabel 4400 3400 0    50   Input ~ 0
+CH01
+Text HLabel 4400 3300 0    50   Input ~ 0
+CH00
+Text HLabel 4400 3500 0    50   Input ~ 0
+CH02
+Text HLabel 4400 3700 0    50   Input ~ 0
+CH04
+Text HLabel 4400 3600 0    50   Input ~ 0
+CH03
+Text HLabel 4400 3800 0    50   Input ~ 0
+CH05
+Text HLabel 4400 3900 0    50   Input ~ 0
+CH06
+Text HLabel 4400 4000 0    50   Input ~ 0
+CH07
+$EndSCHEMATC

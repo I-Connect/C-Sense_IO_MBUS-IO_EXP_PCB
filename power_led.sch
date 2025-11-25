@@ -1,0 +1,91 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 16 27
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 5F556B08
+P 5200 3150
+AR Path="/5F078D61/5F511C13/5F14E81E/5F556B08" Ref="D?"  Part="1" 
+AR Path="/5F078D61/5F512514/5F556B08" Ref="D1401"  Part="1" 
+AR Path="/5F078D61/6587AFEC/5F556B08" Ref="D1701"  Part="1" 
+F 0 "D1701" H 5150 3487 60  0000 C CNN
+F 1 "LED Green angled" H 5100 2900 60  0000 C CNN
+F 2 "I_Connect:D_angled_0603_1608Metric" H 5400 3350 60  0001 L CNN
+F 3 "" H 5400 3450 60  0001 L CNN
+F 4 "160-1475-1-ND" H 5400 3550 60  0001 L CNN "Digi-Key_PN"
+F 5 "" H 5400 3650 60  0001 L CNN "MPN"
+F 6 "" H 5400 3750 60  0001 L CNN "Category"
+F 7 "" H 5400 3850 60  0001 L CNN "Family"
+F 8 "" H 5400 3950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "" H 5400 4050 60  0001 L CNN "DK_Detail_Page"
+F 10 "" H 5400 4150 60  0001 L CNN "Description"
+F 11 "" H 5400 4250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5400 4350 60  0001 L CNN "Status"
+F 13 "" H 5200 3150 50  0001 C CNN "Datasheet"
+F 14 "Lite-On Inc." H 5200 3150 50  0001 C CNN "MF"
+F 15 "D1701" H 5200 3150 50  0001 C CNN "Reference"
+F 16 "LED Green angled" H 5200 3150 50  0001 C CNN "Value"
+F 17 "LTST-S270GKT" H 5200 3150 50  0001 C CNN "MP"
+F 18 "" H 5200 3150 50  0001 C CNN "Component comment"
+	1    5200 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 659AD600
+P 4650 3150
+AR Path="/659AD600" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/659AD600" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/659AD600" Ref="R?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/659AD600" Ref="R?"  Part="1" 
+AR Path="/5EFDA025/659AD600" Ref="R?"  Part="1" 
+AR Path="/5F14E81E/659AD600" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F14E81E/659AD600" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F512514/659AD600" Ref="R1401"  Part="1" 
+AR Path="/5F078D61/6587AFEC/659AD600" Ref="R1706"  Part="1" 
+F 0 "R1706" V 4550 3100 50  0000 L CNN
+F 1 "200" V 4750 3100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4580 3150 50  0001 C CNN
+F 3 "" H 4650 3150 50  0001 C CNN
+F 4 "RMCF0603FT200RCT-ND" H -3800 1050 50  0001 C CNN "Digi-Key_PN"
+F 5 "R1706" H 4650 3150 50  0001 C CNN "Reference"
+F 6 "200" H 4650 3150 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 4650 3150 50  0001 C CNN "Component comment"
+F 8 "Stackpole Electronics Inc" H 4650 3150 50  0001 C CNN "MF"
+F 9 "RMCF0603FT200R" H 4650 3150 50  0001 C CNN "MP"
+	1    4650 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 3150 5050 3150
+Wire Wire Line
+	5350 3150 5500 3150
+Text HLabel 4500 3150 0    50   Input ~ 0
+led_enable
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 659AD601
+P 5500 3150
+AR Path="/5F078D61/5F511C13/5F14E81E/659AD601" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F512514/659AD601" Ref="#PWR01401"  Part="1" 
+AR Path="/5F078D61/6587AFEC/659AD601" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 5500 2900 50  0001 C CNN
+F 1 "GND" H 5505 2977 50  0000 C CNN
+F 2 "" H 5500 3150 50  0001 C CNN
+F 3 "" H 5500 3150 50  0001 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

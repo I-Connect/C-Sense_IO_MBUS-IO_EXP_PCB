@@ -1,0 +1,98 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 40
+Title ""
+Date "2020-06-24"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5F2BD2C1
+P 4400 3500
+AR Path="/5F3F5F98/5F2BD2C1" Ref="R?"  Part="1" 
+AR Path="/5F65AAC0/5F2BD2C1" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5A8/5F2BD2C1" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5AC/5F2BD2C1" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B0/5F2BD2C1" Ref="R?"  Part="1" 
+F 0 "R?" V 4480 3500 50  0000 C CNN
+F 1 "1K" V 4400 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 3500 50  0001 C CNN
+F 3 "" H 4400 3500 50  0000 C CNN
+F 4 "	P1.00KHCT-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    4400 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F2BD2CF
+P 5200 3700
+AR Path="/5F3F5F98/5F2BD2CF" Ref="#PWR?"  Part="1" 
+AR Path="/5F65AAC0/5F2BD2CF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5A8/5F2BD2CF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5AC/5F2BD2CF" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B0/5F2BD2CF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5200 3450 50  0001 C CNN
+F 1 "GND" H 5200 3550 50  0000 C CNN
+F 2 "" H 5200 3700 50  0000 C CNN
+F 3 "" H 5200 3700 50  0000 C CNN
+	1    5200 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 4100 3300 0    60   ~ 0
+1K -> max 24 mA at 24V
+Wire Wire Line
+	5200 3600 5550 3600
+Wire Wire Line
+	4550 3500 4600 3500
+Wire Wire Line
+	4250 3500 4200 3500
+Wire Wire Line
+	4600 3700 4550 3700
+NoConn ~ 5200 3500
+Text HLabel 4200 3500 0    50   Input ~ 0
+SIGNAL_IN
+$Comp
+L power:GND #PWR?
+U 1 1 5F795DED
+P 4550 3700
+AR Path="/5F3F5F98/5F795DED" Ref="#PWR?"  Part="1" 
+AR Path="/5F65AAC0/5F795DED" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5A8/5F795DED" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5AC/5F795DED" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B0/5F795DED" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 3450 50  0001 C CNN
+F 1 "GND" H 4550 3550 50  0000 C CNN
+F 2 "" H 4550 3700 50  0000 C CNN
+F 3 "" H 4550 3700 50  0000 C CNN
+	1    4550 3700
+	1    0    0    -1  
+$EndComp
+Text HLabel 5550 3600 2    50   Output ~ 0
+SIGNAL_OUT
+$Comp
+L I-Connect_diverse:4N25 Opto?
+U 1 1 5F66AA99
+P 4900 3600
+AR Path="/5F3F5F98/5F66AA99" Ref="Opto?"  Part="1" 
+AR Path="/5F65AAC0/5F66AA99" Ref="Opto?"  Part="1" 
+AR Path="/5F078D61/5F2AC5A8/5F66AA99" Ref="Opto?"  Part="1" 
+AR Path="/5F078D61/5F2AC5AC/5F66AA99" Ref="Opto?"  Part="1" 
+AR Path="/5F078D61/5F2AC5B0/5F66AA99" Ref="Opto?"  Part="1" 
+F 0 "Opto?" H 4700 3800 50  0000 L CNN
+F 1 "4N25S" H 4900 3800 50  0000 L CNN
+F 2 "w_smd_dil:mdip_6" H 4700 3400 50  0001 L CIN
+F 3 "" H 4900 3600 50  0000 L CNN
+F 4 "160-1910-1-ND" H 4900 3600 50  0001 C CNN "Digi-Key_PN"
+	1    4900 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

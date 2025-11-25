@@ -1,0 +1,210 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 29
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5FCA4679
+P 8250 4700
+AR Path="/5FCA4679" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5FCA4679" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5FCA4679" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5FC98B34/5FCA4679" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8250 4450 50  0001 C CNN
+F 1 "GND" H 8250 4550 50  0000 C CNN
+F 2 "" H 8250 4700 50  0000 C CNN
+F 3 "" H 8250 4700 50  0000 C CNN
+	1    8250 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 5FCA46E0
+P 8050 4050
+AR Path="/5FCA46E0" Ref="#FLG?"  Part="1" 
+AR Path="/5EFB5942/5FCA46E0" Ref="#FLG?"  Part="1" 
+AR Path="/5F078D61/5FCA46E0" Ref="#FLG?"  Part="1" 
+AR Path="/5F078D61/5FC98B34/5FCA46E0" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 8050 4125 50  0001 C CNN
+F 1 "PWR_FLAG" H 8050 4200 50  0000 C CNN
+F 2 "" H 8050 4050 50  0001 C CNN
+F 3 "" H 8050 4050 50  0001 C CNN
+	1    8050 4050
+	-1   0    0    -1  
+$EndComp
+Text HLabel 8250 4050 2    50   Input ~ 0
+PWR_supply_filtered
+Text HLabel 4000 4050 0    50   Input ~ 0
+PWR_Supply_IN
+Wire Wire Line
+	8050 4050 8250 4050
+Connection ~ 8050 4050
+$Comp
+L Device:D_TVS D?
+U 1 1 5FCAD411
+P 4700 4400
+AR Path="/5FE425E2/5FCAD411" Ref="D?"  Part="1" 
+AR Path="/5F5EC06C/5FCAD411" Ref="D?"  Part="1" 
+AR Path="/5F5DF2AE/5FCAD411" Ref="D?"  Part="1" 
+AR Path="/5FA72486/5FCAD411" Ref="D?"  Part="1" 
+AR Path="/5FA9171D/5FCAD411" Ref="D?"  Part="1" 
+AR Path="/5FAB0A4A/5FCAD411" Ref="D?"  Part="1" 
+AR Path="/5F078D61/5FC98B34/5FCAD411" Ref="D?"  Part="1" 
+F 0 "D?" V 4647 4528 60  0000 L CNN
+F 1 "TVS 20V" V 4550 4550 60  0000 L CNN
+F 2 "w_smd_diode:do214aa" H 4900 4600 60  0001 L CNN
+F 3 "" H 4900 4700 60  0001 L CNN
+F 4 "SMBJ20CALFCT-ND" H 4700 4400 50  0001 C CNN "Digi-Key_PN"
+	1    4700 4400
+	0    -1   -1   0   
+$EndComp
+Text Notes 5150 3700 0    50   ~ 0
+Car battery filter\nmax 15V 3A
+$Comp
+L Device:EMI_Filter_CommonMode FL?
+U 1 1 5FF044E4
+P 5700 4400
+F 0 "FL?" H 5700 4250 50  0000 C CNN
+F 1 "10UH 4A 2LN" H 5700 4850 50  0000 C CNN
+F 2 "I_Connect:FL-SU16VD-40010" V 5700 4440 50  0001 C CNN
+F 3 "~" V 5700 4440 50  0000 C CNN
+F 4 "399-10740-ND" H 5700 4400 50  0001 C CNN "Digi-Key_PN"
+	1    5700 4400
+	1    0    0    -1  
+$EndComp
+Text HLabel 4000 4700 0    50   Input ~ 0
+PWR_Supply_GND
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 5FF05619
+P 6700 4050
+F 0 "L?" V 6925 4050 50  0000 C CNN
+F 1 "6.8uH" V 6834 4050 50  0000 C CNN
+F 2 "Inductor_SMD:L_Bourns_SRN6045TA" H 6700 4050 50  0001 C CNN
+F 3 "~" H 6700 4050 50  0001 C CNN
+F 4 "SRN6045TA-6R8MCT-ND" H 6700 4050 50  0001 C CNN "Digi-Key_PN"
+	1    6700 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 4700 4700 4700
+Wire Wire Line
+	5500 4700 5500 4500
+Wire Wire Line
+	5500 4050 5500 4300
+Wire Wire Line
+	5900 4500 5900 4700
+Wire Wire Line
+	5900 4050 5900 4300
+Wire Wire Line
+	4700 4050 5100 4050
+Connection ~ 4700 4700
+Wire Wire Line
+	4700 4700 5100 4700
+$Comp
+L C-Sense_diverse:C C?
+U 1 1 5FFAFEA4
+P 5100 4400
+F 0 "C?" H 5215 4446 50  0000 L CNN
+F 1 "2.2uF" H 5215 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5138 4250 50  0001 C CNN
+F 3 "" H 5100 4400 50  0001 C CNN
+F 4 "490-4787-1-ND" H 5100 4400 50  0001 C CNN "Digi-Key_PN"
+	1    5100 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 4250 5100 4050
+Connection ~ 5100 4050
+Wire Wire Line
+	5100 4050 5500 4050
+Wire Wire Line
+	5100 4550 5100 4700
+Connection ~ 5100 4700
+Wire Wire Line
+	5100 4700 5500 4700
+$Comp
+L Device:CP C?
+U 1 1 5FFB0390
+P 6450 4400
+F 0 "C?" H 6565 4446 50  0000 L CNN
+F 1 "100uF" H 6565 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 6488 4250 50  0001 C CNN
+F 3 "" H 6450 4400 50  0001 C CNN
+F 4 "PCE3917CT-ND" H 6450 4400 50  0001 C CNN "Digi-Key_PN"
+	1    6450 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4050 6450 4050
+Wire Wire Line
+	5900 4700 6450 4700
+Wire Wire Line
+	6450 4550 6450 4700
+Connection ~ 6450 4700
+Wire Wire Line
+	6450 4700 7250 4700
+Wire Wire Line
+	6450 4250 6450 4050
+Connection ~ 6450 4050
+Wire Wire Line
+	6450 4050 6550 4050
+Wire Wire Line
+	7250 4250 7250 4050
+Wire Wire Line
+	6850 4050 7250 4050
+Connection ~ 7250 4050
+Wire Wire Line
+	7250 4050 8050 4050
+Wire Wire Line
+	7250 4550 7250 4700
+Connection ~ 7250 4700
+Wire Wire Line
+	7250 4700 8250 4700
+$Comp
+L Device:CP C?
+U 1 1 5F6F5D70
+P 7250 4400
+F 0 "C?" H 7365 4446 50  0000 L CNN
+F 1 "100uF" H 7365 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 7288 4250 50  0001 C CNN
+F 3 "" H 7250 4400 50  0001 C CNN
+F 4 "PCE3917CT-ND" H 7250 4400 50  0001 C CNN "Digi-Key_PN"
+	1    7250 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4050 4300 4050
+Wire Wire Line
+	4600 4050 4700 4050
+Connection ~ 4700 4050
+$Comp
+L Device:Fuse F?
+U 1 1 5F6F8D13
+P 4450 4050
+F 0 "F?" V 4253 4050 50  0000 C CNN
+F 1 "Fuse 3A" V 4550 4050 50  0000 C CNN
+F 2 "I_Connect:Fuse-3544-2" V 4380 4050 50  0001 C CNN
+F 3 "~" H 4450 4050 50  0001 C CNN
+F 4 "" V 4450 4050 50  0001 C CNN "Part nr"
+F 5 "36-3544-2-ND" H 0   0   50  0001 C CNN "Digi-Key_PN"
+	1    4450 4050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4700 4050 4700 4250
+Wire Wire Line
+	4700 4550 4700 4700
+$EndSCHEMATC

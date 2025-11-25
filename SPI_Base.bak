@@ -1,0 +1,152 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 21 31
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 5F6392EA
+P 5600 3050
+AR Path="/5F6392EA" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F6392EA" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F6300EE/5F6392EA" Ref="C2201"  Part="1" 
+F 0 "C2201" H 5625 3150 50  0000 L CNN
+F 1 "0.1uF" H 5625 2950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5638 2900 50  0001 C CNN
+F 3 "" H 5600 3050 50  0001 C CNN
+F 4 "490-16477-1-ND" H -15300 -4850 50  0001 C CNN "Digi-Key_PN"
+	1    5600 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F6392F1
+P 5750 3050
+AR Path="/5F6392F1" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F6392F1" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F6300EE/5F6392F1" Ref="#PWR02202"  Part="1" 
+F 0 "#PWR02202" H 5750 2800 50  0001 C CNN
+F 1 "GND" H 5750 2900 50  0000 C CNN
+F 2 "" H 5750 3050 50  0001 C CNN
+F 3 "" H 5750 3050 50  0001 C CNN
+	1    5750 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F6392F8
+P 5300 2850
+AR Path="/5F6392F8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F6392F8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F6300EE/5F6392F8" Ref="R2201"  Part="1" 
+F 0 "R2201" V 5380 2850 50  0000 C CNN
+F 1 "0" V 5300 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5230 2850 50  0001 C CNN
+F 3 "" H 5300 2850 50  0000 C CNN
+F 4 "P0.0ECT-ND" H -16000 -4750 50  0001 C CNN "Digi-Key_PN"
+	1    5300 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3050 5300 3000
+Wire Wire Line
+	5300 3050 5450 3050
+$Comp
+L I-Connect_diverse:74HC125 U?
+U 1 1 5F639301
+P 5300 3300
+AR Path="/5F639301" Ref="U?"  Part="1" 
+AR Path="/5F078D61/5F639301" Ref="U?"  Part="1" 
+AR Path="/5F078D61/5F6300EE/5F639301" Ref="U2201"  Part="1" 
+F 0 "U2201" H 4800 2000 50  0000 C CNN
+F 1 "74HC125" H 4900 2100 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_P1.27mm" H 5395 3165 50  0001 C CNN
+F 3 "" H 5445 3415 50  0001 C CNN
+F 4 "296-1192-1-ND" H 5300 3300 50  0001 C CNN "Digi-Key_PN"
+	1    5300 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3550 5100 3550
+Wire Wire Line
+	4900 3650 5100 3650
+Wire Wire Line
+	4900 3750 5100 3750
+Wire Wire Line
+	4900 3850 5100 3850
+Wire Wire Line
+	4900 3950 5100 3950
+Wire Wire Line
+	4900 4050 5100 4050
+$Comp
+L power:GND #PWR?
+U 1 1 5F639315
+P 5300 4600
+AR Path="/5F639315" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F639315" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F6300EE/5F639315" Ref="#PWR02201"  Part="1" 
+F 0 "#PWR02201" H 5300 4350 50  0001 C CNN
+F 1 "GND" H 5300 4450 50  0000 C CNN
+F 2 "" H 5300 4600 50  0001 C CNN
+F 3 "" H 5300 4600 50  0001 C CNN
+	1    5300 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3050 5300 3200
+Connection ~ 5300 3050
+Wire Wire Line
+	5500 3550 5600 3550
+Wire Wire Line
+	5600 3550 5600 3750
+Wire Wire Line
+	5600 3750 5500 3750
+Connection ~ 5600 3550
+Wire Wire Line
+	5600 3550 5650 3550
+Wire Wire Line
+	5600 3750 5600 3950
+Wire Wire Line
+	5600 3950 5500 3950
+Connection ~ 5600 3750
+Wire Wire Line
+	5600 3950 5600 4150
+Wire Wire Line
+	5600 4150 5500 4150
+Connection ~ 5600 3950
+Wire Wire Line
+	5100 4150 4900 4150
+Wire Wire Line
+	4900 4250 5100 4250
+Text HLabel 5300 2700 1    50   Input ~ 0
+3V3
+Text HLabel 5650 3550 2    50   Output ~ 0
+MISO
+Text HLabel 4900 3550 0    50   Input ~ 0
+MISO_IN_1
+Text HLabel 4900 3650 0    50   Input ~ 0
+CS_1
+Text HLabel 4900 3750 0    50   Input ~ 0
+MISO_IN_2
+Text HLabel 4900 3850 0    50   Input ~ 0
+CS_2
+Text HLabel 4900 3950 0    50   Input ~ 0
+MISO_IN_3
+Text HLabel 4900 4050 0    50   Input ~ 0
+CS_3
+Text HLabel 4900 4150 0    50   Input ~ 0
+MISO_IN_4
+Text HLabel 4900 4250 0    50   Input ~ 0
+CS_4
+$EndSCHEMATC

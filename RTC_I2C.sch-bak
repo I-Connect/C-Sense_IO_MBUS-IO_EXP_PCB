@@ -1,0 +1,400 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 31 31
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L I-Connect_diverse:AB0805 U?
+U 1 1 60369565
+P 5400 2950
+AR Path="/5F078D61/5F1F5EAE/60369565" Ref="U?"  Part="1" 
+AR Path="/5F078D61/6036923F/60369565" Ref="U1001"  Part="1" 
+F 0 "U1001" H 5700 2800 50  0000 C CNN
+F 1 "AB0805-T3" H 5850 2700 50  0000 C CNN
+F 2 "digikey-footprints:VFQFN-16-1EP_3x3mm" H 5400 2950 50  0001 C CNN
+F 3 "https://abracon.com/Precisiontiming/AB08X5-RTC.PDF" H 5400 2950 50  0001 C CNN
+F 4 "535-11926-1-ND" H 5400 2950 50  0001 C CNN "Digi-Key_PN"
+	1    5400 2950
+	1    0    0    -1  
+$EndComp
+Text HLabel 4250 3800 0    50   BiDi ~ 0
+SDA
+Text HLabel 4250 3700 0    50   Input ~ 0
+SCL
+Text HLabel 4250 3500 0    50   Input ~ 0
+nTIRQ
+$Comp
+L power:GND #PWR?
+U 1 1 60369570
+P 5400 4550
+AR Path="/5F078D61/5F2AC5A4/60369570" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/60369570" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/6036923F/60369570" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 5400 4300 50  0001 C CNN
+F 1 "GND" H 5400 4400 50  0000 C CNN
+F 2 "" H 5400 4550 50  0000 C CNN
+F 3 "" H 5400 4550 50  0000 C CNN
+	1    5400 4550
+	1    0    0    -1  
+$EndComp
+Text HLabel 6700 4000 2    50   Output ~ 0
+FOUT_INT1
+Text HLabel 6700 4100 2    50   Output ~ 0
+INT2
+Text HLabel 6700 4200 2    50   Input ~ 0
+EXT_INT
+Text HLabel 6700 3900 2    50   Input ~ 0
+WD_RESET
+$Comp
+L Device:C C?
+U 1 1 6036957B
+P 5200 3100
+AR Path="/5F078D61/5F2AC5A4/6036957B" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/6036957B" Ref="C?"  Part="1" 
+AR Path="/5F078D61/6036923F/6036957B" Ref="C1002"  Part="1" 
+F 0 "C1002" H 5350 3100 50  0000 L CNN
+F 1 "0.1uF" H 5225 3000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5238 2950 50  0001 C CNN
+F 3 "" H 5200 3100 50  0001 C CNN
+F 4 "490-16477-1-ND" H 250 0   50  0001 C CNN "Digi-Key_PN"
+	1    5200 3100
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60369582
+P 5050 3100
+AR Path="/5F078D61/5F2AC5A4/60369582" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/60369582" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/6036923F/60369582" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 5050 2850 50  0001 C CNN
+F 1 "GND" H 5050 2950 50  0000 C CNN
+F 2 "" H 5050 3100 50  0000 C CNN
+F 3 "" H 5050 3100 50  0000 C CNN
+	1    5050 3100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60369589
+P 5400 2800
+AR Path="/5F078D61/5F2AC5A4/60369589" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/60369589" Ref="R?"  Part="1" 
+AR Path="/5F078D61/6036923F/60369589" Ref="R1002"  Part="1" 
+F 0 "R1002" V 5480 2800 50  0000 C CNN
+F 1 "0" V 5400 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5330 2800 50  0001 C CNN
+F 3 "" H 5400 2800 50  0000 C CNN
+F 4 "P0.0ECT-ND" H 800 -100 50  0001 C CNN "Digi-Key_PN"
+	1    5400 2800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2950 5400 3100
+Wire Wire Line
+	5350 3100 5400 3100
+Connection ~ 5400 3100
+Wire Wire Line
+	5400 3100 5400 3200
+Text HLabel 5400 2650 1    50   Input ~ 0
+3V3_IN
+$Comp
+L dk_Crystals:ECS-_327-12_5-34B-TR XTAL?
+U 1 1 6036959A
+P 4350 4050
+AR Path="/5F078D61/5F1F5EAE/6036959A" Ref="XTAL?"  Part="1" 
+AR Path="/5F078D61/6036923F/6036959A" Ref="XTAL1001"  Part="1" 
+F 0 "XTAL1001" V 4550 3750 50  0000 L CNN
+F 1 "ABS07L-32.768KHZ-T" V 4350 2950 50  0001 L CNN
+F 2 "digikey-footprints:SMD-2_3.2x1.5mm" H 4550 4250 60  0001 L CNN
+F 3 "" H 4550 4350 60  0001 L CNN
+F 4 "535-12058-2-ND" H 4550 4450 60  0001 L CNN "Digi-Key_PN"
+F 5 "Crystals, Oscillators, Resonators" H 4550 4650 60  0001 L CNN "Category"
+F 6 "Crystals" H 4550 4750 60  0001 L CNN "Family"
+F 7 "CRYSTAL 32.7680KHZ 12.5PF SMD" H 4550 5050 60  0001 L CNN "Description"
+F 8 "Active" H 4550 5250 60  0001 L CNN "Status"
+	1    4350 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 3900 4500 3900
+Wire Wire Line
+	4500 3900 4500 4000
+Wire Wire Line
+	4500 4000 4900 4000
+Wire Wire Line
+	4900 4100 4500 4100
+Wire Wire Line
+	4500 4100 4500 4200
+Wire Wire Line
+	4500 4200 4350 4200
+$Comp
+L dk_Battery-Holders-Clips-Contacts:BS-7 BAT?
+U 1 1 603695B0
+P 7250 3700
+AR Path="/5F078D61/5F1F5EAE/603695B0" Ref="BAT?"  Part="1" 
+AR Path="/5F078D61/6036923F/603695B0" Ref="BAT1001"  Part="1" 
+F 0 "BAT1001" H 7378 3753 60  0000 L CNN
+F 1 "BS-7" H 7378 3647 60  0000 L CNN
+F 2 "digikey-footprints:Battery_Holder_Coin_2032_BS-7" H 7450 3900 60  0001 L CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" V 7450 4000 60  0001 L CNN
+F 4 "BS-7-ND" H 7450 4100 60  0001 L CNN "Digi-Key_PN"
+F 5 "BS-7" H 7450 4200 60  0001 L CNN "MPN"
+F 6 "Battery Products" H 7450 4300 60  0001 L CNN "Category"
+F 7 "Battery Holders, Clips, Contacts" H 7450 4400 60  0001 L CNN "Family"
+F 8 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" H 7450 4500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" H 7450 4600 60  0001 L CNN "DK_Detail_Page"
+F 10 "BATTERY HOLDER COIN 20MM PC PIN" H 7450 4700 60  0001 L CNN "Description"
+F 11 "MPD (Memory Protection Devices)" H 7450 4800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7450 4900 60  0001 L CNN "Status"
+	1    7250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 603695B8
+P 6200 3500
+AR Path="/5F078D61/5F2AC5A4/603695B8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/603695B8" Ref="R?"  Part="1" 
+AR Path="/5F078D61/6036923F/603695B8" Ref="R1005"  Part="1" 
+F 0 "R1005" V 6280 3500 50  0000 C CNN
+F 1 "1K5" V 6200 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6130 3500 50  0001 C CNN
+F 3 "" H 6200 3500 50  0000 C CNN
+F 4 "P1.50KHCT-ND" H 500 100 50  0001 C CNN "Digi-Key_PN"
+	1    6200 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 3500 6050 3500
+Wire Wire Line
+	6350 3500 7250 3500
+$Comp
+L power:GND #PWR?
+U 1 1 603695C1
+P 7250 3900
+AR Path="/5F078D61/5F2AC5A4/603695C1" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/603695C1" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/6036923F/603695C1" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 7250 3650 50  0001 C CNN
+F 1 "GND" H 7250 3750 50  0000 C CNN
+F 2 "" H 7250 3900 50  0000 C CNN
+F 3 "" H 7250 3900 50  0000 C CNN
+	1    7250 3900
+	1    0    0    -1  
+$EndComp
+Text Notes 7350 3500 0    50   ~ 0
+LR2032 3V6
+$Comp
+L Device:C C?
+U 1 1 603695C9
+P 4650 4400
+AR Path="/5F078D61/5F2AC5A4/603695C9" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/603695C9" Ref="C?"  Part="1" 
+AR Path="/5F078D61/6036923F/603695C9" Ref="C1001"  Part="1" 
+F 0 "C1001" H 4675 4500 50  0000 L CNN
+F 1 "47pF" H 4675 4300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 4250 50  0001 C CNN
+F 3 "" H 4650 4400 50  0001 C CNN
+F 4 "399-1056-1-ND" H -300 1300 50  0001 C CNN "Digi-Key_PN"
+	1    4650 4400
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603695D0
+P 4650 4550
+AR Path="/5F078D61/5F2AC5A4/603695D0" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/603695D0" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/6036923F/603695D0" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 4650 4300 50  0001 C CNN
+F 1 "GND" H 4650 4400 50  0000 C CNN
+F 2 "" H 4650 4550 50  0000 C CNN
+F 3 "" H 4650 4550 50  0000 C CNN
+	1    4650 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4200 4650 4200
+Wire Wire Line
+	4650 4200 4650 4250
+Wire Wire Line
+	4450 3600 4900 3600
+$Comp
+L Device:R R?
+U 1 1 603695DC
+P 6550 4550
+AR Path="/603695DC" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/603695DC" Ref="R?"  Part="1" 
+AR Path="/5F078D61/603695DC" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/603695DC" Ref="R?"  Part="1" 
+AR Path="/5F078D61/6036923F/603695DC" Ref="R1007"  Part="1" 
+F 0 "R1007" V 6650 4350 50  0000 L CNN
+F 1 "10K" V 6550 4450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6480 4550 50  0001 C CNN
+F 3 "" H 6550 4550 50  0001 C CNN
+F 4 "P10.0KHCT-ND" H 11250 -3250 50  0001 C CNN "Digi-Key_PN"
+	1    6550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 603695E5
+P 4600 3100
+AR Path="/603695E5" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/603695E5" Ref="R?"  Part="1" 
+AR Path="/5F078D61/603695E5" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/603695E5" Ref="R?"  Part="1" 
+AR Path="/5F078D61/6036923F/603695E5" Ref="R1001"  Part="1" 
+F 0 "R1001" V 4700 2900 50  0000 L CNN
+F 1 "10K" V 4600 3050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4530 3100 50  0001 C CNN
+F 3 "" H 4600 3100 50  0001 C CNN
+F 4 "P10.0KHCT-ND" H 9300 -4700 50  0001 C CNN "Digi-Key_PN"
+	1    4600 3100
+	1    0    0    -1  
+$EndComp
+Text HLabel 4600 2650 1    50   Input ~ 0
+3V3_IN
+Wire Wire Line
+	4600 2650 4600 2950
+Wire Wire Line
+	4600 3250 4600 3500
+Connection ~ 4600 3500
+Wire Wire Line
+	4600 3500 4900 3500
+Wire Wire Line
+	6700 4200 6550 4200
+Wire Wire Line
+	5900 4100 6350 4100
+Wire Wire Line
+	6700 4000 6150 4000
+Wire Wire Line
+	5900 3900 5950 3900
+Wire Wire Line
+	6550 4400 6550 4200
+Connection ~ 6550 4200
+Wire Wire Line
+	6550 4200 5900 4200
+Text HLabel 6250 4900 3    50   Input ~ 0
+3V3_IN
+$Comp
+L Device:R R?
+U 1 1 603695FA
+P 5950 4550
+AR Path="/603695FA" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/603695FA" Ref="R?"  Part="1" 
+AR Path="/5F078D61/603695FA" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/603695FA" Ref="R?"  Part="1" 
+AR Path="/5F078D61/6036923F/603695FA" Ref="R1003"  Part="1" 
+F 0 "R1003" V 6050 4350 50  0000 L CNN
+F 1 "10K" V 5950 4450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 4550 50  0001 C CNN
+F 3 "" H 5950 4550 50  0001 C CNN
+F 4 "P10.0KHCT-ND" H 10650 -3250 50  0001 C CNN "Digi-Key_PN"
+	1    5950 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4400 5950 3900
+Connection ~ 5950 3900
+Wire Wire Line
+	5950 3900 6700 3900
+$Comp
+L Device:R R?
+U 1 1 60369605
+P 6150 4550
+AR Path="/60369605" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/60369605" Ref="R?"  Part="1" 
+AR Path="/5F078D61/60369605" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/60369605" Ref="R?"  Part="1" 
+AR Path="/5F078D61/6036923F/60369605" Ref="R1004"  Part="1" 
+F 0 "R1004" V 6250 4350 50  0000 L CNN
+F 1 "10K" V 6150 4450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 4550 50  0001 C CNN
+F 3 "" H 6150 4550 50  0001 C CNN
+F 4 "P10.0KHCT-ND" H 10850 -3250 50  0001 C CNN "Digi-Key_PN"
+	1    6150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6036960D
+P 6350 4550
+AR Path="/6036960D" Ref="R?"  Part="1" 
+AR Path="/5EF0C7C8/6036960D" Ref="R?"  Part="1" 
+AR Path="/5F078D61/6036960D" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/6036960D" Ref="R?"  Part="1" 
+AR Path="/5F078D61/6036923F/6036960D" Ref="R1006"  Part="1" 
+F 0 "R1006" V 6450 4350 50  0000 L CNN
+F 1 "10K" V 6350 4450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6280 4550 50  0001 C CNN
+F 3 "" H 6350 4550 50  0001 C CNN
+F 4 "P10.0KHCT-ND" H 11050 -3250 50  0001 C CNN "Digi-Key_PN"
+	1    6350 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4400 6150 4000
+Connection ~ 6150 4000
+Wire Wire Line
+	6150 4000 5900 4000
+Wire Wire Line
+	6350 4400 6350 4100
+Connection ~ 6350 4100
+Wire Wire Line
+	6350 4100 6700 4100
+Wire Wire Line
+	5950 4700 5950 4800
+Wire Wire Line
+	5950 4800 6150 4800
+Wire Wire Line
+	6250 4800 6250 4900
+Wire Wire Line
+	6150 4700 6150 4800
+Connection ~ 6150 4800
+Wire Wire Line
+	6150 4800 6250 4800
+Wire Wire Line
+	6250 4800 6350 4800
+Wire Wire Line
+	6550 4800 6550 4700
+Connection ~ 6250 4800
+Wire Wire Line
+	6350 4700 6350 4800
+Connection ~ 6350 4800
+Wire Wire Line
+	6350 4800 6550 4800
+$Comp
+L power:GND #PWR?
+U 1 1 6036A2DA
+P 4450 3600
+AR Path="/5F078D61/5F2AC5A4/6036A2DA" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F1F5EAE/6036A2DA" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/6036923F/6036A2DA" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 4450 3350 50  0001 C CNN
+F 1 "GND" H 4450 3450 50  0000 C CNN
+F 2 "" H 4450 3600 50  0000 C CNN
+F 3 "" H 4450 3600 50  0000 C CNN
+	1    4450 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 3700 4900 3700
+Wire Wire Line
+	4250 3800 4900 3800
+Wire Wire Line
+	4250 3500 4600 3500
+Text Notes 6350 2800 0    50   ~ 0
+0x69 (01101001) Only 1 fixed address
+$EndSCHEMATC

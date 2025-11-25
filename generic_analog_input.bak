@@ -1,0 +1,108 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 20 31
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 4750 2550 0    50   ~ 0
+Generic analog sensor\n0-15V\nat 3V3 at input 0.726 remains as 100%\nat 5V at input 1.1 remains as 100%\nESP32 resolution = 4095\n
+$Comp
+L Device:R R?
+U 1 1 5F556B0F
+P 5300 4300
+AR Path="/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F42925A/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F5DF2AE/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5FA72486/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5FA9171D/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5FAB0A4A/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F5DF2AE/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA72486/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA9171D/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FAB0A4A/5F556B0F" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53FBE2/5F556B0F" Ref="R1902"  Part="1" 
+AR Path="/5F078D61/5F53FBE6/5F556B0F" Ref="R2002"  Part="1" 
+AR Path="/5F078D61/5F53FBEA/5F556B0F" Ref="R?"  Part="1" 
+F 0 "R2002" V 5200 4300 50  0000 C CNN
+F 1 "10K 1%" V 5400 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5230 4300 50  0001 C CNN
+F 3 "" H 5300 4300 50  0000 C CNN
+F 4 "311-10.0KFRCT-ND" H -16000 -3300 50  0001 C CNN "Digi-Key_PN"
+	1    5300 4300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F556B10
+P 5300 3650
+AR Path="/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F42925A/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F5DF2AE/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5FA72486/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5FA9171D/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5FAB0A4A/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F5DF2AE/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA72486/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA9171D/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FAB0A4A/5F556B10" Ref="R?"  Part="1" 
+AR Path="/5F078D61/5F53FBE2/5F556B10" Ref="R1901"  Part="1" 
+AR Path="/5F078D61/5F53FBE6/5F556B10" Ref="R2001"  Part="1" 
+AR Path="/5F078D61/5F53FBEA/5F556B10" Ref="R?"  Part="1" 
+F 0 "R2001" V 5380 3650 50  0000 C CNN
+F 1 "36K 1%" V 5200 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5230 3650 50  0001 C CNN
+F 3 "" H 5300 3650 50  0000 C CNN
+F 4 "311-36.0KFRCT-ND" H -16000 -3950 50  0001 C CNN "Digi-Key_PN"
+	1    5300 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C-Sense_diverse:GND #PWR?
+U 1 1 5F556B11
+P 5300 4600
+AR Path="/5F5DF2AE/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5FA72486/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5FA9171D/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5FAB0A4A/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5F5DF2AE/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA72486/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FA9171D/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F511C13/5FAB0A4A/5F556B11" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F53FBE2/5F556B11" Ref="#PWR01901"  Part="1" 
+AR Path="/5F078D61/5F53FBE6/5F556B11" Ref="#PWR02001"  Part="1" 
+AR Path="/5F078D61/5F53FBEA/5F556B11" Ref="#PWR?"  Part="1" 
+F 0 "#PWR02001" H 5300 4350 50  0001 C CNN
+F 1 "GND" H 5305 4427 50  0000 C CNN
+F 2 "" H 5300 4600 50  0001 C CNN
+F 3 "" H 5300 4600 50  0001 C CNN
+	1    5300 4600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4000 5300 4000
+Connection ~ 5300 4000
+Wire Wire Line
+	5300 4150 5300 4000
+Wire Wire Line
+	5300 4000 5300 3800
+Text HLabel 5300 3100 1    50   Input ~ 0
+Analog_in
+Text HLabel 5600 4000 2    50   Output ~ 0
+Analog_out
+Wire Wire Line
+	5300 4600 5300 4450
+Wire Wire Line
+	5300 3100 5300 3500
+$EndSCHEMATC

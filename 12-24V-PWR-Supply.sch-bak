@@ -1,0 +1,255 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 15
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4200 3450 0    50   Input ~ 0
+12-36V-IN
+Text HLabel 7500 3650 2    50   Input ~ 0
+12V_OUT
+$Comp
+L Device:L_Core_Ferrite L?
+U 1 1 60236CA4
+P 6500 3650
+AR Path="/5F078D61/5FC98B34/60236CA4" Ref="L?"  Part="1" 
+AR Path="/5F078D61/601D8183/60236CA4" Ref="L2601"  Part="1" 
+F 0 "L2601" V 6550 3400 50  0000 C CNN
+F 1 "100uH" V 6634 3650 50  0000 C CNN
+F 2 "Inductors_SMD:L_Vishay_IHLP-6767" H 6500 3650 50  0001 C CNN
+F 3 "~" H 6500 3650 50  0001 C CNN
+F 4 "541-1294-1-ND" H 6500 3650 50  0001 C CNN "Digi-Key_PN"
+F 5 "~" H 6500 3650 50  0001 C CNN "Datasheet"
+F 6 "L2601" H 6500 3650 50  0001 C CNN "Reference"
+F 7 "100uH" H 6500 3650 50  0001 C CNN "Value"
+F 8 "Can be replaced with other manufacturer component with same specs" H 6500 3650 50  0001 C CNN "Component comment"
+F 9 "Vishay Dale" H 6500 3650 50  0001 C CNN "MF"
+F 10 "IHLP6767GZER101M11" H 6500 3650 50  0001 C CNN "MP"
+	1    6500 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 60236CC2
+P 4400 3800
+AR Path="/5F078D61/5FC98B34/60236CC2" Ref="C?"  Part="1" 
+AR Path="/5F078D61/601D8183/60236CC2" Ref="C2601"  Part="1" 
+F 0 "C2601" H 4515 3846 50  0000 L CNN
+F 1 "100uF 50V" H 4515 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_8x10.5" H 4438 3650 50  0001 C CNN
+F 3 "" H 4400 3800 50  0001 C CNN
+F 4 "399-6672-2-ND" H 4400 3800 50  0001 C CNN "Digi-Key_PN"
+F 5 "C2601" H 4400 3800 50  0001 C CNN "Reference"
+F 6 "100uF 50V" H 4400 3800 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 4400 3800 50  0001 C CNN "Component comment"
+F 8 "KEMET" H 4400 3800 50  0001 C CNN "MF"
+F 9 "EDK107M050A9MAA" H 4400 3800 50  0001 C CNN "MP"
+	1    4400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 60249AB7
+P 7000 3800
+AR Path="/5F078D61/5FC98B34/60249AB7" Ref="C?"  Part="1" 
+AR Path="/5F078D61/601D8183/60249AB7" Ref="C2602"  Part="1" 
+F 0 "C2602" H 7115 3846 50  0000 L CNN
+F 1 "1000uF" H 7115 3755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 7038 3650 50  0001 C CNN
+F 3 "" H 7000 3800 50  0001 C CNN
+F 4 "399-ESL108M035AK5AA-ND" H 7000 3800 50  0001 C CNN "Digi-Key_PN"
+F 5 "C2602" H 7000 3800 50  0001 C CNN "Reference"
+F 6 "1000uF" H 7000 3800 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 7000 3800 50  0001 C CNN "Component comment"
+F 8 "Panasonic Electronic Components" H 7000 3800 50  0001 C CNN "MF"
+F 9 "ESL108M035AK5AA" H 7000 3800 50  0001 C CNN "MP"
+	1    7000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N5822 D2601
+U 1 1 60249C2B
+P 6200 3800
+F 0 "D2601" V 6154 3879 50  0000 L CNN
+F 1 "Schottky 40V 3A" V 6245 3879 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6200 3625 50  0001 C CNN
+F 3 "" H 6200 3800 50  0001 C CNN
+F 4 "3372-DSK34TR-ND" H 6200 3800 50  0001 C CNN "Digi-Key_PN"
+F 5 "" H 6200 3800 50  0001 C CNN "Datasheet"
+F 6 "D2601" H 6200 3800 50  0001 C CNN "Reference"
+F 7 "Schottky 40V 3A" H 6200 3800 50  0001 C CNN "Value"
+F 8 "Can be replaced with other manufacturer component with same specs" H 6200 3800 50  0001 C CNN "Component comment"
+F 9 "NextGen Components" H 6200 3800 50  0001 C CNN "MF"
+F 10 "DSK34" H 6200 3800 50  0001 C CNN "MP"
+	1    6200 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60249D00
+P 7000 3950
+AR Path="/60249D00" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/60249D00" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/60249D00" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5FC98B34/60249D00" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/601D8183/60249D00" Ref="#PWR02604"  Part="1" 
+F 0 "#PWR02604" H 7000 3700 50  0001 C CNN
+F 1 "GND" H 7000 3800 50  0000 C CNN
+F 2 "" H 7000 3950 50  0000 C CNN
+F 3 "" H 7000 3950 50  0000 C CNN
+	1    7000 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60249D1F
+P 6200 3950
+AR Path="/60249D1F" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/60249D1F" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/60249D1F" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5FC98B34/60249D1F" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/601D8183/60249D1F" Ref="#PWR02603"  Part="1" 
+F 0 "#PWR02603" H 6200 3700 50  0001 C CNN
+F 1 "GND" H 6200 3800 50  0000 C CNN
+F 2 "" H 6200 3950 50  0000 C CNN
+F 3 "" H 6200 3950 50  0000 C CNN
+	1    6200 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60249D3E
+P 4400 3950
+AR Path="/60249D3E" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/60249D3E" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/60249D3E" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5FC98B34/60249D3E" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/601D8183/60249D3E" Ref="#PWR02601"  Part="1" 
+F 0 "#PWR02601" H 4400 3700 50  0001 C CNN
+F 1 "GND" H 4400 3800 50  0000 C CNN
+F 2 "" H 4400 3950 50  0000 C CNN
+F 3 "" H 4400 3950 50  0000 C CNN
+	1    4400 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3450 4750 3450
+Wire Wire Line
+	4400 3450 4400 3650
+Wire Wire Line
+	4200 3450 4400 3450
+Connection ~ 4400 3450
+Wire Wire Line
+	6050 3650 6200 3650
+Wire Wire Line
+	6200 3650 6350 3650
+Connection ~ 6200 3650
+Wire Wire Line
+	6650 3650 7000 3650
+Wire Wire Line
+	7500 3650 7000 3650
+Connection ~ 7000 3650
+Wire Wire Line
+	6050 3450 7000 3450
+Wire Wire Line
+	7000 3450 7000 3650
+Text HLabel 4950 3650 0    50   Input ~ 0
+ON-OFF
+$Comp
+L power:GND #PWR?
+U 1 1 6024C8B0
+P 5550 3950
+AR Path="/6024C8B0" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/6024C8B0" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/6024C8B0" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5FC98B34/6024C8B0" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/601D8183/6024C8B0" Ref="#PWR02602"  Part="1" 
+F 0 "#PWR02602" H 5550 3700 50  0001 C CNN
+F 1 "GND" H 5550 3800 50  0000 C CNN
+F 2 "" H 5550 3950 50  0000 C CNN
+F 3 "" H 5550 3950 50  0000 C CNN
+	1    5550 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3850 5550 3950
+$Comp
+L Regulator_Switching:LM2576S-12 U2601
+U 1 1 6024C9D9
+P 5550 3550
+F 0 "U2601" H 5550 3917 50  0000 C CNN
+F 1 "LM2576S-12" H 5550 3826 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 5550 3300 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 5550 3550 50  0001 C CNN
+F 4 "LM2576S-12/NOPB-ND" H 5550 3550 50  0001 C CNN "Digi-Key_PN"
+F 5 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 5550 3550 50  0001 C CNN "Datasheet"
+F 6 "U2601" H 5550 3550 50  0001 C CNN "Reference"
+F 7 "LM2576S-12" H 5550 3550 50  0001 C CNN "Value"
+F 8 "Texas Instruments" H 5550 3550 50  0001 C CNN "MF"
+F 9 "LM2576S-12/NOPB" H 5550 3550 50  0001 C CNN "MP"
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6032D097
+P 5000 4050
+AR Path="/5F078D61/5F2AC58D/6032D097" Ref="R?"  Part="1" 
+AR Path="/5F078D61/601D8183/6032D097" Ref="R2601"  Part="1" 
+F 0 "R2601" V 4900 4050 50  0000 C CNN
+F 1 "470K" V 5000 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 4050 50  0001 C CNN
+F 3 "" H 5000 4050 50  0000 C CNN
+F 4 "P470KHCT-ND" H 150 650 50  0001 C CNN "Digi-Key_PN"
+F 5 "R2601" H 5000 4050 50  0001 C CNN "Reference"
+F 6 "470K" H 5000 4050 50  0001 C CNN "Value"
+F 7 "Can be replaced with other manufacturer component with same specs" H 5000 4050 50  0001 C CNN "Component comment"
+F 8 "Panasonic Electronic Components" H 5000 4050 50  0001 C CNN "MF"
+F 9 "ERJ-3EKF4703V" H 5000 4050 50  0001 C CNN "MP"
+	1    5000 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6032D09E
+P 5000 4200
+AR Path="/5F078D61/5F2AC58D/6032D09E" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/601D8183/6032D09E" Ref="#PWR02605"  Part="1" 
+F 0 "#PWR02605" H 5000 3950 50  0001 C CNN
+F 1 "GND" H 5000 4050 50  0000 C CNN
+F 2 "" H 5000 4200 50  0001 C CNN
+F 3 "" H 5000 4200 50  0001 C CNN
+	1    5000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3900 5000 3650
+Wire Wire Line
+	5000 3650 5050 3650
+Wire Wire Line
+	4950 3650 5000 3650
+Connection ~ 5000 3650
+$Comp
+L C-Sense_diverse:PWR_FLAG #FLG0106
+U 1 1 62921D38
+P 4750 3450
+F 0 "#FLG0106" H 4750 3525 50  0001 C CNN
+F 1 "PWR_FLAG" H 4750 3623 50  0000 C CNN
+F 2 "" H 4750 3450 50  0001 C CNN
+F 3 "" H 4750 3450 50  0001 C CNN
+	1    4750 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4750 3450
+Wire Wire Line
+	4750 3450 4400 3450
+$EndSCHEMATC

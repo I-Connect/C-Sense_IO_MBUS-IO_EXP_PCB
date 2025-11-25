@@ -1,0 +1,132 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 30
+Title ""
+Date "2020-06-24"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 6100 3950 0    60   ~ 0
+SDO -> GND    = I2C  1110110 (0x76)\nSDO -> VDDio = I2C  1110111 (0x77)
+$Comp
+L dk_Pressure-Sensors-Transducers:BMP280 U1101
+U 1 1 5F5370A6
+P 5250 3850
+F 0 "U1101" H 5650 3650 60  0000 L CNN
+F 1 "BMP280" H 5650 3550 60  0000 L CNN
+F 2 "digikey-footprints:LGA-8_2x2.5mm_BMP280" H 5450 4050 60  0001 L CNN
+F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf" H 5450 4150 60  0001 L CNN
+F 4 "828-1064-1-ND" H 5450 4250 60  0001 L CNN "Digi-Key_PN"
+F 5 "BMP280" H 5450 4350 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 5450 4450 60  0001 L CNN "Category"
+F 7 "Pressure Sensors, Transducers" H 5450 4550 60  0001 L CNN "Family"
+F 8 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf" H 5450 4650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/bosch-sensortec/BMP280/828-1064-1-ND/6136315" H 5450 4750 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSOR PRESSURE ABS" H 5450 4850 60  0001 L CNN "Description"
+F 11 "Bosch Sensortec" H 5450 4950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5450 5050 60  0001 L CNN "Status"
+	1    5250 3850
+	1    0    0    -1  
+$EndComp
+Text HLabel 4850 3750 0    50   Input ~ 0
+SCL
+Text HLabel 5650 3850 2    50   BiDi ~ 0
+SDA
+$Comp
+L power:GND #PWR01101
+U 1 1 5F5372CF
+P 5300 4250
+F 0 "#PWR01101" H 5300 4000 50  0001 C CNN
+F 1 "GND" H 5300 4100 50  0000 C CNN
+F 2 "" H 5300 4250 50  0000 C CNN
+F 3 "" H 5300 4250 50  0000 C CNN
+	1    5300 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 4150 5250 4200
+Wire Wire Line
+	5250 4200 5300 4200
+Wire Wire Line
+	5300 4200 5300 4250
+Wire Wire Line
+	5350 4150 5350 4200
+Wire Wire Line
+	5350 4200 5300 4200
+Connection ~ 5300 4200
+$Comp
+L Device:R R1101
+U 1 1 5F53747A
+P 5350 3000
+F 0 "R1101" V 5430 3000 50  0000 C CNN
+F 1 "0" V 5350 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5280 3000 50  0001 C CNN
+F 3 "" H 5350 3000 50  0000 C CNN
+F 4 "P0.0ECT-ND" H 300 350 50  0001 C CNN "Digi-Key_PN"
+	1    5350 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2800 5350 2850
+Text HLabel 5350 2800 1    50   Input ~ 0
+3V3_IN
+$Comp
+L Device:C C1101
+U 1 1 5F5378A0
+P 5650 3250
+F 0 "C1101" H 5675 3350 50  0000 L CNN
+F 1 "0.1uF" H 5350 3350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 3100 50  0001 C CNN
+F 3 "" H 5650 3250 50  0001 C CNN
+F 4 "490-16477-1-ND" H 850 150 50  0001 C CNN "Digi-Key_PN"
+	1    5650 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01102
+U 1 1 5F5378A6
+P 5800 3250
+F 0 "#PWR01102" H 5800 3000 50  0001 C CNN
+F 1 "GND" H 5800 3100 50  0000 C CNN
+F 2 "" H 5800 3250 50  0000 C CNN
+F 3 "" H 5800 3250 50  0000 C CNN
+	1    5800 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 3150 5350 3250
+Wire Wire Line
+	5500 3250 5350 3250
+Connection ~ 5350 3250
+Wire Wire Line
+	5250 3450 5250 3250
+Wire Wire Line
+	5250 3250 5350 3250
+Wire Wire Line
+	5250 3250 4600 3250
+Wire Wire Line
+	4600 3250 4600 3850
+Wire Wire Line
+	4600 3850 4850 3850
+Connection ~ 5250 3250
+Text Notes 7200 6850 0    50   ~ 0
+Barometer BMP280
+Wire Wire Line
+	5350 3250 5350 3400
+Connection ~ 5350 3400
+Wire Wire Line
+	5350 3400 5350 3450
+Wire Wire Line
+	5700 3400 5350 3400
+Wire Wire Line
+	5700 3750 5650 3750
+Wire Wire Line
+	5700 3750 5700 3400
+$EndSCHEMATC

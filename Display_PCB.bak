@@ -1,0 +1,406 @@
+EESchema Schematic File Version 4
+LIBS:C-Sense_Main_PCB_v5-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 32
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L dk_Alarms-Buzzers-and-Sirens:PKMCS0909E4000-R1 Buzzer201
+U 1 1 5F3B579B
+P 8100 4150
+F 0 "Buzzer201" H 8250 4400 50  0000 C CNN
+F 1 "Buzzer(102-2197-2-ND)" H 8950 4250 50  0000 C CNN
+F 2 "I_Connect:Buzzer(102-2197-2-ND)" H 8100 4150 50  0001 C CNN
+F 3 "" H 8100 4150 50  0000 C CNN
+F 4 "102-2197-2-ND" H 8100 4150 50  0001 C CNN "Digi-Key_PN"
+	1    8100 4150
+	1    0    0    1   
+$EndComp
+Text Notes 7200 6850 0    60   ~ 0
+Display PCB
+$Comp
+L I-Connect_diverse:RJ45 J202
+U 1 1 5F3B57AE
+P 5750 2450
+F 0 "J202" H 5950 2950 50  0000 C CNN
+F 1 "RJ45" H 5600 2950 50  0000 C CNN
+F 2 "I_Connect:RJ45_8_straight(AE10399-ND)" H 5750 2450 50  0001 C CNN
+F 3 "" H 5750 2450 50  0000 C CNN
+F 4 "AE10399-ND" H 5750 2450 50  0001 C CNN "Digi-Key_PN"
+	1    5750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L I-Connect_diverse:SP0504BAHT D201
+U 1 1 5F3B57B5
+P 4500 3850
+F 0 "D201" H 4800 3950 50  0000 L CNN
+F 1 "SMF05" H 4800 3875 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 4800 3800 50  0001 L CNN
+F 3 "" H 4625 3975 50  0001 C CNN
+F 4 "SMF05T1GOSCT-ND" H 4500 3850 50  0001 C CNN "Digi-Key_PN"
+	1    4500 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0201
+U 1 1 5F3B57BC
+P 4500 3650
+F 0 "#PWR0201" H 4500 3400 50  0001 C CNN
+F 1 "GND" H 4500 3500 50  0000 C CNN
+F 2 "" H 4500 3650 50  0000 C CNN
+F 3 "" H 4500 3650 50  0000 C CNN
+	1    4500 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L I-Connect_diverse:DHT11_22 U201
+U 1 1 5F3B57C3
+P 5550 5300
+F 0 "U201" H 5550 5300 60  0000 C CNN
+F 1 "DHT22" H 5550 5400 60  0000 C CNN
+F 2 "Pin_Headers:PinHeader_1x04_P2.54mm_Vertical" H 5550 5300 60  0001 C CNN
+F 3 "" H 5550 5300 60  0001 C CNN
+F 4 "1528-1504-ND" H 5550 5300 50  0001 C CNN "Digi-Key_PN"
+	1    5550 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R202
+U 1 1 5F3B57CA
+P 4200 4800
+F 0 "R202" V 4280 4800 50  0000 C CNN
+F 1 "10K" V 4200 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4130 4800 50  0001 C CNN
+F 3 "" H 4200 4800 50  0000 C CNN
+F 4 "P10.0KHCT-ND" H -3200 1350 50  0001 C CNN "Digi-Key_PN"
+	1    4200 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R201
+U 1 1 5F3B57D1
+P 4050 4500
+F 0 "R201" V 4130 4500 50  0000 C CNN
+F 1 "470" V 4050 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3980 4500 50  0001 C CNN
+F 3 "" H 4050 4500 50  0000 C CNN
+F 4 "P470HCT-ND" H -3300 1350 50  0001 C CNN "Digi-Key_PN"
+	1    4050 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0203
+U 1 1 5F3B57D8
+P 6300 2100
+F 0 "#PWR0203" H 6300 1850 50  0001 C CNN
+F 1 "GND" H 6300 1950 50  0000 C CNN
+F 2 "" H 6300 2100 50  0000 C CNN
+F 3 "" H 6300 2100 50  0000 C CNN
+	1    6300 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 4600 3800 4600
+Wire Wire Line
+	3450 4300 3500 4300
+Wire Wire Line
+	5400 4300 5400 2900
+Wire Wire Line
+	5500 4400 5500 2900
+Wire Wire Line
+	3450 4400 3600 4400
+Wire Wire Line
+	5600 4500 5600 2900
+Wire Wire Line
+	5700 2900 5700 3050
+Connection ~ 5700 4600
+Wire Wire Line
+	5950 4300 5950 4950
+Wire Wire Line
+	5950 4950 6000 4950
+Connection ~ 5400 4300
+Connection ~ 5800 4800
+Wire Wire Line
+	5800 4400 5800 4800
+Wire Wire Line
+	5800 4400 5900 4400
+Wire Wire Line
+	5900 4400 5900 2900
+Wire Wire Line
+	4050 4800 4050 4600
+Connection ~ 4050 4600
+Wire Wire Line
+	3450 4500 3700 4500
+Wire Wire Line
+	4300 4500 4600 4500
+$Comp
+L power:GND #PWR0202
+U 1 1 5F3B57F9
+P 5150 4200
+F 0 "#PWR0202" H 5150 3950 50  0001 C CNN
+F 1 "GND" H 5150 4050 50  0000 C CNN
+F 2 "" H 5150 4200 50  0000 C CNN
+F 3 "" H 5150 4200 50  0000 C CNN
+	1    5150 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 4200 5150 4300
+Connection ~ 5150 4300
+Wire Wire Line
+	4400 4050 4400 4600
+Connection ~ 4400 4600
+Wire Wire Line
+	4600 4050 4600 4500
+Connection ~ 4600 4500
+Wire Wire Line
+	4500 4050 4500 4400
+Connection ~ 4500 4400
+NoConn ~ 5800 2900
+Wire Wire Line
+	5700 4600 5700 4950
+Wire Wire Line
+	5400 4300 5950 4300
+Wire Wire Line
+	5800 4800 5800 4950
+Wire Wire Line
+	4050 4600 4400 4600
+Wire Wire Line
+	5150 4300 5400 4300
+Wire Wire Line
+	4400 4600 5700 4600
+Wire Wire Line
+	4600 4500 5600 4500
+Wire Wire Line
+	4500 4400 5500 4400
+Text HLabel 3600 4100 1    60   Input ~ 0
+Display_Rx
+Text HLabel 3500 4100 1    60   Input ~ 0
+GND_IN
+Text HLabel 3700 4100 1    60   Output ~ 0
+Display_Tx
+Wire Wire Line
+	3700 4100 3700 4500
+Wire Wire Line
+	3600 4100 3600 4400
+Connection ~ 3600 4400
+Wire Wire Line
+	3600 4400 4500 4400
+Wire Wire Line
+	3500 4100 3500 4300
+Connection ~ 3500 4300
+Wire Wire Line
+	3500 4300 5150 4300
+Text HLabel 3800 4100 1    60   Input ~ 0
+5V_IN
+Wire Wire Line
+	3800 4100 3800 4600
+Connection ~ 3800 4600
+Wire Wire Line
+	3800 4600 4050 4600
+Text HLabel 7400 3850 0    60   Input ~ 0
+BUZZER-SIGN
+Text HLabel 7650 4350 3    60   Output ~ 0
+BUZZER+
+Text HLabel 6250 4800 2    60   Output ~ 0
+HUM_TEMP_DATA
+Wire Wire Line
+	5800 4800 6250 4800
+Wire Wire Line
+	4400 4800 5800 4800
+Wire Wire Line
+	4350 4800 4400 4800
+Connection ~ 4400 4800
+Wire Wire Line
+	4400 4700 4400 4800
+Wire Wire Line
+	4300 4700 4400 4700
+Wire Wire Line
+	4300 4050 4300 4500
+Wire Wire Line
+	3700 4500 3900 4500
+Connection ~ 3700 4500
+Wire Wire Line
+	4200 4500 4300 4500
+Connection ~ 4300 4500
+Wire Wire Line
+	4300 4500 4300 4700
+$Comp
+L Device:C C?
+U 1 1 5F4EE01D
+P 6650 3050
+AR Path="/5F4EE01D" Ref="C?"  Part="1" 
+AR Path="/5EF0C7C8/5F4EE01D" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/5F4EE01D" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/5F4EE01D" Ref="C?"  Part="1" 
+AR Path="/5F26C8F5/5F4EE01D" Ref="C201"  Part="1" 
+F 0 "C201" H 6765 3096 50  0000 L CNN
+F 1 "0.1uF" H 6650 2950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 2900 50  0001 C CNN
+F 3 "" H 6650 3050 50  0001 C CNN
+F 4 "490-16477-1-ND" H 3550 350 50  0001 C CNN "Digi-Key_PN"
+	1    6650 3050
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F4EE025
+P 6650 3400
+AR Path="/5F4EE025" Ref="C?"  Part="1" 
+AR Path="/5EF0C7C8/5F4EE025" Ref="C?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/5F4EE025" Ref="C?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/5F4EE025" Ref="C?"  Part="1" 
+AR Path="/5F26C8F5/5F4EE025" Ref="C202"  Part="1" 
+F 0 "C202" H 6765 3446 50  0000 L CNN
+F 1 "1uF" H 6450 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 3250 50  0001 C CNN
+F 3 "" H 6650 3400 50  0001 C CNN
+F 4 "399-7847-1-ND" H 3900 700 50  0001 C CNN "Digi-Key_PN"
+	1    6650 3400
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F4EE02C
+P 7200 3200
+AR Path="/5F4EE02C" Ref="#PWR?"  Part="1" 
+AR Path="/5EF0C7C8/5F4EE02C" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/5F4EE02C" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/5F4EE02C" Ref="#PWR?"  Part="1" 
+AR Path="/5F26C8F5/5F4EE02C" Ref="#PWR0204"  Part="1" 
+F 0 "#PWR0204" H 7200 2950 50  0001 C CNN
+F 1 "GND" H 7205 3027 50  0000 C CNN
+F 2 "" H 7200 3200 50  0001 C CNN
+F 3 "" H 7200 3200 50  0001 C CNN
+	1    7200 3200
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6800 3400 7050 3400
+Wire Wire Line
+	7050 3400 7050 3200
+Wire Wire Line
+	7050 3200 7050 3050
+Wire Wire Line
+	7050 3050 6800 3050
+Connection ~ 7050 3200
+Wire Wire Line
+	7200 3200 7050 3200
+Wire Wire Line
+	6500 3050 5700 3050
+Connection ~ 5700 3050
+Wire Wire Line
+	5700 3050 5700 3400
+Wire Wire Line
+	6500 3400 5700 3400
+Connection ~ 5700 3400
+Wire Wire Line
+	5700 3400 5700 4600
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5F5122F4
+P 3250 4500
+AR Path="/5F5122F4" Ref="J?"  Part="1" 
+AR Path="/5EF0C7C8/5F5122F4" Ref="J?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/5F5122F4" Ref="J?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/5F5122F4" Ref="J?"  Part="1" 
+AR Path="/5EFDA025/5F5122F4" Ref="J?"  Part="1" 
+AR Path="/5F120146/5F5122F4" Ref="J?"  Part="1" 
+AR Path="/5F26C8F5/5F5122F4" Ref="J201"  Part="1" 
+F 0 "J201" H 3277 4476 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 3400 4100 50  0001 L CNN
+F 2 "I_Connect:Molex 4pos 2.54header" H 3250 4500 50  0001 C CNN
+F 3 "~" H 3250 4500 50  0001 C CNN
+F 4 "WM10155-ND" H 3250 4500 50  0001 C CNN "Digi-Key_PN"
+	1    3250 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L I-Connect_diverse:BSN20 Q?
+U 1 1 5F7DB2FE
+P 7750 3800
+AR Path="/5F7DB2FE" Ref="Q?"  Part="1" 
+AR Path="/61FEE2D8/5F7DB2FE" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F2AC666/5F7DB2FE" Ref="Q?"  Part="1" 
+AR Path="/5F078D61/5F5952E3/5F7DB2FE" Ref="Q?"  Part="1" 
+AR Path="/5F26C8F5/5F7DB2FE" Ref="Q201"  Part="1" 
+F 0 "Q201" V 7950 3850 50  0000 L CNN
+F 1 "BSN20" H 7450 3950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7950 3725 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7750 3800 50  0001 L CNN
+F 4 "BSN20-7DICT-ND" H -2900 1650 50  0001 C CNN "Digi-Key_PN"
+	1    7750 3800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6100 2900 6100 3750
+Wire Wire Line
+	6100 3750 7400 3750
+$Comp
+L power:GND #PWR?
+U 1 1 6021A674
+P 7850 3600
+AR Path="/6021A674" Ref="#PWR?"  Part="1" 
+AR Path="/5EF0C7C8/6021A674" Ref="#PWR?"  Part="1" 
+AR Path="/5F078D61/5F2AC57F/6021A674" Ref="#PWR?"  Part="1" 
+AR Path="/5EFB5942/5F0027F0/6021A674" Ref="#PWR?"  Part="1" 
+AR Path="/5F26C8F5/6021A674" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 7850 3350 50  0001 C CNN
+F 1 "GND" H 7855 3427 50  0000 C CNN
+F 2 "" H 7850 3600 50  0001 C CNN
+F 3 "" H 7850 3600 50  0001 C CNN
+	1    7850 3600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7850 4000 7850 4150
+Wire Wire Line
+	7850 4150 8000 4150
+Wire Wire Line
+	6000 4250 7350 4250
+Wire Wire Line
+	6000 2900 6000 4250
+Wire Wire Line
+	7650 4350 7650 4250
+Connection ~ 7650 4250
+Wire Wire Line
+	7650 4250 8000 4250
+Wire Wire Line
+	7400 3850 7400 3750
+Connection ~ 7400 3750
+Wire Wire Line
+	7400 3750 7550 3750
+$Comp
+L Device:R R203
+U 1 1 6021EA71
+P 7600 4150
+F 0 "R203" V 7680 4150 50  0000 C CNN
+F 1 "220" V 7600 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 4150 50  0001 C CNN
+F 3 "" H 7600 4150 50  0000 C CNN
+F 4 "P220HCT-ND" H 200 700 50  0001 C CNN "Digi-Key_PN"
+	1    7600 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 4150 7850 4150
+Connection ~ 7850 4150
+Wire Wire Line
+	7450 4150 7350 4150
+Wire Wire Line
+	7350 4150 7350 4250
+Connection ~ 7350 4250
+Wire Wire Line
+	7350 4250 7650 4250
+$EndSCHEMATC
